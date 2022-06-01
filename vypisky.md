@@ -182,7 +182,7 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 	- **l** - lower bound hran
 	- **u** - upper bound hran
 	- **s** - balance vrcholů
-- Ptáme se, existují li toky **f** takové, aby byly splněny požadavky na balance
+- Ptáme se, existují-li toky **f** takové, aby byly splněny požadavky na balance
 ![Feasibility flow with balances](https://github.com/pan-sveta/ko-vypisky/blob/main/images/ffwb_graph.png?raw=true)
 
 **Minimum cost flow**
@@ -538,6 +538,6 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNzMyNjIzMywtODIyMTU4MTg5LC0xNj
+eyJoaXN0b3J5IjpbMTM3MjQ2OTMwMCwtODIyMTU4MTg5LC0xNj
 Q5NjI1OTUzXX0=
 -->
