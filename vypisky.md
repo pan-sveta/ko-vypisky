@@ -174,14 +174,15 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 - Rovněž z LP formulace můžeme říci, že celočíselnost vyplývá z úplné unimodularity matice incidence grafu G, což je matice A ve formulaci A - x ≤ b.
 
 **Feasible Flow with Balances**
-- Derivát tokové sítě, ale máme více zdrojů a více cílů
-- Decision problém - ptáme se, jestli lze dosáhnout toku
-- Tento problém lze polynomiálně redukovat na problém mac flow
 - Zadáno jako (**G, l, u, b**):
 	- **G** - orientovaný graf
 	- **l** - lower bound hran
 	- **u** - upper bound hran
 	- **s** - balance vrcholů
+- Derivát tokové sítě, ale máme více zdrojů a více cílů
+- Decision problém - ptáme se, jestli lze dosáhnout toku
+	- Tento problém lze polynomiálně redukovat na problém mac flow
+
 - Ptáme se, existují-li toky **f** takové, aby byly splněny požadavky na balance
 ![Feasibility flow with balances](https://github.com/pan-sveta/ko-vypisky/blob/main/images/ffwb_graph.png?raw=true)
 
@@ -538,6 +539,6 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3MjQ2OTMwMCwtODIyMTU4MTg5LC0xNj
-Q5NjI1OTUzXX0=
+eyJoaXN0b3J5IjpbODA4MzYyODY4LC04MjIxNTgxODksLTE2ND
+k2MjU5NTNdfQ==
 -->
