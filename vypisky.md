@@ -174,7 +174,7 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 - Rovněž z LP formulace můžeme říci, že celočíselnost vyplývá z úplné unimodularity matice incidence grafu G, což je matice A ve formulaci A - x ≤ b.
 
 **Feasible Flow with Balances**
-- 
+- Mějme klasickou to
 
 **Minimum cost flow**
 
@@ -530,5 +530,5 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMDQ4MzIyNywtMTY0OTYyNTk1M119
+eyJoaXN0b3J5IjpbODI5Njg0NjA2LC0xNjQ5NjI1OTUzXX0=
 -->
