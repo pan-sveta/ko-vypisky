@@ -193,7 +193,6 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 - Každá hrana má cenu **c**
 - Přenesení jedné jednotky po dané hraně nás stojí právě c
 - Hledáme maximální tok při minimálním costu
-- 
 - Zadáno jako (**G, l, u, c, b**):
 	- **G** - orientovaný graf
 	- **l** - lower bound hran
@@ -567,6 +566,6 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODEyMzYzMjgsMTAyNDg2MTEwMSwtOD
+eyJoaXN0b3J5IjpbLTEwNjA1NzMxNTUsMTAyNDg2MTEwMSwtOD
 IyMTU4MTg5LC0xNjQ5NjI1OTUzXX0=
 -->
