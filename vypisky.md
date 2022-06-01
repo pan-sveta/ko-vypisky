@@ -246,11 +246,11 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 - Každý vrchol má balance jednotlivých typů
 - Každý vrchol musí splňovat kirchofův zákon pro jednotlivé komodity
 - - Zadáno jako (**G, l, u, c, b1..m**):
-	- **G** - orientovaný graf
-	- **l** - lower bound hran
-	- **u** - upper bound hran
-	- **c** - cost hran
-	- **b1..m** - vektor znázorňující balanci pro jednotlivé komodity (v součtu musí dávat 0 přes celý graf a komodity)
+	- $G$ - orientovaný graf
+	- $l$ - lower bound hran
+	- $u$ - upper bound hran
+	- $c$ - cost hran
+	- $b1..m$ - vektor znázorňující balanci pro jednotlivé komodity (v součtu musí dávat 0 přes celý graf a komodity)
 - Cíl minimalizovat $\sum_{e \epsilon E(G)}^{}\sum_{m\epsilon M} f^{m}(e)*c(e)$
 ![MCMF LP](https://github.com/pan-sveta/ko-vypisky/blob/main/images/mcmf_lp.png?raw=true)
 
@@ -267,10 +267,10 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 	- Stejné jako předchozí jen máme rozděleno na dvě skupiny co spojujeme
 	- Lze řešit pomocí max-flow
 - **Minimum Weight Matching in a weighted graph**
-- Takové párování co nám dá nejmenší součet cen na hranách
+	- Takové párování co nám dá nejmenší součet cen na hranách
 - **Minimum Weight Perfect Matching**
-- Stejné jako předchozí ale musíme propojit všechny
-- lze převést na min cost flow podobně jako pbipartitní párování
+	- Stejné jako předchozí ale musíme propojit všechny
+	- lze převést na min cost flow podobně jako bipartitní párování
 
 ## Knapsack
 
@@ -587,7 +587,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDUwNDczNDk0LC04NjgxNTAzMzIsLTEwMT
+eyJoaXN0b3J5IjpbNjU0MzI3NzA2LC04NjgxNTAzMzIsLTEwMT
 A5OTE4NTEsMTc0NTAxMTI0MiwtNjczMTc2NTM5LC0xMDczNzU4
 MjE5LC02NDcwMDk0MDgsMTYyNjE4NDE1NiwtNjYzMDEyMTk5LD
 EwMjQ4NjExMDEsLTgyMjE1ODE4OSwtMTY0OTYyNTk1M119
