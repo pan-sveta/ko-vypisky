@@ -245,6 +245,12 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 - Přidává různé typy přenášených informací (které nesmíme pomotat)
 - Každý vrchol má balance jednotlivých typů
 - Každý vrchol musí splňovat kirchofův zákon pro jednotlivé typy
+- - Zadáno jako (**G, l, u, c, b**):
+	- **G** - orientovaný graf
+	- **l** - lower bound hran
+	- **u** - upper bound hran
+	- **c** - cost hran
+	- **b1..m** - balance vrcholů (suma všech balancí = 0)
 
 ### Párování
 
@@ -575,8 +581,8 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NTAxMTI0MiwtNjczMTc2NTM5LC0xMD
-czNzU4MjE5LC02NDcwMDk0MDgsMTYyNjE4NDE1NiwtNjYzMDEy
-MTk5LDEwMjQ4NjExMDEsLTgyMjE1ODE4OSwtMTY0OTYyNTk1M1
-19
+eyJoaXN0b3J5IjpbMTYwNTAzMzUzMCwxNzQ1MDExMjQyLC02Nz
+MxNzY1MzksLTEwNzM3NTgyMTksLTY0NzAwOTQwOCwxNjI2MTg0
+MTU2LC02NjMwMTIxOTksMTAyNDg2MTEwMSwtODIyMTU4MTg5LC
+0xNjQ5NjI1OTUzXX0=
 -->
