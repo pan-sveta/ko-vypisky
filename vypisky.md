@@ -265,17 +265,17 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 		4. Opakujeme 2-3 dokud neexistuje alternativní cesta
 ![M-alternig Path](https://github.com/pan-sveta/ko-vypisky/blob/main/images/paring_altering.png?raw=true)
 - **Maximum Cardinality Matching in Bipartite Graphs** 
-	- Stejné jako předchozí jen máme rozděleno na dvě skupiny co spojujeme
+	- Párování s největším počtem hran (spojení) párující vrcholy ze dvou skupin
 	- Lze řešit pomocí max-flow
 	![M-alternig Path](https://github.com/pan-sveta/ko-vypisky/blob/main/images/paring_max_flow.png?raw=true)
 - **Minimum Weight Matching in a weighted graph**
 	- Takové párování co nám dá nejmenší součet cen na hranách
 	![M-alternig Path](https://github.com/pan-sveta/ko-vypisky/blob/main/images/paring_max_flow.png?raw=true)
 - **Minimum Weight Perfect Matching**
-	- Stejné jako předchozí ale musíme propojit všechny
+	- Takové párování co nám dá nejmenší součet cen na hranách a všechny vrcholy jsou napárované
 	- Známé jako assignment problem
 	- Lze převést na min cost flow podobně jako bipartitní párování
-	![M-alternig Path](https://github.com/pan-sveta/ko-vypisky/blob/main/images/paring_assignment.png?raw=true)
+![M-alternig Path](https://github.com/pan-sveta/ko-vypisky/blob/main/images/paring_assignment.png?raw=true)
 
 ## Knapsack
 
@@ -592,9 +592,9 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTI3NzcwOTIsNjA5NjI3OTY2LDEzMT
-g4MDExNzAsMzQwNjM1MjQ4LC04NjgxNTAzMzIsLTEwMTA5OTE4
-NTEsMTc0NTAxMTI0MiwtNjczMTc2NTM5LC0xMDczNzU4MjE5LC
-02NDcwMDk0MDgsMTYyNjE4NDE1NiwtNjYzMDEyMTk5LDEwMjQ4
-NjExMDEsLTgyMjE1ODE4OSwtMTY0OTYyNTk1M119
+eyJoaXN0b3J5IjpbLTkyNDkwNDUwMSw2MDk2Mjc5NjYsMTMxOD
+gwMTE3MCwzNDA2MzUyNDgsLTg2ODE1MDMzMiwtMTAxMDk5MTg1
+MSwxNzQ1MDExMjQyLC02NzMxNzY1MzksLTEwNzM3NTgyMTksLT
+Y0NzAwOTQwOCwxNjI2MTg0MTU2LC02NjMwMTIxOTksMTAyNDg2
+MTEwMSwtODIyMTU4MTg5LC0xNjQ5NjI1OTUzXX0=
 -->
