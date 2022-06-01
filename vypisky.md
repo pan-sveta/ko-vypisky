@@ -127,6 +127,9 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 - Co vteče musí vytéct z vrcholu - 1. Kirchoffův zákon
 - Max flow - maximalizuje bilanci **s**
 
+**LP zadání**
+![Flows LP](https://github.com/pan-sveta/ko-vypisky/blob/main/images/flows_lp.png?raw=true))
+
 **Balance**
  - Hodnota na vrcholu 
  - Spočítaná jako **flow výstupní hran - flow vstupních** 
@@ -569,6 +572,6 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNjE0Nzg4MywxMDI0ODYxMTAxLC04Mj
+eyJoaXN0b3J5IjpbLTY2MzAxMjE5OSwxMDI0ODYxMTAxLC04Mj
 IxNTgxODksLTE2NDk2MjU5NTNdfQ==
 -->
