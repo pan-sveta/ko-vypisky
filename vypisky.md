@@ -192,7 +192,7 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 **Minimum cost flow**
 - Každá hrana má cenu **c**
 - Přenesení jedné jednotky po dané hraně nás stojí právě c
-- Hledáme maximální tok při minimál
+- Hledáme maximální tok při minimálním costu
 - hledáme feasible flow s min cost
 - min cost flow lze převést na max flow (všem hranám dám **c** = 0 a přidám hranu z **t** do **s** s **c** = -1)
 - stejně tak se pomocí min cost flow dá řešit SP a Chinese Postman Problem
@@ -544,6 +544,6 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTI2OTkzMywtODIyMTU4MTg5LC0xNj
+eyJoaXN0b3J5IjpbMTAyNDg2MTEwMSwtODIyMTU4MTg5LC0xNj
 Q5NjI1OTUzXX0=
 -->
