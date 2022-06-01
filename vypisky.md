@@ -232,7 +232,9 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 		- Dopředné hrany budou mít hodnoty **u** = **u** - flow a **c** = **c**
 		- Zpětné hrany budou mít hodnoty **u** = flow - **l** a **c** = -**c**
 	- Vyházím hrany s **u** = 0
-3. Naleznu záporný cyklus (záproný součet cen) a min **u** v cyklu (součet cen * min **u** = snížený ceny a min **u** = změna ve flow v hranách cyklu v původním grafu)
+3. Naleznu záporný cyklus (záproný součet cen) a min **u** v cyklu
+	- snížený ceny = součet cen * min **u**
+	- změna ve flow v hranách cyklu v původním grafu = min **u**
 4. Znovu jdu do bodu 2. dokud existuje negativní cyklus v residuálním grafu
 - time complexity - $O(|E|^2 * |V| * C * U)$ kde U je maximum z **u** a C maximum z **c**
 
@@ -571,7 +573,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNDUzNDU1MywtNjQ3MDA5NDA4LDE2Mj
-YxODQxNTYsLTY2MzAxMjE5OSwxMDI0ODYxMTAxLC04MjIxNTgx
-ODksLTE2NDk2MjU5NTNdfQ==
+eyJoaXN0b3J5IjpbLTEwNzM3NTgyMTksLTY0NzAwOTQwOCwxNj
+I2MTg0MTU2LC02NjMwMTIxOTksMTAyNDg2MTEwMSwtODIyMTU4
+MTg5LC0xNjQ5NjI1OTUzXX0=
 -->
