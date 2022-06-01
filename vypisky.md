@@ -201,8 +201,10 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 	- **b** - balance vrcholů (suma všech balancí = 0)
 - Max flow můžeme polinomiálně redukovat na minimum cost flow
 	1. Přidáme cirkulaci = přidáme hranu z **t** do **s**, kde **u**=∞ a **l**=0 a **c**=-1
-	2. Cenu všech ostatních hran  nastavíme na 0
+	2. Cenu všech ostatních hran **c** nastavíme na 0
 	3. Balanci všech vrcholů **b** nastavíme na 0
+	4. Maximalizujeme cenu
+- Shortest
 - stejně tak se pomocí min cost flow dá řešit SP a Chinese Postman Problem
 
 ### Cycle Canceling Algorithm (Minimum cost flow)
@@ -552,6 +554,6 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5MjI4NjM2MywxMDI0ODYxMTAxLC04Mj
-IxNTgxODksLTE2NDk2MjU5NTNdfQ==
+eyJoaXN0b3J5IjpbLTEzODcyNzQ2MzQsMTAyNDg2MTEwMSwtOD
+IyMTU4MTg5LC0xNjQ5NjI1OTUzXX0=
 -->
