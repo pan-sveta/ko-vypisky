@@ -233,9 +233,13 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 		- Zpětné hrany budou mít hodnoty **u** = flow - **l** a **c** = -**c**
 	- Vyházím hrany s **u** = 0
 3. Naleznu záporný cyklus (záproný součet cen)
-	- γ = součet cen * min **u**
+	- γ = součet cen * min(**u**) v cyklu
+	- Upravíme flows v původním grafu
+		- po směru v cyklu +γ
+		- proti směru v cyklu -γ
 5. Znovu jdu do bodu 2. dokud existuje negativní cyklus v residuálním grafu
 - time complexity - $O(|E|^2 * |V| * C * U)$ kde U je maximum z **u** a C maximum z **c**
+
 
 **Minimum cost multicommodity flow**
 
@@ -572,7 +576,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0Njc4MzcwMSwtMTA3Mzc1ODIxOSwtNj
+eyJoaXN0b3J5IjpbMTcyMzU1NDM3OSwtMTA3Mzc1ODIxOSwtNj
 Q3MDA5NDA4LDE2MjYxODQxNTYsLTY2MzAxMjE5OSwxMDI0ODYx
 MTAxLC04MjIxNTgxODksLTE2NDk2MjU5NTNdfQ==
 -->
