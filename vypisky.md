@@ -176,7 +176,7 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 - Protože máme nax-flow konečné hodnoty, existuje konečný počet kroků algoritmu
 - Rovněž z LP formulace můžeme říci, že celočíselnost vyplývá z úplné unimodularity matice incidence grafu G, což je matice A ve formulaci A - x ≤ b.
 
-**Feasible Flow with Balances**
+### Feasible Flow with Balances
 ![Feasibility flow with balances](https://github.com/pan-sveta/ko-vypisky/blob/main/images/ffwb_graph.png?raw=true)
 - Zadáno jako (**G, l, u, b**):
 	- **G** - orientovaný graf
@@ -193,7 +193,7 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 
 ![Feasible Flow with Balances redukce](https://github.com/pan-sveta/ko-vypisky/blob/main/images/ffwb_to_max_flow.png?raw=true)
 
-**Minimum cost flow**
+### Minimum cost flow
 - Každá hrana má cenu **c**
 - Přenesení jedné jednotky po dané hraně nás stojí právě c
 - Hledáme maximální tok při minimálním costu
@@ -571,7 +571,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyODQ3Mjc3OSwxNjI2MTg0MTU2LC02Nj
-MwMTIxOTksMTAyNDg2MTEwMSwtODIyMTU4MTg5LC0xNjQ5NjI1
-OTUzXX0=
+eyJoaXN0b3J5IjpbNTQxNTgxMTYzLDE2MjYxODQxNTYsLTY2Mz
+AxMjE5OSwxMDI0ODYxMTAxLC04MjIxNTgxODksLTE2NDk2MjU5
+NTNdfQ==
 -->
