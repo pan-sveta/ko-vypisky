@@ -226,8 +226,8 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 
 ### Cycle Canceling Algorithm (řeší Minimum cost flow)
 
-1. najdeme feasible flow graf
-2. vytvoříme residuální graf
+1. Najdeme feasible flow graf
+2. Vytvoříme residuální graf
 	- hrany v grafu zdvojíme 
 		- dopředné hrany budou mít hodnoty **u** = **u** - flow a **c** = **c**
 		- zpětné hrany budou mít hodnoty **u** = flow - **l** a **c** = -**c**
@@ -571,7 +571,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDQ2ODQwODUsMTYyNjE4NDE1NiwtNj
-YzMDEyMTk5LDEwMjQ4NjExMDEsLTgyMjE1ODE4OSwtMTY0OTYy
-NTk1M119
+eyJoaXN0b3J5IjpbMTEyODQ3Mjc3OSwxNjI2MTg0MTU2LC02Nj
+MwMTIxOTksMTAyNDg2MTEwMSwtODIyMTU4MTg5LC0xNjQ5NjI1
+OTUzXX0=
 -->
