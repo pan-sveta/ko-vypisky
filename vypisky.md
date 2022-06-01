@@ -242,7 +242,7 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 - každý vrchol má balance jednotlivých typů
 - každý vrchol musí splňovat kirchofův zákon pro jednotlivé typy
 
-**Párování**
+### Párování
 
 - **Maximum Cardinality Matching Problem** - párování s největším počtem hran (spojení)
 	- algo - M-alternig Path
@@ -571,7 +571,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjczMzQ4MTMsMTYyNjE4NDE1NiwtNjYzMD
-EyMTk5LDEwMjQ4NjExMDEsLTgyMjE1ODE4OSwtMTY0OTYyNTk1
-M119
+eyJoaXN0b3J5IjpbLTY0NzAwOTQwOCwxNjI2MTg0MTU2LC02Nj
+MwMTIxOTksMTAyNDg2MTEwMSwtODIyMTU4MTg5LC0xNjQ5NjI1
+OTUzXX0=
 -->
