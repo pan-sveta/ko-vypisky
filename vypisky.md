@@ -206,10 +206,10 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 	4. Maximalizujeme cenu
 - Shortest path můžeme polynomiálně redukovat na min cost flow
 	1. Použijeme LP formulaci min-cost flow (viz. níže)
-	2. . Nastavíme **b(s)**=1 a **b(t)**=-1
+	2. Nastavíme **b(s)**=1 a **b(t)**=-1
 	3. Pro všechny ostatní (t.j. mimo zdroj a spotřebič) **b(v)**=0
-	4. Balanci všech vrcholů **b** nastavíme na 0
-	5. l(e)=0 a u(e) = 
+	4. **l(e)**=0 a **u(e)**=∞ pro všechny hrany e
+	5. 
 - stejně tak se pomocí min cost flow dá řešit SP a Chinese Postman Problem
 
 ### Cycle Canceling Algorithm (Minimum cost flow)
@@ -559,6 +559,6 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYwNzczMDQ5LDEwMjQ4NjExMDEsLTgyMj
-E1ODE4OSwtMTY0OTYyNTk1M119
+eyJoaXN0b3J5IjpbLTIwMTUyMDUxNTYsMTAyNDg2MTEwMSwtOD
+IyMTU4MTg5LC0xNjQ5NjI1OTUzXX0=
 -->
