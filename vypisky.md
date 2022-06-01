@@ -190,8 +190,9 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 ![Feasibility flow with balances](https://github.com/pan-sveta/ko-vypisky/blob/main/images/ffwb_graph.png?raw=true)
 
 **Minimum cost flow**
-
-- každá hrana má cenu **c**
+- Každá hrana má cenu **c**
+- Přenesení jedné jednotky po dané hraně nás stojí právě c
+- Hledáme maximální tok při minimál
 - hledáme feasible flow s min cost
 - min cost flow lze převést na max flow (všem hranám dám **c** = 0 a přidám hranu z **t** do **s** s **c** = -1)
 - stejně tak se pomocí min cost flow dá řešit SP a Chinese Postman Problem
@@ -543,6 +544,6 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMDU1NTM1LC04MjIxNTgxODksLTE2ND
-k2MjU5NTNdfQ==
+eyJoaXN0b3J5IjpbLTIxMTI2OTkzMywtODIyMTU4MTg5LC0xNj
+Q5NjI1OTUzXX0=
 -->
