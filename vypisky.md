@@ -177,6 +177,12 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 - Derivát tokové sítě, ale máme více zdrojů a více cílů
 - Decision problém - ptáme se, jestli lze dosáhnout toku
 - Tento problém lze polynomiálně redukovat na problém mac flow
+- Zadáno jako (**G, l, u, b**):
+	- **G** - orientovaný graf
+	- **l** - lower bound hran
+	- **u** - upper bound hran
+	- **s** - balance vrcholů
+- Ptáme se, existují 
 ![Feasibility flow with balances](https://github.com/pan-sveta/ko-vypisky/blob/main/images/ffwb_graph.png?raw=true)
 
 **Minimum cost flow**
@@ -532,6 +538,6 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjU5ODM4NTIsLTgyMjE1ODE4OSwtMT
-Y0OTYyNTk1M119
+eyJoaXN0b3J5IjpbLTkzNzQ2OTU2NiwtODIyMTU4MTg5LC0xNj
+Q5NjI1OTUzXX0=
 -->
