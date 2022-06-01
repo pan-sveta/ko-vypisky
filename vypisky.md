@@ -210,16 +210,13 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 	3. Pro všechny ostatní (t.j. mimo zdroj a spotřebič) **b(v)**=0
 	4. **l(e)**=0 a **u(e)**=∞ pro všechny hrany e
 	5. Získáte (primární) LP formulaci problému nejkratší cesty (viz příklad zcela unimodulární matice A v přednášce o ILP) #Tady nemám sebemenší tušení co tohle znamená, lol
- - Problém čínskýho pošťáka můžeme polynomiálně redukovat na min cost flow (bylo to v testu, tak se na to nevyserte)
+ - Chinese (poštmistra) můžeme polynomiálně redukovat na min cost flow (#bylo to v testu, tak se na to nevykašlete 🙃)
 	 - Listonoš musí zajít na poštu, vzít dopisy a obejít s nimi všechny ulice města a nakonec se vrátit do výchozího bodu – zpět na poštu. Musí přitom urazit minimální vzdálenost.
 	 - V grafu, který reprezentuje město, představují hrany grafu ulice a uzly odpovídají křižovatkám. Hrany jsou ohodnoceny kladnými čísly, které odpovídají délce ulic.
 	 - Postup:
 		 1. Nastavíme **b(v)**=0 pro všechny vrcholy
 		 2. Nastavíme **l(e)**=1 a **u(e)**=∞ pro všechny hrany
 		 3. Vyřešíme max flow
-
-
-- stejně tak se pomocí min cost flow dá řešit SP a Chinese Postman Problem
 
 ### Cycle Canceling Algorithm (Minimum cost flow)
 
@@ -568,6 +565,6 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzU5NDQxOSwxMDI0ODYxMTAxLC04Mj
-IxNTgxODksLTE2NDk2MjU5NTNdfQ==
+eyJoaXN0b3J5IjpbNDI1MTMwNjkwLDEwMjQ4NjExMDEsLTgyMj
+E1ODE4OSwtMTY0OTYyNTk1M119
 -->
