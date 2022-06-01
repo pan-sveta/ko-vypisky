@@ -237,9 +237,10 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 	- Upravíme flows v původním grafu o γ aby to dávalo smysl (neporušil jsem kirchofa)
 5. Znovu jdu do bodu 2. dokud existuje negativní cyklus v residuálním grafu
 - Time complexity - $O(|E|^2 * |V| * C * U)$ kde U je maximum z **u** a C maximum z **c**
+- 
 ![Flows LP](https://github.com/pan-sveta/ko-vypisky/blob/main/images/cca_residual_graph.png?raw=true)
 
-**Minimum cost multicommodity flow**
+### Minimum cost multicommodity flow
 
 - přidává různé typy přenášených informací (které nesmíme pomotat)
 - každý vrchol má balance jednotlivých typů
@@ -574,7 +575,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwOTU0MDE0MiwtNjczMTc2NTM5LC0xMD
+eyJoaXN0b3J5IjpbMTY5NjM2NzExNCwtNjczMTc2NTM5LC0xMD
 czNzU4MjE5LC02NDcwMDk0MDgsMTYyNjE4NDE1NiwtNjYzMDEy
 MTk5LDEwMjQ4NjExMDEsLTgyMjE1ODE4OSwtMTY0OTYyNTk1M1
 19
