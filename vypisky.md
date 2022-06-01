@@ -267,10 +267,9 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 - **Maximum Cardinality Matching in Bipartite Graphs** 
 	- Párování s největším počtem hran (spojení) párující vrcholy ze dvou skupin
 	- Lze řešit pomocí max-flow
-	![M-alternig Path](https://github.com/pan-sveta/ko-vypisky/blob/main/images/paring_max_flow.png?raw=true)
+	![Max flow bipartive](https://github.com/pan-sveta/ko-vypisky/blob/main/images/paring_max_flow.png?raw=true)
 - **Minimum Weight Matching in a weighted graph**
 	- Takové párování co nám dá nejmenší součet cen na hranách
-	![M-alternig Path](https://github.com/pan-sveta/ko-vypisky/blob/main/images/paring_max_flow.png?raw=true)
 - **Minimum Weight Perfect Matching**
 	- Takové párování co nám dá nejmenší součet cen na hranách a všechny vrcholy jsou napárované
 	- Známé jako assignment problem
@@ -592,9 +591,10 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNDkwNDUwMSw2MDk2Mjc5NjYsMTMxOD
-gwMTE3MCwzNDA2MzUyNDgsLTg2ODE1MDMzMiwtMTAxMDk5MTg1
-MSwxNzQ1MDExMjQyLC02NzMxNzY1MzksLTEwNzM3NTgyMTksLT
-Y0NzAwOTQwOCwxNjI2MTg0MTU2LC02NjMwMTIxOTksMTAyNDg2
-MTEwMSwtODIyMTU4MTg5LC0xNjQ5NjI1OTUzXX0=
+eyJoaXN0b3J5IjpbMTE5OTA1NDU4NSwtOTI0OTA0NTAxLDYwOT
+YyNzk2NiwxMzE4ODAxMTcwLDM0MDYzNTI0OCwtODY4MTUwMzMy
+LC0xMDEwOTkxODUxLDE3NDUwMTEyNDIsLTY3MzE3NjUzOSwtMT
+A3Mzc1ODIxOSwtNjQ3MDA5NDA4LDE2MjYxODQxNTYsLTY2MzAx
+MjE5OSwxMDI0ODYxMTAxLC04MjIxNTgxODksLTE2NDk2MjU5NT
+NdfQ==
 -->
