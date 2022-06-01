@@ -181,7 +181,8 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 	- **s** - balance vrcholů
 - Derivát tokové sítě, ale máme více zdrojů a více cílů
 - Decision problém - ptáme se, jestli lze dosáhnout toku
-	- Tento problém lze polynomiálně redukovat na problém mac flow
+- Tento problém lze polynomiálně redukovat na problém mac flow
+	1. Přidáme nový zdroj **s'** a spojí
 
 - Ptáme se, existují-li toky **f** takové, aby byly splněny požadavky na balance
 ![Feasibility flow with balances](https://github.com/pan-sveta/ko-vypisky/blob/main/images/ffwb_graph.png?raw=true)
@@ -539,6 +540,6 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA4MzYyODY4LC04MjIxNTgxODksLTE2ND
-k2MjU5NTNdfQ==
+eyJoaXN0b3J5IjpbLTE1ODQyMzQ0NDcsLTgyMjE1ODE4OSwtMT
+Y0OTYyNTk1M119
 -->
