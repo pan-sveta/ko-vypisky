@@ -242,9 +242,9 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 
 ### Minimum cost multicommodity flow
 
-- přidává různé typy přenášených informací (které nesmíme pomotat)
-- každý vrchol má balance jednotlivých typů
-- každý vrchol musí splňovat kirchofův zákon pro jednotlivé typy
+- Přidává různé typy přenášených informací (které nesmíme pomotat)
+- Každý vrchol má balance jednotlivých typů
+- Každý vrchol musí splňovat kirchofův zákon pro jednotlivé typy
 
 ### Párování
 
@@ -575,7 +575,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5NjM2NzExNCwtNjczMTc2NTM5LC0xMD
+eyJoaXN0b3J5IjpbMTc0NTAxMTI0MiwtNjczMTc2NTM5LC0xMD
 czNzU4MjE5LC02NDcwMDk0MDgsMTYyNjE4NDE1NiwtNjYzMDEy
 MTk5LDEwMjQ4NjExMDEsLTgyMjE1ODE4OSwtMTY0OTYyNTk1M1
 19
