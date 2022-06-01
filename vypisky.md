@@ -174,6 +174,7 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 - Rovněž z LP formulace můžeme říci, že celočíselnost vyplývá z úplné unimodularity matice incidence grafu G, což je matice A ve formulaci A - x ≤ b.
 
 **Feasible Flow with Balances**
+![Feasibility flow with balances](https://github.com/pan-sveta/ko-vypisky/blob/main/images/ffwb_graph.png?raw=true)
 - Zadáno jako (**G, l, u, b**):
 	- **G** - orientovaný graf
 	- **l** - lower bound hran
@@ -187,7 +188,7 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 	3. Pokusíme se vyřešit max-flow. 
 	4. Existují-li toky pak lze použít zadané balance a rozhodovací úloha má odpověď **ano**.
 
-![Feasibility flow with balances](https://github.com/pan-sveta/ko-vypisky/blob/main/images/ffwb_graph.png?raw=true)
+![Feasible Flow with Balances redukce](https://github.com/pan-sveta/ko-vypisky/blob/main/images/ffwb_to_max_flow.png?raw=true)
 
 **Minimum cost flow**
 - Každá hrana má cenu **c**
@@ -568,6 +569,6 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyOTU4Mjk3NiwxMDI0ODYxMTAxLC04Mj
+eyJoaXN0b3J5IjpbMTMzNjE0Nzg4MywxMDI0ODYxMTAxLC04Mj
 IxNTgxODksLTE2NDk2MjU5NTNdfQ==
 -->
