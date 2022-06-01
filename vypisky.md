@@ -228,12 +228,12 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 
 1. Najdeme feasible flow graf
 2. Vytvoříme residuální graf
-	- hrany v grafu zdvojíme 
-		- dopředné hrany budou mít hodnoty **u** = **u** - flow a **c** = **c**
-		- zpětné hrany budou mít hodnoty **u** = flow - **l** a **c** = -**c**
-	- vyházím hrany s **u** = 0
-3. naleznu záporný cyklus a min **u** v cyklu (součet cen * min **u** = snížený ceny a min **u** = změna ve flow v hranách cyklu v původním grafu)
-4. znovu jdu do bodu 2. doku existuje negativní cyklus v residuálním grafu
+	- Hrany v grafu zdvojíme 
+		- Dopředné hrany budou mít hodnoty **u** = **u** - flow a **c** = **c**
+		- Zpětné hrany budou mít hodnoty **u** = flow - **l** a **c** = -**c**
+	- Vyházím hrany s **u** = 0
+3. Naleznu záporný cyklus a min **u** v cyklu (součet cen * min **u** = snížený ceny a min **u** = změna ve flow v hranách cyklu v původním grafu)
+4. Znovu jdu do bodu 2. dokud existuje negativní cyklus v residuálním grafu
 - time complexity - $O(|E|^2 * |V| * C * U)$ kde U je maximum z **u** a C maximum z **c**
 
 **Minimum cost multicommodity flow**
@@ -571,7 +571,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTQxNTgxMTYzLDE2MjYxODQxNTYsLTY2Mz
-AxMjE5OSwxMDI0ODYxMTAxLC04MjIxNTgxODksLTE2NDk2MjU5
-NTNdfQ==
+eyJoaXN0b3J5IjpbMjczMzQ4MTMsMTYyNjE4NDE1NiwtNjYzMD
+EyMTk5LDEwMjQ4NjExMDEsLTgyMjE1ODE4OSwtMTY0OTYyNTk1
+M119
 -->
