@@ -166,12 +166,15 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 	 - Celočíselné flow (znamená celočíselné **l** a **u**)
 		 - obecně - O(|E|<sup>2</sup> * U) kde U je maximum z **u**
 	 - Alternativně použijeme algoritmus Floyd-Warshall
-		 - Při vytváření augmentované cesty - O(|E|<sup>2</sup> * |V|)  
+		 - Při vytváření augmentované cesty použijeme algoritmus pro nejkratší cestu - O(|E|<sup>2</sup> * |V|)  
 		
 **Celočíslenost Ford-Fulkersona**
 - Když všechny kapacity **l** a **u** jsou celá čísla (integery), kapacita augmentované cesty γ při běhu Forda-Fulekrsona je rovněž celé číslo
 - Protože máme nax-flow konečné hodnoty, existuje konečný počet kroků algoritmu
 - Rovněž z LP formulace můžeme říci, že celočíselnost vyplývá z úplné unimodularity matice incidence grafu G, což je matice A ve formulaci A - x ≤ b.
+
+**Feasible Flow with Balances**
+- 
 
 **Minimum cost flow**
 
@@ -527,5 +530,5 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk0OTAxMzIxLC0xNjQ5NjI1OTUzXX0=
+eyJoaXN0b3J5IjpbMTQxMDQ4MzIyNywtMTY0OTYyNTk1M119
 -->
