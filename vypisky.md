@@ -178,7 +178,7 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 	- **G** - orientovaný graf
 	- **l** - lower bound hran
 	- **u** - upper bound hran
-	- **b** - balance vrcholů
+	- **b** - balance vrcholů (suma všech balancí = 0)
 - Derivát tokové sítě, ale máme více zdrojů a více cílů
 - Decision problém - ptáme se, jestli lze dosáhnout toku
 - Tento problém lze polynomiálně redukovat na problém mac flow
@@ -193,8 +193,13 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 - Každá hrana má cenu **c**
 - Přenesení jedné jednotky po dané hraně nás stojí právě c
 - Hledáme maximální tok při minimálním costu
-- hledáme feasible flow s min cost
-- min cost flow lze převést na max flow (všem hranám dám **c** = 0 a přidám hranu z **t** do **s** s **c** = -1)
+- Zadáno jako (**G, l, u, c, b**):
+	- **G** - orientovaný graf
+	- **l** - lower bound hran
+	- **u** - upper bound hran
+	- **c** - cost hran
+	- **b** - balance vrcholů (suma všech balancí = 0)
+- Minimum cost 
 - stejně tak se pomocí min cost flow dá řešit SP a Chinese Postman Problem
 
 ### Cycle Canceling Algorithm (Minimum cost flow)
@@ -544,6 +549,6 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyNDg2MTEwMSwtODIyMTU4MTg5LC0xNj
-Q5NjI1OTUzXX0=
+eyJoaXN0b3J5IjpbNTI3OTIwNDc2LDEwMjQ4NjExMDEsLTgyMj
+E1ODE4OSwtMTY0OTYyNTk1M119
 -->
