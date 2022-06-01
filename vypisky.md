@@ -273,7 +273,9 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 	![M-alternig Path](https://github.com/pan-sveta/ko-vypisky/blob/main/images/paring_max_flow.png?raw=true)
 - **Minimum Weight Perfect Matching**
 	- Stejné jako předchozí ale musíme propojit všechny
-	- lze převést na min cost flow podobně jako bipartitní párování
+	- Známé jako assignment problem
+	- Lze převést na min cost flow podobně jako bipartitní párování
+	![M-alternig Path](https://github.com/pan-sveta/ko-vypisky/blob/main/images/paring_assignment.png?raw=true)
 
 ## Knapsack
 
@@ -590,9 +592,9 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI3MDYzODQ2LDYwOTYyNzk2NiwxMzE4OD
-AxMTcwLDM0MDYzNTI0OCwtODY4MTUwMzMyLC0xMDEwOTkxODUx
-LDE3NDUwMTEyNDIsLTY3MzE3NjUzOSwtMTA3Mzc1ODIxOSwtNj
-Q3MDA5NDA4LDE2MjYxODQxNTYsLTY2MzAxMjE5OSwxMDI0ODYx
-MTAxLC04MjIxNTgxODksLTE2NDk2MjU5NTNdfQ==
+eyJoaXN0b3J5IjpbLTEyOTI3NzcwOTIsNjA5NjI3OTY2LDEzMT
+g4MDExNzAsMzQwNjM1MjQ4LC04NjgxNTAzMzIsLTEwMTA5OTE4
+NTEsMTc0NTAxMTI0MiwtNjczMTc2NTM5LC0xMDczNzU4MjE5LC
+02NDcwMDk0MDgsMTYyNjE4NDE1NiwtNjYzMDEyMTk5LDEwMjQ4
+NjExMDEsLTgyMjE1ODE4OSwtMTY0OTYyNTk1M119
 -->
