@@ -267,9 +267,10 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 - **Maximum Cardinality Matching in Bipartite Graphs** 
 	- Stejné jako předchozí jen máme rozděleno na dvě skupiny co spojujeme
 	- Lze řešit pomocí max-flow
-	- ![M-alternig Path](https://github.com/pan-sveta/ko-vypisky/blob/main/images/paring_max_flow.png?raw=true)
+	![M-alternig Path](https://github.com/pan-sveta/ko-vypisky/blob/main/images/paring_max_flow.png?raw=true)
 - **Minimum Weight Matching in a weighted graph**
 	- Takové párování co nám dá nejmenší součet cen na hranách
+	![M-alternig Path](https://github.com/pan-sveta/ko-vypisky/blob/main/images/paring_max_flow.png?raw=true)
 - **Minimum Weight Perfect Matching**
 	- Stejné jako předchozí ale musíme propojit všechny
 	- lze převést na min cost flow podobně jako bipartitní párování
@@ -589,9 +590,9 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4MTAzODM0OCw2MDk2Mjc5NjYsMTMxOD
-gwMTE3MCwzNDA2MzUyNDgsLTg2ODE1MDMzMiwtMTAxMDk5MTg1
-MSwxNzQ1MDExMjQyLC02NzMxNzY1MzksLTEwNzM3NTgyMTksLT
-Y0NzAwOTQwOCwxNjI2MTg0MTU2LC02NjMwMTIxOTksMTAyNDg2
-MTEwMSwtODIyMTU4MTg5LC0xNjQ5NjI1OTUzXX0=
+eyJoaXN0b3J5IjpbNTI3MDYzODQ2LDYwOTYyNzk2NiwxMzE4OD
+AxMTcwLDM0MDYzNTI0OCwtODY4MTUwMzMyLC0xMDEwOTkxODUx
+LDE3NDUwMTEyNDIsLTY3MzE3NjUzOSwtMTA3Mzc1ODIxOSwtNj
+Q3MDA5NDA4LDE2MjYxODQxNTYsLTY2MzAxMjE5OSwxMDI0ODYx
+MTAxLC04MjIxNTgxODksLTE2NDk2MjU5NTNdfQ==
 -->
