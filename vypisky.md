@@ -138,7 +138,7 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 	- Můžeme přidat čas
 	- Chceme kumulovat tok na nodech (např. ropa v tankerech, parkoviště)
 	- Lze převést zpět na max flow (zavedením duplicitních nodů v různých časech)
-	![Dynamic flow](https://chevereto.stepanek.app/images/2022/06/01/image.png)
+	![Dynamic flow](https://github.com/pan-sveta/ko-vypisky/blob/main/images/dynamic_flows.png?raw=true)
 
 **Min-cut**
 
@@ -166,12 +166,17 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 	 - Celočíselné flow (znamená celočíselné **l** a **u**)
 		 - obecně - O(|E|<sup>2</sup> * U) kde U je maximum z **u**
 	 - Alternativně použijeme algoritmus Floyd-Warshall
-		 - Při braní nekratších cest - O(|E|<sup>2</sup> * |V|)  
+		 - Při vytváření augmentované cesty použijeme algoritmus pro nejkratší cestu - O(|E|<sup>2</sup> * |V|)  
 		
 **Celočíslenost Ford-Fulkersona**
 - Když všechny kapacity **l** a **u** jsou celá čísla (integery), kapacita augmentované cesty γ při běhu Forda-Fulekrsona je rovněž celé číslo
 - Protože máme nax-flow konečné hodnoty, existuje konečný počet kroků algoritmu
 - Rovněž z LP formulace můžeme říci, že celočíselnost vyplývá z úplné unimodularity matice incidence grafu G, což je matice A ve formulaci A - x ≤ b.
+
+**Feasible Flow with Balances**
+- Derivát tokové sítě, ale máme více zdrojů a více cílů
+- Decision problém - ptáme se, jestli lze dosáhnout toku
+- Tento problém lze polynomiálně redukovat na problém mac flow
 
 **Minimum cost flow**
 
@@ -527,5 +532,5 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDk2MjU5NTNdfQ==
+eyJoaXN0b3J5IjpbLTgyMjE1ODE4OSwtMTY0OTYyNTk1M119
 -->
