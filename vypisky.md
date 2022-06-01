@@ -262,7 +262,7 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 		1. Najdeme náhodné párování
 		2. Najdeme alternující cestu (cesta na které se střídá nevybraná hrana s vybranou, začíná a končí nevybranou hranou a koncové vrcholy nepatří žádnému párování)
 		3. Prohodíme vybrané a nevybrané hrany v cestě
-		4. Opakujeme 2-3 dokud neexistuje alternativín cesta
+		4. Opakujeme 2-3 dokud neexistuje alternativní cesta
 - **Maximum Cardinality Matching in Bipartite Graphs** 
 	- Stejné jako předchozí jen máme rozděleno na dvě skupiny co spojujeme
 	- Lze řešit pomocí max-flow
@@ -587,8 +587,9 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQwNjM1MjQ4LC04NjgxNTAzMzIsLTEwMT
-A5OTE4NTEsMTc0NTAxMTI0MiwtNjczMTc2NTM5LC0xMDczNzU4
-MjE5LC02NDcwMDk0MDgsMTYyNjE4NDE1NiwtNjYzMDEyMTk5LD
-EwMjQ4NjExMDEsLTgyMjE1ODE4OSwtMTY0OTYyNTk1M119
+eyJoaXN0b3J5IjpbMTMxODgwMTE3MCwzNDA2MzUyNDgsLTg2OD
+E1MDMzMiwtMTAxMDk5MTg1MSwxNzQ1MDExMjQyLC02NzMxNzY1
+MzksLTEwNzM3NTgyMTksLTY0NzAwOTQwOCwxNjI2MTg0MTU2LC
+02NjMwMTIxOTksMTAyNDg2MTEwMSwtODIyMTU4MTg5LC0xNjQ5
+NjI1OTUzXX0=
 -->
