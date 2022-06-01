@@ -177,9 +177,9 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 - Derivát tokové sítě, ale máme více zdrojů a více cílů
 - Decision problém - ptáme se, jestli lze dosáhnout toku
 - Tento problém lze polynomiálně redukovat na problém mac flow
+![Feasibility flow with balances](https://github.com/pan-sveta/ko-vypisky/blob/main/images/ffwb_graph.png?raw=true)
 
 **Minimum cost flow**
-
 - každá hrana má cenu **c**
 - hledáme feasible flow s min cost
 - min cost flow lze převést na max flow (všem hranám dám **c** = 0 a přidám hranu z **t** do **s** s **c** = -1)
@@ -532,5 +532,6 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMjE1ODE4OSwtMTY0OTYyNTk1M119
+eyJoaXN0b3J5IjpbLTEwMjU5ODM4NTIsLTgyMjE1ODE4OSwtMT
+Y0OTYyNTk1M119
 -->
