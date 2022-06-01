@@ -193,6 +193,7 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 - Každá hrana má cenu **c**
 - Přenesení jedné jednotky po dané hraně nás stojí právě c
 - Hledáme maximální tok při minimálním costu
+- 
 - Zadáno jako (**G, l, u, c, b**):
 	- **G** - orientovaný graf
 	- **l** - lower bound hran
@@ -217,8 +218,7 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 		 1. Nastavíme **b(v)**=0 pro všechny vrcholy
 		 2. Nastavíme **l(e)**=1 a **u(e)**=∞ pro všechny hrany
 		 3. Vyřešíme max flow
-	- Existuje pošťákova cesta, která využívá každou hranu přesně jednou (tj.  Eulerian walk).
-pokud má každý vrchol stejný indegree a outdegree (tj. Eulerův digraf).
+	- Existuje pošťákova cesta, která využívá každou hranu přesně jednou (tj.  Eulerian walk) iif pokud má každý vrchol stejný indegree a outdegree (tj. Eulerian digraph).
 
 ### Cycle Canceling Algorithm (Minimum cost flow)
 
@@ -567,6 +567,6 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4MTM4ODUxOCwxMDI0ODYxMTAxLC04Mj
-IxNTgxODksLTE2NDk2MjU5NTNdfQ==
+eyJoaXN0b3J5IjpbLTE3ODEyMzYzMjgsMTAyNDg2MTEwMSwtOD
+IyMTU4MTg5LC0xNjQ5NjI1OTUzXX0=
 -->
