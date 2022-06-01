@@ -251,6 +251,7 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 	- **u** - upper bound hran
 	- **c** - cost hran
 	- **b1..m** - vektor znázorňující balanci pro jednotlivé komodity (v součtu musí dávat 0 přes celý graf a komodity)
+- Cíl minimalizovat $\sum_{e \epsilon E(G)}^{}\sum_{m\epsilon M} f^{m}(e)*c(e)$
 
 ### Párování
 
@@ -581,8 +582,8 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMTA5OTE4NTEsMTc0NTAxMTI0MiwtNj
-czMTc2NTM5LC0xMDczNzU4MjE5LC02NDcwMDk0MDgsMTYyNjE4
-NDE1NiwtNjYzMDEyMTk5LDEwMjQ4NjExMDEsLTgyMjE1ODE4OS
-wtMTY0OTYyNTk1M119
+eyJoaXN0b3J5IjpbLTg2ODE1MDMzMiwtMTAxMDk5MTg1MSwxNz
+Q1MDExMjQyLC02NzMxNzY1MzksLTEwNzM3NTgyMTksLTY0NzAw
+OTQwOCwxNjI2MTg0MTU2LC02NjMwMTIxOTksMTAyNDg2MTEwMS
+wtODIyMTU4MTg5LC0xNjQ5NjI1OTUzXX0=
 -->
