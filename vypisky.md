@@ -127,6 +127,9 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 - Co vteče musí vytéct z vrcholu - 1. Kirchoffův zákon
 - Max flow - maximalizuje bilanci **s**
 
+**LP zadání**
+![Flows LP](https://github.com/pan-sveta/ko-vypisky/blob/main/images/flows_lp.png?raw=true))
+
 **Balance**
  - Hodnota na vrcholu 
  - Spočítaná jako **flow výstupní hran - flow vstupních** 
@@ -173,49 +176,102 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 - Protože máme nax-flow konečné hodnoty, existuje konečný počet kroků algoritmu
 - Rovněž z LP formulace můžeme říci, že celočíselnost vyplývá z úplné unimodularity matice incidence grafu G, což je matice A ve formulaci A - x ≤ b.
 
-**Feasible Flow with Balances**
+### Feasible Flow with Balances
+![Feasibility flow with balances](https://github.com/pan-sveta/ko-vypisky/blob/main/images/ffwb_graph.png?raw=true)
+- Zadáno jako (**G, l, u, b**):
+	- **G** - orientovaný graf
+	- **l** - lower bound hran
+	- **u** - upper bound hran
+	- **b** - balance vrcholů (suma všech balancí = 0)
 - Derivát tokové sítě, ale máme více zdrojů a více cílů
 - Decision problém - ptáme se, jestli lze dosáhnout toku
 - Tento problém lze polynomiálně redukovat na problém mac flow
+	1. Přidáme nový zdroj **s'** a spojíme ho s původními zdroji a nastavíme l=u=b (jinými slovy nastavíme lower bound a upper bound na balanci uzlu)
+	2. Přidáme společný spotřebič **t'** a spojíme ho s původními spotřebiči a nastavíme l-u-b  (jinými slovy nastavíme lower bound a upper bound na balanci uzlu)
+	3. Pokusíme se vyřešit max-flow. 
+	4. Existují-li toky pak lze použít zadané balance a rozhodovací úloha má odpověď **ano**.
 
-**Minimum cost flow**
+![Feasible Flow with Balances redukce](https://github.com/pan-sveta/ko-vypisky/blob/main/images/ffwb_to_max_flow.png?raw=true)
 
-- každá hrana má cenu **c**
-- hledáme feasible flow s min cost
-- min cost flow lze převést na max flow (všem hranám dám **c** = 0 a přidám hranu z **t** do **s** s **c** = -1)
-- stejně tak se pomocí min cost flow dá řešit SP a Chinese Postman Problem
+### Minimum cost flow
+- Každá hrana má cenu **c**
+- Přenesení jedné jednotky po dané hraně nás stojí právě c
+- Hledáme maximální tok při minimálním costu
+- Zadáno jako (**G, l, u, c, b**):
+	- **G** - orientovaný graf
+	- **l** - lower bound hran
+	- **u** - upper bound hran
+	- **c** - cost hran
+	- **b** - balance vrcholů (suma všech balancí = 0)
+![Flows LP](https://github.com/pan-sveta/ko-vypisky/blob/main/images/min_cost_flow_ilp.png?raw=true)
+- Max flow můžeme polinomiálně redukovat na minimum cost flow
+	1. Přidáme cirkulaci = přidáme hranu z **t** do **s**, kde **u**=∞ a **l**=0 a **c**=-1
+	2. Cenu všech ostatních hran **c** nastavíme na 0
+	3. Balanci všech vrcholů **b** nastavíme na 0
+	4. Maximalizujeme cenu
+- Shortest path můžeme polynomiálně redukovat na min cost flow
+	1. Použijeme LP formulaci min-cost flow
+	2. Nastavíme **b(s)**=1 a **b(t)**=-1
+	3. Pro všechny ostatní (t.j. mimo zdroj a spotřebič) **b(v)**=0
+	4. **l(e)**=0 a **u(e)**=∞ pro všechny hrany e
+	5. Získáte (primární) LP formulaci problému nejkratší cesty (viz příklad zcela unimodulární matice A v přednášce o ILP) #Tady nemám sebemenší tušení co tohle znamená, lol
+ - Chinese mailman problem můžeme polynomiálně redukovat na min cost flow (#bylo to v testu, tak se na to nevykašlete 🙃)
+	 - Listonoš musí zajít na poštu, vzít dopisy a obejít s nimi všechny ulice města a nakonec se vrátit do výchozího bodu – zpět na poštu. Musí přitom urazit minimální vzdálenost.
+	 - V grafu, který reprezentuje město, představují hrany grafu ulice a uzly odpovídají křižovatkám. Hrany jsou ohodnoceny kladnými čísly, které odpovídají délce ulic.
+	 - Postup:
+		 1. Nastavíme **b(v)**=0 pro všechny vrcholy
+		 2. Nastavíme **l(e)**=1 a **u(e)**=∞ pro všechny hrany
+		 3. Vyřešíme max flow
+	- Existuje pošťákova cesta, která využívá každou hranu přesně jednou (tj.  Eulerian walk) iif pokud má každý vrchol stejný indegree a outdegree (tj. Eulerian digraph).
 
-### Cycle Canceling Algorithm (Minimum cost flow)
+### Cycle Canceling Algorithm (řeší Minimum cost flow)
 
-1. najdeme feasible flow graf
-2. vytvoříme residuální graf
-	- hrany v grafu zdvojíme 
-		- dopředné hrany budou mít hodnoty **u** = **u** - flow a **c** = **c**
-		- zpětné hrany budou mít hodnoty **u** = flow - **l** a **c** = -**c**
-	- vyházím hrany s **u** = 0
-3. naleznu záporný cyklus a min **u** v cyklu (součet cen * min **u** = snížený ceny a min **u** = změna ve flow v hranách cyklu v původním grafu)
-4. znovu jdu do bodu 2. doku existuje negativní cyklus v residuálním grafu
-- time complexity - $O(|E|^2 * |V| * C * U)$ kde U je maximum z **u** a C maximum z **c**
+1. Najdeme feasible flow graf
+2. Vytvoříme residuální graf
+	- Hrany v grafu zdvojíme 
+		- Dopředné hrany budou mít hodnoty **u** = **u** - flow a **c** = **c**
+		- Zpětné hrany budou mít hodnoty **u** = flow - **l** a **c** = -**c**
+	- Vyházím hrany s **u** = 0
+3. Naleznu záporný cyklus (záproný součet cen)
+	- γ = součet cen * min(**u**) v cyklu
+	- Upravíme flows v původním grafu o γ aby to dávalo smysl (neporušil jsem kirchofa)
+5. Znovu jdu do bodu 2. dokud existuje negativní cyklus v residuálním grafu
+- Time complexity - $O(|E|^2 * |V| * C * U)$ kde U je maximum z **u** a C maximum z **c**
+- 
+![Flows LP](https://github.com/pan-sveta/ko-vypisky/blob/main/images/cca_residual_graph.png?raw=true)
 
-**Minimum cost multicommodity flow**
+### Minimum cost multicommodity flow
 
-- přidává různé typy přenášených informací (které nesmíme pomotat)
-- každý vrchol má balance jednotlivých typů
-- každý vrchol musí splňovat kirchofův zákon pro jednotlivé typy
+- Přidává různé typy přenášených informací (které nesmíme pomotat)
+- Každý vrchol má balance jednotlivých typů
+- Každý vrchol musí splňovat kirchofův zákon pro jednotlivé komodity
+- - Zadáno jako (**G, l, u, c, b1..m**):
+	- $G$ - orientovaný graf
+	- $l$ - lower bound hran
+	- $u$ - upper bound hran
+	- $c$ - cost hran
+	- $b[1..m]$ - vektor znázorňující balanci pro jednotlivé komodity (v součtu musí dávat 0 přes celý graf a komodity)
+- Cíl minimalizovat $\sum_{e \epsilon E(G)}^{}\sum_{m\epsilon M} f^{m}(e)*c(e)$
+![MCMF LP](https://github.com/pan-sveta/ko-vypisky/blob/main/images/mcmf_lp.png?raw=true)
 
-**Párování**
+### Párování
 
-- **Maximum Cardinality Matching Problem** - párování s největším počtem hran (spojení)
-	- algo - M-alternig Path
-		1. najdeme náhodné párování
-		2. najdeme alternující cestu (cesta na které se střídá nevybraná hrana s vybranou, začíná a končí nevybranou hranou a koncové vrcholy nepatří žádnému párování)
-		3. prohodíme vybrané a nevybrané hrany v cestě
-		4. opakujeme 2-3 dokud neexistuje alternativín cesta
-- **Maximum Cardinality Matching in Bipartite Graphs** - stejné jako předchozí jen máme rozděleno na dvě skupiny co spojujeme
-	- lze řešit pomocí max-flow
-- **Minimum Weight Matching in a weighted graph** - takové párování co nám dá nejmenší součet cen na hranách
-- **Minimum Weight Perfect Matching** - stejné jako předchozí ale musíme propojit všechny
-	- lze převést na min cost flow podobně jako pbipartitní párování
+- **Maximum Cardinality Matching Problem** 
+	- Párování s největším počtem hran (spojení)
+	- Algo - M-alternig Path
+		1. Najdeme náhodné párování
+		2. Najdeme alternující cestu (cesta na které se střídá nevybraná hrana s vybranou, začíná a končí nevybranou hranou a koncové vrcholy nepatří žádnému párování)
+		3. Prohodíme vybrané a nevybrané hrany v cestě
+		4. Opakujeme 2-3 dokud neexistuje alternativní cesta
+![M-alternig Path](https://github.com/pan-sveta/ko-vypisky/blob/main/images/paring_altering.png?raw=true)
+- **Maximum Cardinality Matching in Bipartite Graphs** 
+	- Stejné jako předchozí jen máme rozděleno na dvě skupiny co spojujeme
+	- Lze řešit pomocí max-flow
+- **Minimum Weight Matching in a weighted graph**
+	- Takové párování co nám dá nejmenší součet cen na hranách
+- **Minimum Weight Perfect Matching**
+	- Stejné jako předchozí ale musíme propojit všechny
+	- lze převést na min cost flow podobně jako bipartitní párování
 
 ## Knapsack
 
@@ -532,5 +588,9 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMjE1ODE4OSwtMTY0OTYyNTk1M119
+eyJoaXN0b3J5IjpbNjA5NjI3OTY2LDEzMTg4MDExNzAsMzQwNj
+M1MjQ4LC04NjgxNTAzMzIsLTEwMTA5OTE4NTEsMTc0NTAxMTI0
+MiwtNjczMTc2NTM5LC0xMDczNzU4MjE5LC02NDcwMDk0MDgsMT
+YyNjE4NDE1NiwtNjYzMDEyMTk5LDEwMjQ4NjExMDEsLTgyMjE1
+ODE4OSwtMTY0OTYyNTk1M119
 -->
