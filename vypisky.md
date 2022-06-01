@@ -234,7 +234,7 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 	- Vyházím hrany s **u** = 0
 3. Naleznu záporný cyklus (záproný součet cen)
 	- γ = součet cen * min(**u**) v cyklu
-	- Upravíme flows v původním grafu o γ aby jsme neporušili 
+	- Upravíme flows v původním grafu o γ aby jsme neporušili bound přičítáme nebo odečítáme
 5. Znovu jdu do bodu 2. dokud existuje negativní cyklus v residuálním grafu
 - time complexity - $O(|E|^2 * |V| * C * U)$ kde U je maximum z **u** a C maximum z **c**
 ![Flows LP](https://github.com/pan-sveta/ko-vypisky/blob/main/images/cca_residual_graph.png?raw=true)
@@ -574,7 +574,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1NDQ0NDI5MywtMTA3Mzc1ODIxOSwtNj
+eyJoaXN0b3J5IjpbLTY3MzE3NjUzOSwtMTA3Mzc1ODIxOSwtNj
 Q3MDA5NDA4LDE2MjYxODQxNTYsLTY2MzAxMjE5OSwxMDI0ODYx
 MTAxLC04MjIxNTgxODksLTE2NDk2MjU5NTNdfQ==
 -->
