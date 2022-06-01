@@ -178,11 +178,12 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 	- **G** - orientovaný graf
 	- **l** - lower bound hran
 	- **u** - upper bound hran
-	- **s** - balance vrcholů
+	- **b** - balance vrcholů
 - Derivát tokové sítě, ale máme více zdrojů a více cílů
 - Decision problém - ptáme se, jestli lze dosáhnout toku
 - Tento problém lze polynomiálně redukovat na problém mac flow
-	1. Přidáme nový zdroj **s'** a spojí
+	1. Přidáme nový zdroj **s'** a spojíme ho s původními zdroji a nastavíme l=u=b (jinými slovy nastavíme lower bound a upper bound na balanci uzlu)
+	2. Přidáme společný spotřebič **t'** a spojíme 
 
 - Ptáme se, existují-li toky **f** takové, aby byly splněny požadavky na balance
 ![Feasibility flow with balances](https://github.com/pan-sveta/ko-vypisky/blob/main/images/ffwb_graph.png?raw=true)
@@ -540,6 +541,6 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODQyMzQ0NDcsLTgyMjE1ODE4OSwtMT
+eyJoaXN0b3J5IjpbLTE0MjEzNDIyMTcsLTgyMjE1ODE4OSwtMT
 Y0OTYyNTk1M119
 -->
