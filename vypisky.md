@@ -256,17 +256,21 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 
 ### Párování
 
-- **Maximum Cardinality Matching Problem** - Párování s největším počtem hran (spojení)
+- **Maximum Cardinality Matching Problem** 
+	- Párování s největším počtem hran (spojení)
 	- Algo - M-alternig Path
 		1. Najdeme náhodné párování
 		2. Najdeme alternující cestu (cesta na které se střídá nevybraná hrana s vybranou, začíná a končí nevybranou hranou a koncové vrcholy nepatří žádnému párování)
 		3. Prohodíme vybrané a nevybrané hrany v cestě
 		4. Opakujeme 2-3 dokud neexistuje alternativín cesta
-- **Maximum Cardinality Matching in Bipartite Graphs** - Stejné jako předchozí jen máme rozděleno na dvě skupiny co spojujeme
+- **Maximum Cardinality Matching in Bipartite Graphs** 
+	- Stejné jako předchozí jen máme rozděleno na dvě skupiny co spojujeme
 	- Lze řešit pomocí max-flow
-- **Minimum Weight Matching in a weighted graph** - takové párování co nám dá nejmenší součet cen na hranách
-- **Minimum Weight Perfect Matching** - stejné jako předchozí ale musíme propojit všechny
-	- lze převést na min cost flow podobně jako pbipartitní párování
+- **Minimum Weight Matching in a weighted graph**
+- Takové párování co nám dá nejmenší součet cen na hranách
+- **Minimum Weight Perfect Matching**
+- Stejné jako předchozí ale musíme propojit všechny
+- lze převést na min cost flow podobně jako pbipartitní párování
 
 ## Knapsack
 
@@ -583,9 +587,8 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjAzNDMxODQsLTg2ODE1MDMzMiwtMT
-AxMDk5MTg1MSwxNzQ1MDExMjQyLC02NzMxNzY1MzksLTEwNzM3
-NTgyMTksLTY0NzAwOTQwOCwxNjI2MTg0MTU2LC02NjMwMTIxOT
-ksMTAyNDg2MTEwMSwtODIyMTU4MTg5LC0xNjQ5NjI1OTUzXX0=
-
+eyJoaXN0b3J5IjpbNDUwNDczNDk0LC04NjgxNTAzMzIsLTEwMT
+A5OTE4NTEsMTc0NTAxMTI0MiwtNjczMTc2NTM5LC0xMDczNzU4
+MjE5LC02NDcwMDk0MDgsMTYyNjE4NDE1NiwtNjYzMDEyMTk5LD
+EwMjQ4NjExMDEsLTgyMjE1ODE4OSwtMTY0OTYyNTk1M119
 -->
