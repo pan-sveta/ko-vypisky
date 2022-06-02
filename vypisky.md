@@ -447,7 +447,7 @@ Dáváme **všechny** tásky zdrojům v čase.
 		- $\beta$ jsou vlastnosti tasky
 		- $\gamma$ jsou kritéria řešení
 
-### One resurce scheduling ($\alpha$ = 1)
+### One resurce scheduling ( $\alpha$ = 1)
 --------------------------------------------
 - Nejrychleji dokončeno
 	- $1|prec|C_{max}$ - easy (seřadím dle závislostí + naskládám za sebe)
@@ -648,11 +648,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NTIwMTM3OCwtNjkwNzI4OTY1LC0xOT
-UyODUwNzk3LC0xNTU5NjYzNzg5LDE3MDIyMDQxMTEsMjU0MTQy
-NDk1LDk3NDU1NzE1MiwyNTg1NDg0OTYsLTEzMzQ0MTA3MjAsOD
-A1OTM2NzIzLC0xMDE3NTY1MjI0LDE1ODQ4NTM0MjYsMzQ4ODQ4
-Mjk3LC03OTQwMTQyMzIsOTA0MjEwNDQ4LDE0NDczMDY3NTQsOT
-g2Nzk0NTYwLC0xMjYwNjg5NjEwLC05NDAzNzc5OSwtMTMwMDE0
-MTk5N119
+eyJoaXN0b3J5IjpbLTEzMzkwODQ5OTAsLTY5MDcyODk2NSwtMT
+k1Mjg1MDc5NywtMTU1OTY2Mzc4OSwxNzAyMjA0MTExLDI1NDE0
+MjQ5NSw5NzQ1NTcxNTIsMjU4NTQ4NDk2LC0xMzM0NDEwNzIwLD
+gwNTkzNjcyMywtMTAxNzU2NTIyNCwxNTg0ODUzNDI2LDM0ODg0
+ODI5NywtNzk0MDE0MjMyLDkwNDIxMDQ0OCwxNDQ3MzA2NzU0LD
+k4Njc5NDU2MCwtMTI2MDY4OTYxMCwtOTQwMzc3OTksLTEzMDAx
+NDE5OTddfQ==
 -->
