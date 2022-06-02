@@ -144,7 +144,8 @@
  
  ### DAG
  - Directed acyclic graph
- - 
+ - Graf můžeme topologicky uspořádat tak, že vždycky ukazuje pouze na následníky, nikoli na předky
+ - Užitečné například pro časové osy
  
 ### Floyd Algorithm
 
@@ -642,7 +643,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxNjcyNTc1MiwtMTU1OTY2Mzc4OSwxNz
+eyJoaXN0b3J5IjpbMTQwMjcxNTA5NCwtMTU1OTY2Mzc4OSwxNz
 AyMjA0MTExLDI1NDE0MjQ5NSw5NzQ1NTcxNTIsMjU4NTQ4NDk2
 LC0xMzM0NDEwNzIwLDgwNTkzNjcyMywtMTAxNzU2NTIyNCwxNT
 g0ODUzNDI2LDM0ODg0ODI5NywtNzk0MDE0MjMyLDkwNDIxMDQ0
