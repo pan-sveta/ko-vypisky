@@ -67,7 +67,8 @@
 	- EHC = Máme orientovaný graf s cykly a hledáme cyklusm který prochází všemi vrcholy právě jednou
 	-  Postup redukce:
 		1. Zkopírujeme graf G a přidáme všem hranám váhu -1
-		2. Zduplikujeme libovolný vrchol
+		2. Zduplikujeme libovolný vrchol a zkopírujeme i jeho hrany k novému vrcholu
+		3. Přidáme zdrojový vrchol $s$
 
 **Bellmanův princip optimality**
 
@@ -623,7 +624,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTIxMDAzMjgsMzQ4ODQ4Mjk3LC03OT
+eyJoaXN0b3J5IjpbLTEwMDg4ODIzNjEsMzQ4ODQ4Mjk3LC03OT
 QwMTQyMzIsOTA0MjEwNDQ4LDE0NDczMDY3NTQsOTg2Nzk0NTYw
 LC0xMjYwNjg5NjEwLC05NDAzNzc5OSwtMTMwMDE0MTk5NywtNT
 QwMDIzOTUzLDM5MDc1NTQ2MSwxMjA5Mzc1ODM2LC0xNzcyMTI4
