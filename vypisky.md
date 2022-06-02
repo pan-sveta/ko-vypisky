@@ -46,8 +46,8 @@
 - Steiner Tree - nejlevnější propojení vysílače s příjmači v síty
 - Nalézt SP v grafu se zápornými cykli  je NP-hard
 - Bellman-Ford a Floy podporují negativní hrany
-- Sled - posloupnost vrcholů a hran
-- Cesta - sled co neopakuje neopakuje vrcholy
+- Sled (Edge progression) - posloupnost vrcholů a hran
+- Cesta (Path) - neopakují se ani vrcholy ani hrany
 - $n$ - počet vrcholů
 - $m$ - počet hrans
 
@@ -595,11 +595,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI5MjU4OTc1LDM5MDc1NTQ2MSwxMjA5Mz
-c1ODM2LC0xNzcyMTI4MjY3LC0xNDA0OTg5NjAsLTIwNTc0Njcy
-MDcsMjQ4MzI1ODgxLDExOTkwNTQ1ODUsLTkyNDkwNDUwMSw2MD
-k2Mjc5NjYsMTMxODgwMTE3MCwzNDA2MzUyNDgsLTg2ODE1MDMz
-MiwtMTAxMDk5MTg1MSwxNzQ1MDExMjQyLC02NzMxNzY1MzksLT
-EwNzM3NTgyMTksLTY0NzAwOTQwOCwxNjI2MTg0MTU2LC02NjMw
-MTIxOTldfQ==
+eyJoaXN0b3J5IjpbMTczMzMyNDc2MiwzOTA3NTU0NjEsMTIwOT
+M3NTgzNiwtMTc3MjEyODI2NywtMTQwNDk4OTYwLC0yMDU3NDY3
+MjA3LDI0ODMyNTg4MSwxMTk5MDU0NTg1LC05MjQ5MDQ1MDEsNj
+A5NjI3OTY2LDEzMTg4MDExNzAsMzQwNjM1MjQ4LC04NjgxNTAz
+MzIsLTEwMTA5OTE4NTEsMTc0NTAxMTI0MiwtNjczMTc2NTM5LC
+0xMDczNzU4MjE5LC02NDcwMDk0MDgsMTYyNjE4NDE1NiwtNjYz
+MDEyMTk5XX0=
 -->
