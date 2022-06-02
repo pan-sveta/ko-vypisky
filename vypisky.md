@@ -40,6 +40,7 @@
 - In-tree - nejkratší cesty ze všech do jednoho bodu (otočíme hrany v SPT)
 - All Pair Shortest Path - nejkratší cesty mezi všemi vrcholy
 - MST (Minimal Spaning Tree) - nejlevnější propojení všech nodů
+- Nejdelší cesta - obrátíme ceny hran
 - Steiner Tree - nejlevnější propojení vysílače s příjmači v síty
 - Nalézt SP v grafu se zápornými cykli  je NP-hard
 - Sled - posloupnost vrcholů a hran
@@ -591,10 +592,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE4MzUwNzc3LC0yMDU3NDY3MjA3LDI0OD
-MyNTg4MSwxMTk5MDU0NTg1LC05MjQ5MDQ1MDEsNjA5NjI3OTY2
-LDEzMTg4MDExNzAsMzQwNjM1MjQ4LC04NjgxNTAzMzIsLTEwMT
-A5OTE4NTEsMTc0NTAxMTI0MiwtNjczMTc2NTM5LC0xMDczNzU4
-MjE5LC02NDcwMDk0MDgsMTYyNjE4NDE1NiwtNjYzMDEyMTk5LD
-EwMjQ4NjExMDEsLTgyMjE1ODE4OSwtMTY0OTYyNTk1M119
+eyJoaXN0b3J5IjpbLTE0MDQ5ODk2MCwtMjA1NzQ2NzIwNywyND
+gzMjU4ODEsMTE5OTA1NDU4NSwtOTI0OTA0NTAxLDYwOTYyNzk2
+NiwxMzE4ODAxMTcwLDM0MDYzNTI0OCwtODY4MTUwMzMyLC0xMD
+EwOTkxODUxLDE3NDUwMTEyNDIsLTY3MzE3NjUzOSwtMTA3Mzc1
+ODIxOSwtNjQ3MDA5NDA4LDE2MjYxODQxNTYsLTY2MzAxMjE5OS
+wxMDI0ODYxMTAxLC04MjIxNTgxODksLTE2NDk2MjU5NTNdfQ==
+
 -->
