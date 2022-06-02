@@ -78,7 +78,7 @@
 	2. (tohle je možná blbě)
 		- Uvažme další cestu $Q_2 = (s,v)$, která prochází skrze $w$ takovou, že její cesta je kratší než cesta $P_{k-1}$
 		- To je opět spor s tím, že $P_k=(s,w)$ je nejrkatší cesta
-![Bellman](https://github.com/pan-sveta/ko-vypisky/blob/main/images/bellman_proof.png?raw=true)
+![Bellman proof](https://github.com/pan-sveta/ko-vypisky/blob/main/images/bellman_proof.png?raw=true)
 
 **Algorithm for DAGs**
 
@@ -618,11 +618,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4ODQ0OTM5NjQsMTQ0NzMwNjc1NCw5OD
-Y3OTQ1NjAsLTEyNjA2ODk2MTAsLTk0MDM3Nzk5LC0xMzAwMTQx
-OTk3LC01NDAwMjM5NTMsMzkwNzU1NDYxLDEyMDkzNzU4MzYsLT
-E3NzIxMjgyNjcsLTE0MDQ5ODk2MCwtMjA1NzQ2NzIwNywyNDgz
-MjU4ODEsMTE5OTA1NDU4NSwtOTI0OTA0NTAxLDYwOTYyNzk2Ni
-wxMzE4ODAxMTcwLDM0MDYzNTI0OCwtODY4MTUwMzMyLC0xMDEw
-OTkxODUxXX0=
+eyJoaXN0b3J5IjpbOTA0MjEwNDQ4LDE0NDczMDY3NTQsOTg2Nz
+k0NTYwLC0xMjYwNjg5NjEwLC05NDAzNzc5OSwtMTMwMDE0MTk5
+NywtNTQwMDIzOTUzLDM5MDc1NTQ2MSwxMjA5Mzc1ODM2LC0xNz
+cyMTI4MjY3LC0xNDA0OTg5NjAsLTIwNTc0NjcyMDcsMjQ4MzI1
+ODgxLDExOTkwNTQ1ODUsLTkyNDkwNDUwMSw2MDk2Mjc5NjYsMT
+MxODgwMTE3MCwzNDA2MzUyNDgsLTg2ODE1MDMzMiwtMTAxMDk5
+MTg1MV19
 -->
