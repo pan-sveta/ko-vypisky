@@ -42,6 +42,7 @@
 - Nejdelší cesta - obrátíme ceny hran
 - Když maj nody váhy - rozdvojím je a vytvořím orintovanou hranu s váhou
 - MST (Minimal Spaning Tree) - nejlevnější propojení všech nodů
+	- Je rozdíl, když dělám MST a SPT! Cesty jsou často různé
 - Steiner Tree - nejlevnější propojení vysílače s příjmači v síty
 - Nalézt SP v grafu se zápornými cykli  je NP-hard
 - Sled - posloupnost vrcholů a hran
@@ -593,11 +594,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwOTM3NTgzNiwtMTc3MjEyODI2NywtMT
-QwNDk4OTYwLC0yMDU3NDY3MjA3LDI0ODMyNTg4MSwxMTk5MDU0
-NTg1LC05MjQ5MDQ1MDEsNjA5NjI3OTY2LDEzMTg4MDExNzAsMz
-QwNjM1MjQ4LC04NjgxNTAzMzIsLTEwMTA5OTE4NTEsMTc0NTAx
-MTI0MiwtNjczMTc2NTM5LC0xMDczNzU4MjE5LC02NDcwMDk0MD
-gsMTYyNjE4NDE1NiwtNjYzMDEyMTk5LDEwMjQ4NjExMDEsLTgy
-MjE1ODE4OV19
+eyJoaXN0b3J5IjpbMzkwNzU1NDYxLDEyMDkzNzU4MzYsLTE3Nz
+IxMjgyNjcsLTE0MDQ5ODk2MCwtMjA1NzQ2NzIwNywyNDgzMjU4
+ODEsMTE5OTA1NDU4NSwtOTI0OTA0NTAxLDYwOTYyNzk2NiwxMz
+E4ODAxMTcwLDM0MDYzNTI0OCwtODY4MTUwMzMyLC0xMDEwOTkx
+ODUxLDE3NDUwMTEyNDIsLTY3MzE3NjUzOSwtMTA3Mzc1ODIxOS
+wtNjQ3MDA5NDA4LDE2MjYxODQxNTYsLTY2MzAxMjE5OSwxMDI0
+ODYxMTAxXX0=
 -->
