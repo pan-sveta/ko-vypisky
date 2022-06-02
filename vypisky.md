@@ -54,7 +54,7 @@
 - $m$ - počet hrans
 
 **Troúhelníková nerovnost**
-- $l$ je vzdálenost mezi hranami
+- $l$ je vzdálenost mezi hranami (počet hran)
 - Platí, že $l(i,j) \leq l(i,k) + l(k,j)$, kde $(i,j)$
 ![Triangle inequality](https://github.com/pan-sveta/ko-vypisky/blob/main/images/triangle_inequality.png?raw=true)
 
@@ -67,7 +67,7 @@
 **Bellmanův princip optimality**
 
 - Jestliže máme nekratší cestu z $a$ do $b$ přes $k$ pak cesta z $a$ do $k$ je také nejkratší stejně tak z $k$ do $b$
-- Belmanova rovnice je trojůhelníková nerovnost cestami místo hran
+- Belmanova rovnice je trojůhelníková nerovnost s cestami místo vzdáleností
 - Jinými slovy, nejkratší cesta se skládá ze segmentů nejkratších cest
 
 **Algorithm for DAGs**
@@ -608,7 +608,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDg4MTAyNTY4LC05NDAzNzc5OSwtMTMwMD
+eyJoaXN0b3J5IjpbNDIyNzUzNDQwLC05NDAzNzc5OSwtMTMwMD
 E0MTk5NywtNTQwMDIzOTUzLDM5MDc1NTQ2MSwxMjA5Mzc1ODM2
 LC0xNzcyMTI4MjY3LC0xNDA0OTg5NjAsLTIwNTc0NjcyMDcsMj
 Q4MzI1ODgxLDExOTkwNTQ1ODUsLTkyNDkwNDUwMSw2MDk2Mjc5
