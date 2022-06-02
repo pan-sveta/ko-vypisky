@@ -62,6 +62,7 @@
 **Negativní cykly**
 - Rozbijí nám algoritmy protože porušují trojúhelníkové nerovnosti
 - Proto je nejkratší cesta s negaitvními cykly NP-Hard
+- Pozor musíme dávat, když otáčíme ceny pro problém nejdelších cest
 
 
 **Bellmanův princip optimality**
@@ -79,7 +80,7 @@
 
 ### Dijkstra Algorithm
 
-- jen nezáporné ceny
+- Pouze nezáporné ceny hran
 - $O(n^2)$ nebo s priority queue $O(m + n \log n)$
 - algo:
 	1. v grafu vrcholům přiřadím hodnotu $\infty$ a startu hodnotu 0
@@ -608,11 +609,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3MTA2MzIwOCwtMTMwMDE0MTk5NywtNT
-QwMDIzOTUzLDM5MDc1NTQ2MSwxMjA5Mzc1ODM2LC0xNzcyMTI4
-MjY3LC0xNDA0OTg5NjAsLTIwNTc0NjcyMDcsMjQ4MzI1ODgxLD
-ExOTkwNTQ1ODUsLTkyNDkwNDUwMSw2MDk2Mjc5NjYsMTMxODgw
-MTE3MCwzNDA2MzUyNDgsLTg2ODE1MDMzMiwtMTAxMDk5MTg1MS
-wxNzQ1MDExMjQyLC02NzMxNzY1MzksLTEwNzM3NTgyMTksLTY0
-NzAwOTQwOF19
+eyJoaXN0b3J5IjpbLTE0MzA2NDM5NTcsLTEzMDAxNDE5OTcsLT
+U0MDAyMzk1MywzOTA3NTU0NjEsMTIwOTM3NTgzNiwtMTc3MjEy
+ODI2NywtMTQwNDk4OTYwLC0yMDU3NDY3MjA3LDI0ODMyNTg4MS
+wxMTk5MDU0NTg1LC05MjQ5MDQ1MDEsNjA5NjI3OTY2LDEzMTg4
+MDExNzAsMzQwNjM1MjQ4LC04NjgxNTAzMzIsLTEwMTA5OTE4NT
+EsMTc0NTAxMTI0MiwtNjczMTc2NTM5LC0xMDczNzU4MjE5LC02
+NDcwMDk0MDhdfQ==
 -->
