@@ -75,7 +75,7 @@
 		- Máme nejkratší cestu z $P_k=(s,w)$, která vede přes $v$, tak, že existuje hrana $(v,w)$ a označíme jí $P_{k-1}=(s,v)$
 		- Uvažujme cestu $Q_1 = (s,v)$ takovou, že její cena je menší než cena cesty (v,w)
 		- To je spor s tvrzením, že $(s,w)$ je nejkratší cesta
-	2.
+	2. (tohle je možná blbě)
 		- Uvažme další cestu $Q_2 = (s,v)$, která prochází skrze $w$
 		- 
 
@@ -618,7 +618,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIyNjI0NjA2OCw5ODY3OTQ1NjAsLTEyNj
+eyJoaXN0b3J5IjpbMTQ0NzMwNjc1NCw5ODY3OTQ1NjAsLTEyNj
 A2ODk2MTAsLTk0MDM3Nzk5LC0xMzAwMTQxOTk3LC01NDAwMjM5
 NTMsMzkwNzU1NDYxLDEyMDkzNzU4MzYsLTE3NzIxMjgyNjcsLT
 E0MDQ5ODk2MCwtMjA1NzQ2NzIwNywyNDgzMjU4ODEsMTE5OTA1
