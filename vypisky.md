@@ -71,10 +71,12 @@
 - Jinými slovy, nejkratší cesta se skládá ze segmentů nejkratších cest
 ![Bellman](https://github.com/pan-sveta/ko-vypisky/blob/main/images/bellman.png?raw=true)
 - Důkaz sporem:
-	- Máme nejkratší cestu z $P_k=(s,w)$, která vede přes $v$, tak, že existuje hrana $(v,w)$ a označíme jí $P_{k-1}=(s,v)$
-	- Uvažujme cestu $Q_1 = (s,v)$ takovou, že její cena je menší než cena cesty (v,w)
-	- To je spor s tvrzením, že $(s,w)$ je nejkratší cesta
-	- Uvažme další cestu $Q_2 = (s,v)$, která prochází skrze $w$
+	1.
+		- Máme nejkratší cestu z $P_k=(s,w)$, která vede přes $v$, tak, že existuje hrana $(v,w)$ a označíme jí $P_{k-1}=(s,v)$
+		- Uvažujme cestu $Q_1 = (s,v)$ takovou, že její cena je menší než cena cesty (v,w)
+		- To je spor s tvrzením, že $(s,w)$ je nejkratší cesta
+	2.
+		- Uvažme další cestu $Q_2 = (s,v)$, která prochází skrze $w$
 
 
 **Algorithm for DAGs**
@@ -615,7 +617,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODkwNTE0NjQsOTg2Nzk0NTYwLC0xMj
+eyJoaXN0b3J5IjpbLTE2Nzg0MDQ0MzksOTg2Nzk0NTYwLC0xMj
 YwNjg5NjEwLC05NDAzNzc5OSwtMTMwMDE0MTk5NywtNTQwMDIz
 OTUzLDM5MDc1NTQ2MSwxMjA5Mzc1ODM2LC0xNzcyMTI4MjY3LC
 0xNDA0OTg5NjAsLTIwNTc0NjcyMDcsMjQ4MzI1ODgxLDExOTkw
