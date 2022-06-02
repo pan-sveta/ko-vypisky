@@ -55,11 +55,11 @@
 
 **Troúhelníková nerovnost**
 - $l$ je vzdálenost mezi hranami (počet hran)
-- Platí, že $l(i,j) \leq l(i,k) + l(k,j)$, kde $(i,j)$
+- Platí, že $l(i,j) \leq l(i,k) + l(k,j)$
 ![Triangle inequality](https://github.com/pan-sveta/ko-vypisky/blob/main/images/triangle_inequality.png?raw=true)
 
 **Negativní cykly**
-- Rozbijí nám algoritmy protože porušují trojúhelníkové nerovnosti
+- Rozbijí nám algoritmy
 - Proto je nejkratší cesta s negaitvními cykly NP-Hard
 - Pozor musíme dávat, když otáčíme ceny pro problém nejdelších cest
 - TODO: Doplnit důkaz
@@ -67,7 +67,7 @@
 **Bellmanův princip optimality**
 
 - Jestliže máme nekratší cestu z $a$ do $b$ přes $k$ pak cesta z $a$ do $k$ je také nejkratší stejně tak z $k$ do $b$
-- Belmanova rovnice je trojůhelníková nerovnost s cestami místo vzdáleností
+- Belmanova rovnice je trojůhelníková nerovnost s cenami cestami $c$ místo vzdáleností $l$
 - Jinými slovy, nejkratší cesta se skládá ze segmentů nejkratších cest
 
 **Algorithm for DAGs**
@@ -608,11 +608,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDIyNzUzNDQwLC05NDAzNzc5OSwtMTMwMD
-E0MTk5NywtNTQwMDIzOTUzLDM5MDc1NTQ2MSwxMjA5Mzc1ODM2
-LC0xNzcyMTI4MjY3LC0xNDA0OTg5NjAsLTIwNTc0NjcyMDcsMj
-Q4MzI1ODgxLDExOTkwNTQ1ODUsLTkyNDkwNDUwMSw2MDk2Mjc5
-NjYsMTMxODgwMTE3MCwzNDA2MzUyNDgsLTg2ODE1MDMzMiwtMT
-AxMDk5MTg1MSwxNzQ1MDExMjQyLC02NzMxNzY1MzksLTEwNzM3
-NTgyMTldfQ==
+eyJoaXN0b3J5IjpbLTE2NzQ4MzA4ODksLTk0MDM3Nzk5LC0xMz
+AwMTQxOTk3LC01NDAwMjM5NTMsMzkwNzU1NDYxLDEyMDkzNzU4
+MzYsLTE3NzIxMjgyNjcsLTE0MDQ5ODk2MCwtMjA1NzQ2NzIwNy
+wyNDgzMjU4ODEsMTE5OTA1NDU4NSwtOTI0OTA0NTAxLDYwOTYy
+Nzk2NiwxMzE4ODAxMTcwLDM0MDYzNTI0OCwtODY4MTUwMzMyLC
+0xMDEwOTkxODUxLDE3NDUwMTEyNDIsLTY3MzE3NjUzOSwtMTA3
+Mzc1ODIxOV19
 -->
