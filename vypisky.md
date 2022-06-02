@@ -121,19 +121,19 @@
 
 - Umí detekovat záporné cykly (ve vnitřní smyčce kontrolujeme trojúhelníkovou neovnost)
 - $O(n*m)$
-- lze řešit dynamickým programováním
-- algo:
-	1. v grafu vrcholům přiřadím hodnotu $\infty$ a startu hodnotu 0
-	2. naincializuji si $i=1$
-	3. projdu všechny hrany $\overrightarrow{AB}$ v grafu a vždy s zeptám zda nezlepším $B$ pomocí hodnoty $A$ + ceny hrany $\overrightarrow{AB}$
-	4. zvětším $i$ = $i+1$
-	5. pokud $i<n$ (kde $n$ je počet vrcholů) a zároveň jsem v bodě 3 vylepšil alespoň jednu hranu $\to$ vracím se do bodu 3
-- příkald 1: https://youtu.be/LCTwYILbmEY?t=6558
-- příklad 2: https://youtu.be/LCTwYILbmEY?t=7823
-- proof (indukce): 
-	- zase z bellmana 
-	- po prvním kroku (vnější smyčky) budu mít nejkratší cestu $\le$ nejkratší cestě s 1 hranou
-	- každá další krok tento vztah stále platí jen se zvyšuje počet hran a to právě z bellmana
+- Lze řešit dynamickým programováním
+- Algoritmus:
+	1. V grafu vrcholům přiřadím hodnotu $\infty$ a startu hodnotu 0
+	2. Naincializuji si $i=1$
+	3. Projdu všechny hrany $\overrightarrow{AB}$ v grafu a vždy s zeptám zda nezlepším $B$ pomocí hodnoty $A$ + ceny hrany $\overrightarrow{AB}$
+	4. Zvětším $i$ = $i+1$
+	5. Pokud $i<n$ (kde $n$ je počet vrcholů) a zároveň jsem v bodě 3 vylepšil alespoň jednu hranu $\to$ vracím se do bodu 3
+- Příkald 1: https://youtu.be/LCTwYILbmEY?t=6558
+- Příklad 2: https://youtu.be/LCTwYILbmEY?t=7823
+- Důkaz (indukce): 
+	- Vychází z Bellmanova principu
+	- Po prvním kroku (vnější smyčky) budu mít nejkratší cestu $\le$ nejkratší cestě s 1 hranou
+	- Každá další krok tento vztah stále platí jen se zvyšuje počet hran a to právě z bellmana
 	- https://youtu.be/LCTwYILbmEY?t=6967
  
 ### Floyd Algorithm
@@ -632,11 +632,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTc0NTU3MTUyLDI1ODU0ODQ5NiwtMTMzND
-QxMDcyMCw4MDU5MzY3MjMsLTEwMTc1NjUyMjQsMTU4NDg1MzQy
-NiwzNDg4NDgyOTcsLTc5NDAxNDIzMiw5MDQyMTA0NDgsMTQ0Nz
-MwNjc1NCw5ODY3OTQ1NjAsLTEyNjA2ODk2MTAsLTk0MDM3Nzk5
-LC0xMzAwMTQxOTk3LC01NDAwMjM5NTMsMzkwNzU1NDYxLDEyMD
-kzNzU4MzYsLTE3NzIxMjgyNjcsLTE0MDQ5ODk2MCwtMjA1NzQ2
-NzIwN119
+eyJoaXN0b3J5IjpbNjA0MTc4MjcsOTc0NTU3MTUyLDI1ODU0OD
+Q5NiwtMTMzNDQxMDcyMCw4MDU5MzY3MjMsLTEwMTc1NjUyMjQs
+MTU4NDg1MzQyNiwzNDg4NDgyOTcsLTc5NDAxNDIzMiw5MDQyMT
+A0NDgsMTQ0NzMwNjc1NCw5ODY3OTQ1NjAsLTEyNjA2ODk2MTAs
+LTk0MDM3Nzk5LC0xMzAwMTQxOTk3LC01NDAwMjM5NTMsMzkwNz
+U1NDYxLDEyMDkzNzU4MzYsLTE3NzIxMjgyNjcsLTE0MDQ5ODk2
+MF19
 -->
