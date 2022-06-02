@@ -48,6 +48,7 @@
 - Bellman-Ford a Floy podporují negativní hrany
 - Sled (Edge progression) - posloupnost vrcholů a hran
 - Cesta (Path) - neopakují se ani vrcholy ani hrany
+	- když nejsou negativní cykly - nejkratší sled je i nejkratší hrana
 - $n$ - počet vrcholů
 - $m$ - počet hrans
 
@@ -595,7 +596,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczMzMyNDc2MiwzOTA3NTU0NjEsMTIwOT
+eyJoaXN0b3J5IjpbMTg5MTg4MjU5MywzOTA3NTU0NjEsMTIwOT
 M3NTgzNiwtMTc3MjEyODI2NywtMTQwNDk4OTYwLC0yMDU3NDY3
 MjA3LDI0ODMyNTg4MSwxMTk5MDU0NTg1LC05MjQ5MDQ1MDEsNj
 A5NjI3OTY2LDEzMTg4MDExNzAsMzQwNjM1MjQ4LC04NjgxNTAz
