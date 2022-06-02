@@ -73,7 +73,10 @@
 - Důkaz sporem:
 	- Máme nejkratší cestu z $P_k=(s,w)$, která vede přes $v$, tak, že existuje hrana $(v,w)$ a označíme jí $P_{k-1}=(s,v)$
 	- Uvažujme cestu $Q_1 = (s,v)$ takovou, že její cena je menší než cena cesty (v,w)
-	- To je spor s tvrzením, že $(s,w)$ je nejrkatší cesta
+	- To je spor s tvrzením, že $(s,w)$ je nejkratší cesta
+	- Uvažme další cestu $Q_2 = (s,v)$, která prochází skrze $w$
+
+
 **Algorithm for DAGs**
 
 - Skoro jako Bellman-ford
@@ -612,11 +615,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NDQ0NDMxOCw5ODY3OTQ1NjAsLTEyNj
-A2ODk2MTAsLTk0MDM3Nzk5LC0xMzAwMTQxOTk3LC01NDAwMjM5
-NTMsMzkwNzU1NDYxLDEyMDkzNzU4MzYsLTE3NzIxMjgyNjcsLT
-E0MDQ5ODk2MCwtMjA1NzQ2NzIwNywyNDgzMjU4ODEsMTE5OTA1
-NDU4NSwtOTI0OTA0NTAxLDYwOTYyNzk2NiwxMzE4ODAxMTcwLD
-M0MDYzNTI0OCwtODY4MTUwMzMyLC0xMDEwOTkxODUxLDE3NDUw
-MTEyNDJdfQ==
+eyJoaXN0b3J5IjpbLTExODkwNTE0NjQsOTg2Nzk0NTYwLC0xMj
+YwNjg5NjEwLC05NDAzNzc5OSwtMTMwMDE0MTk5NywtNTQwMDIz
+OTUzLDM5MDc1NTQ2MSwxMjA5Mzc1ODM2LC0xNzcyMTI4MjY3LC
+0xNDA0OTg5NjAsLTIwNTc0NjcyMDcsMjQ4MzI1ODgxLDExOTkw
+NTQ1ODUsLTkyNDkwNDUwMSw2MDk2Mjc5NjYsMTMxODgwMTE3MC
+wzNDA2MzUyNDgsLTg2ODE1MDMzMiwtMTAxMDk5MTg1MSwxNzQ1
+MDExMjQyXX0=
 -->
