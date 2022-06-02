@@ -67,7 +67,7 @@
 **Bellmanův princip optimality**
 
 - Jestliže máme nekratší cestu z $a$ do $b$ přes $k$ pak cesta z $a$ do $k$ je také nejkratší stejně tak z $k$ do $b$
-- Belmanova rovnice je trojůhelníková nerovnost s cenami cestami $c$ místo vzdáleností $l$
+- Belmanova rovnice je trojůhelníková nerovnost s cenami cestami $c$ místo vzdáleností $lut$
 - Jinými slovy, nejkratší cesta se skládá ze segmentů nejkratších cest
 
 **Algorithm for DAGs**
@@ -608,7 +608,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzQ4MzA4ODksLTk0MDM3Nzk5LC0xMz
+eyJoaXN0b3J5IjpbLTEyNjA2ODk2MTAsLTk0MDM3Nzk5LC0xMz
 AwMTQxOTk3LC01NDAwMjM5NTMsMzkwNzU1NDYxLDEyMDkzNzU4
 MzYsLTE3NzIxMjgyNjcsLTE0MDQ5ODk2MCwtMjA1NzQ2NzIwNy
 wyNDgzMjU4ODEsMTE5OTA1NDU4NSwtOTI0OTA0NTAxLDYwOTYy
