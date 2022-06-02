@@ -62,7 +62,9 @@
 - Rozbijí nám algoritmy
 - Proto je nejkratší cesta s negaitvními cykly NP-Hard
 - Pozor musíme dávat, když otáčíme ceny pro problém nejdelších cest
-- TODO: Doplnit důkaz
+- Důkaz:
+	- Dokazujeme přes problém existence hamiltonovksého cyklu
+	- 
 
 **Bellmanův princip optimality**
 
@@ -618,11 +620,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTA0MjEwNDQ4LDE0NDczMDY3NTQsOTg2Nz
-k0NTYwLC0xMjYwNjg5NjEwLC05NDAzNzc5OSwtMTMwMDE0MTk5
-NywtNTQwMDIzOTUzLDM5MDc1NTQ2MSwxMjA5Mzc1ODM2LC0xNz
-cyMTI4MjY3LC0xNDA0OTg5NjAsLTIwNTc0NjcyMDcsMjQ4MzI1
-ODgxLDExOTkwNTQ1ODUsLTkyNDkwNDUwMSw2MDk2Mjc5NjYsMT
-MxODgwMTE3MCwzNDA2MzUyNDgsLTg2ODE1MDMzMiwtMTAxMDk5
-MTg1MV19
+eyJoaXN0b3J5IjpbLTc5NDAxNDIzMiw5MDQyMTA0NDgsMTQ0Nz
+MwNjc1NCw5ODY3OTQ1NjAsLTEyNjA2ODk2MTAsLTk0MDM3Nzk5
+LC0xMzAwMTQxOTk3LC01NDAwMjM5NTMsMzkwNzU1NDYxLDEyMD
+kzNzU4MzYsLTE3NzIxMjgyNjcsLTE0MDQ5ODk2MCwtMjA1NzQ2
+NzIwNywyNDgzMjU4ODEsMTE5OTA1NDU4NSwtOTI0OTA0NTAxLD
+YwOTYyNzk2NiwxMzE4ODAxMTcwLDM0MDYzNTI0OCwtODY4MTUw
+MzMyXX0=
 -->
