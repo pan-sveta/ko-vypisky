@@ -54,9 +54,8 @@
 - $m$ - počet hrans
 
 **Troúhelníková nerovnost**
-- U grafů nás zajímá trojuhelníková nerovnost
-- Pokud platí že $c \leq  a + b$ můžeme použít jednoduší algoritmy
-- U nejkratších cest víme, že $l(i,j) \leq l(i,k) + l(k,j)$, kde $(i,j)$ je nejkratší cesta
+- $l$ je vzdálenost mezi hranami
+- Platí, že $l(i,j) \leq l(i,k) + l(k,j)$, kde $(i,j)$
 ![Triangle inequality](https://github.com/pan-sveta/ko-vypisky/blob/main/images/triangle_inequality.png?raw=true)
 
 **Negativní cykly**
@@ -609,11 +608,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk0MDM3Nzk5LC0xMzAwMTQxOTk3LC01ND
-AwMjM5NTMsMzkwNzU1NDYxLDEyMDkzNzU4MzYsLTE3NzIxMjgy
-NjcsLTE0MDQ5ODk2MCwtMjA1NzQ2NzIwNywyNDgzMjU4ODEsMT
-E5OTA1NDU4NSwtOTI0OTA0NTAxLDYwOTYyNzk2NiwxMzE4ODAx
-MTcwLDM0MDYzNTI0OCwtODY4MTUwMzMyLC0xMDEwOTkxODUxLD
-E3NDUwMTEyNDIsLTY3MzE3NjUzOSwtMTA3Mzc1ODIxOSwtNjQ3
-MDA5NDA4XX0=
+eyJoaXN0b3J5IjpbNDg4MTAyNTY4LC05NDAzNzc5OSwtMTMwMD
+E0MTk5NywtNTQwMDIzOTUzLDM5MDc1NTQ2MSwxMjA5Mzc1ODM2
+LC0xNzcyMTI4MjY3LC0xNDA0OTg5NjAsLTIwNTc0NjcyMDcsMj
+Q4MzI1ODgxLDExOTkwNTQ1ODUsLTkyNDkwNDUwMSw2MDk2Mjc5
+NjYsMTMxODgwMTE3MCwzNDA2MzUyNDgsLTg2ODE1MDMzMiwtMT
+AxMDk5MTg1MSwxNzQ1MDExMjQyLC02NzMxNzY1MzksLTEwNzM3
+NTgyMTldfQ==
 -->
