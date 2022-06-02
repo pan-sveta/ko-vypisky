@@ -72,7 +72,7 @@
 ![Bellman](https://github.com/pan-sveta/ko-vypisky/blob/main/images/bellman.png?raw=true)
 - Důkaz sporem:
 	1.
-		- Máme nejkratší cestu z $P_k=(s,w)$, která vede přes $v$, tak, že existuje hrana $(v,w)$, $P_{k-1}=(s,v)$
+		- Máme nejkratší cestu z $P_k=(s,w)$, která vede přes $v$, tak, že existují hrany $e=(v,w)$ a $P_{k-1}=(s,v)$
 		- Uvažujme cestu $Q_1 = (s,v)$ takovou, že její cena je menší než cena cesty (v,w)
 		- To je spor s tvrzením, že $(s,w)$ je nejkratší cesta
 	2. (tohle je možná blbě)
@@ -618,11 +618,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU2MjIyMzA0LDE0NDczMDY3NTQsOTg2Nz
-k0NTYwLC0xMjYwNjg5NjEwLC05NDAzNzc5OSwtMTMwMDE0MTk5
-NywtNTQwMDIzOTUzLDM5MDc1NTQ2MSwxMjA5Mzc1ODM2LC0xNz
-cyMTI4MjY3LC0xNDA0OTg5NjAsLTIwNTc0NjcyMDcsMjQ4MzI1
-ODgxLDExOTkwNTQ1ODUsLTkyNDkwNDUwMSw2MDk2Mjc5NjYsMT
-MxODgwMTE3MCwzNDA2MzUyNDgsLTg2ODE1MDMzMiwtMTAxMDk5
-MTg1MV19
+eyJoaXN0b3J5IjpbLTQ2MzEwMDkwOSwxNDQ3MzA2NzU0LDk4Nj
+c5NDU2MCwtMTI2MDY4OTYxMCwtOTQwMzc3OTksLTEzMDAxNDE5
+OTcsLTU0MDAyMzk1MywzOTA3NTU0NjEsMTIwOTM3NTgzNiwtMT
+c3MjEyODI2NywtMTQwNDk4OTYwLC0yMDU3NDY3MjA3LDI0ODMy
+NTg4MSwxMTk5MDU0NTg1LC05MjQ5MDQ1MDEsNjA5NjI3OTY2LD
+EzMTg4MDExNzAsMzQwNjM1MjQ4LC04NjgxNTAzMzIsLTEwMTA5
+OTE4NTFdfQ==
 -->
