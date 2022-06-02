@@ -153,6 +153,7 @@
 ### Floyd Algorithm
 
 - Umí detekovat záporné cykly (na diagonále $l_{ii}$ se objeví záporné číslo)
+- Na diagonále máme nejkratší cykly, které procházejí daným vrcholem
 - $O(n^3)$
 - Hledá All Pair Shortest Path
 - Algoritmus:
@@ -646,11 +647,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTI4NTA3OTcsLTE1NTk2NjM3ODksMT
-cwMjIwNDExMSwyNTQxNDI0OTUsOTc0NTU3MTUyLDI1ODU0ODQ5
-NiwtMTMzNDQxMDcyMCw4MDU5MzY3MjMsLTEwMTc1NjUyMjQsMT
-U4NDg1MzQyNiwzNDg4NDgyOTcsLTc5NDAxNDIzMiw5MDQyMTA0
-NDgsMTQ0NzMwNjc1NCw5ODY3OTQ1NjAsLTEyNjA2ODk2MTAsLT
-k0MDM3Nzk5LC0xMzAwMTQxOTk3LC01NDAwMjM5NTMsMzkwNzU1
-NDYxXX0=
+eyJoaXN0b3J5IjpbLTY5MDcyODk2NSwtMTk1Mjg1MDc5NywtMT
+U1OTY2Mzc4OSwxNzAyMjA0MTExLDI1NDE0MjQ5NSw5NzQ1NTcx
+NTIsMjU4NTQ4NDk2LC0xMzM0NDEwNzIwLDgwNTkzNjcyMywtMT
+AxNzU2NTIyNCwxNTg0ODUzNDI2LDM0ODg0ODI5NywtNzk0MDE0
+MjMyLDkwNDIxMDQ0OCwxNDQ3MzA2NzU0LDk4Njc5NDU2MCwtMT
+I2MDY4OTYxMCwtOTQwMzc3OTksLTEzMDAxNDE5OTcsLTU0MDAy
+Mzk1M119
 -->
