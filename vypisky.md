@@ -99,15 +99,15 @@
 - Pouze nezáporné ceny hran
 - $O(n^2)$ nebo s priority queue $O(m + n \log n)$
 - algo:
-	1. v grafu vrcholům přiřadím hodnotu $\infty$ a startu hodnotu 0
-	2. založíme množinu $R$ což je množina, ve které jsou nejkratší cesty
-	3. vybereme z množini vrcholů mimo $R$ ten s nejmenší hodnotou a vložíme ho do $R$
-	4. pro všechny hrany $\overrightarrow{AB}$ vystupující z $R$ nastavíme hodnotu vrcholů $B$ na opačné straně hrany (mimo $R$) na $\min$(původní hodnota $B$, hodnota $A$ + cena hrany)
-	5. pokud existuje vrchol mimo množinu $R$ $\to$ vracíme se do bodu 3
-- příklad: https://youtu.be/LCTwYILbmEY?t=991
-- proof (indukcí):
-	- pro $|R|=1$ tak platí minimum, protože je tam jen start za cenu 0
-	- pomocí belmana dokážu že ten co přidávám do $R$ už je nejkratší
+	1. V grafu vrcholům přiřadím hodnotu $\infty$ a startu hodnotu 0
+	2. Založíme množinu $R$ což je množina, ve které jsou nejkratší cesty
+	3. Vybereme z množini vrcholů mimo $R$ ten s nejmenší hodnotou a vložíme ho do $R$
+	4. Pro všechny hrany $\overrightarrow{AB}$ vystupující z $R$ nastavíme hodnotu vrcholů $B$ na opačné straně hrany (mimo $R$) na $\min$(původní hodnota $B$, hodnota $A$ + cena hrany)
+	5. Pokud existuje vrchol mimo množinu $R$ $\to$ vracíme se do bodu 3
+- Příklad: https://youtu.be/LCTwYILbmEY?t=991
+- Důkaz (indukcí):
+	- Pro $|R|=1$ tak platí minimum, protože je tam jen start za cenu 0
+	- Pomocí belmana dokážu, že vrchol, který přidávám do $R$ je segmentem nejratší cesty
 	- https://youtu.be/LCTwYILbmEY?t=1658
 
 ### Bellman-Ford Algorithm
@@ -625,11 +625,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NDg1MzQyNiwzNDg4NDgyOTcsLTc5ND
-AxNDIzMiw5MDQyMTA0NDgsMTQ0NzMwNjc1NCw5ODY3OTQ1NjAs
-LTEyNjA2ODk2MTAsLTk0MDM3Nzk5LC0xMzAwMTQxOTk3LC01ND
-AwMjM5NTMsMzkwNzU1NDYxLDEyMDkzNzU4MzYsLTE3NzIxMjgy
-NjcsLTE0MDQ5ODk2MCwtMjA1NzQ2NzIwNywyNDgzMjU4ODEsMT
-E5OTA1NDU4NSwtOTI0OTA0NTAxLDYwOTYyNzk2NiwxMzE4ODAx
-MTcwXX0=
+eyJoaXN0b3J5IjpbLTEwMTc1NjUyMjQsMTU4NDg1MzQyNiwzND
+g4NDgyOTcsLTc5NDAxNDIzMiw5MDQyMTA0NDgsMTQ0NzMwNjc1
+NCw5ODY3OTQ1NjAsLTEyNjA2ODk2MTAsLTk0MDM3Nzk5LC0xMz
+AwMTQxOTk3LC01NDAwMjM5NTMsMzkwNzU1NDYxLDEyMDkzNzU4
+MzYsLTE3NzIxMjgyNjcsLTE0MDQ5ODk2MCwtMjA1NzQ2NzIwNy
+wyNDgzMjU4ODEsMTE5OTA1NDU4NSwtOTI0OTA0NTAxLDYwOTYy
+Nzk2Nl19
 -->
