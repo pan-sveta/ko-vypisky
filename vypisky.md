@@ -59,6 +59,10 @@
 - U nejkratších cest víme, že $l(i,j) \leq l(i,k) + l(k,j)$, kde $(i,j)$ je nejkratší cesta
 ![Triangle inequality](https://github.com/pan-sveta/ko-vypisky/blob/main/images/triangle_inequality.png?raw=true)
 
+**Negativní cykly**
+- Rozbijí nám algoritmy protože porušují trojúhelníkové nerovnosti
+
+
 **Bellmanův princip optimality**
 
 - Jestliže máme nekratší cestu z $a$ do $b$ přes $k$ pak cesta z $a$ do $k$ je také nejkratší stejně tak z $k$ do $b$
@@ -603,11 +607,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDAxNDE5OTcsLTU0MDAyMzk1MywzOT
-A3NTU0NjEsMTIwOTM3NTgzNiwtMTc3MjEyODI2NywtMTQwNDk4
-OTYwLC0yMDU3NDY3MjA3LDI0ODMyNTg4MSwxMTk5MDU0NTg1LC
-05MjQ5MDQ1MDEsNjA5NjI3OTY2LDEzMTg4MDExNzAsMzQwNjM1
-MjQ4LC04NjgxNTAzMzIsLTEwMTA5OTE4NTEsMTc0NTAxMTI0Mi
-wtNjczMTc2NTM5LC0xMDczNzU4MjE5LC02NDcwMDk0MDgsMTYy
-NjE4NDE1Nl19
+eyJoaXN0b3J5IjpbMTkwNjY2NTM1MSwtMTMwMDE0MTk5NywtNT
+QwMDIzOTUzLDM5MDc1NTQ2MSwxMjA5Mzc1ODM2LC0xNzcyMTI4
+MjY3LC0xNDA0OTg5NjAsLTIwNTc0NjcyMDcsMjQ4MzI1ODgxLD
+ExOTkwNTQ1ODUsLTkyNDkwNDUwMSw2MDk2Mjc5NjYsMTMxODgw
+MTE3MCwzNDA2MzUyNDgsLTg2ODE1MDMzMiwtMTAxMDk5MTg1MS
+wxNzQ1MDExMjQyLC02NzMxNzY1MzksLTEwNzM3NTgyMTksLTY0
+NzAwOTQwOF19
 -->
