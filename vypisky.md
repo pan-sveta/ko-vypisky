@@ -120,7 +120,7 @@
 
 ### Bellman-Ford Algorithm
 
-- Umí detekovat záporné cykly (ve vnitřní smyčce kontrolujeme trojúhelníkovou neovnost)
+- Umí detekovat záporné cykly (ve vnitřní smyčce kontrolujeme trojúhelníkovou nerovnost)
 - $O(n*m)$
 - Lze řešit dynamickým programováním
 - Algoritmus:
@@ -638,11 +638,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwMjIwNDExMSwyNTQxNDI0OTUsOTc0NT
-U3MTUyLDI1ODU0ODQ5NiwtMTMzNDQxMDcyMCw4MDU5MzY3MjMs
-LTEwMTc1NjUyMjQsMTU4NDg1MzQyNiwzNDg4NDgyOTcsLTc5ND
-AxNDIzMiw5MDQyMTA0NDgsMTQ0NzMwNjc1NCw5ODY3OTQ1NjAs
-LTEyNjA2ODk2MTAsLTk0MDM3Nzk5LC0xMzAwMTQxOTk3LC01ND
-AwMjM5NTMsMzkwNzU1NDYxLDEyMDkzNzU4MzYsLTE3NzIxMjgy
-NjddfQ==
+eyJoaXN0b3J5IjpbLTE1NTk2NjM3ODksMTcwMjIwNDExMSwyNT
+QxNDI0OTUsOTc0NTU3MTUyLDI1ODU0ODQ5NiwtMTMzNDQxMDcy
+MCw4MDU5MzY3MjMsLTEwMTc1NjUyMjQsMTU4NDg1MzQyNiwzND
+g4NDgyOTcsLTc5NDAxNDIzMiw5MDQyMTA0NDgsMTQ0NzMwNjc1
+NCw5ODY3OTQ1NjAsLTEyNjA2ODk2MTAsLTk0MDM3Nzk5LC0xMz
+AwMTQxOTk3LC01NDAwMjM5NTMsMzkwNzU1NDYxLDEyMDkzNzU4
+MzZdfQ==
 -->
