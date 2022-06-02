@@ -54,7 +54,8 @@
 - $m$ - počet hrans
 
 **Troúhelníková nerovnost**
-- U nejkratších cest nástrojuhelníková nerovnost
+- U nejkratších cest nás zajímá trojuhelníková nerovnost
+- Pokud platí že $c \leq  a + b$ můžeme použít jednoduší algoritmy
 
 **Bellmanův princip optimality**
 
@@ -600,11 +601,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0ODgwODc5MCwtNTQwMDIzOTUzLDM5MD
-c1NTQ2MSwxMjA5Mzc1ODM2LC0xNzcyMTI4MjY3LC0xNDA0OTg5
-NjAsLTIwNTc0NjcyMDcsMjQ4MzI1ODgxLDExOTkwNTQ1ODUsLT
-kyNDkwNDUwMSw2MDk2Mjc5NjYsMTMxODgwMTE3MCwzNDA2MzUy
-NDgsLTg2ODE1MDMzMiwtMTAxMDk5MTg1MSwxNzQ1MDExMjQyLC
-02NzMxNzY1MzksLTEwNzM3NTgyMTksLTY0NzAwOTQwOCwxNjI2
-MTg0MTU2XX0=
+eyJoaXN0b3J5IjpbLTE5MTMwNDM0NDUsLTU0MDAyMzk1MywzOT
+A3NTU0NjEsMTIwOTM3NTgzNiwtMTc3MjEyODI2NywtMTQwNDk4
+OTYwLC0yMDU3NDY3MjA3LDI0ODMyNTg4MSwxMTk5MDU0NTg1LC
+05MjQ5MDQ1MDEsNjA5NjI3OTY2LDEzMTg4MDExNzAsMzQwNjM1
+MjQ4LC04NjgxNTAzMzIsLTEwMTA5OTE4NTEsMTc0NTAxMTI0Mi
+wtNjczMTc2NTM5LC0xMDczNzU4MjE5LC02NDcwMDk0MDgsMTYy
+NjE4NDE1Nl19
 -->
