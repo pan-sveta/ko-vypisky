@@ -47,7 +47,7 @@
 - Sled - posloupnost vrcholů a hran
 - Cesta - sled co neopakuje neopakuje vrcholy
 - $n$ - počet vrcholů
-- $m$ - počet hran
+- $m$ - počet hrans
 
 **Bellmanův princip optimality**
 
@@ -593,11 +593,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzIxMjgyNjcsLTE0MDQ5ODk2MCwtMj
-A1NzQ2NzIwNywyNDgzMjU4ODEsMTE5OTA1NDU4NSwtOTI0OTA0
-NTAxLDYwOTYyNzk2NiwxMzE4ODAxMTcwLDM0MDYzNTI0OCwtOD
-Y4MTUwMzMyLC0xMDEwOTkxODUxLDE3NDUwMTEyNDIsLTY3MzE3
-NjUzOSwtMTA3Mzc1ODIxOSwtNjQ3MDA5NDA4LDE2MjYxODQxNT
-YsLTY2MzAxMjE5OSwxMDI0ODYxMTAxLC04MjIxNTgxODksLTE2
-NDk2MjU5NTNdfQ==
+eyJoaXN0b3J5IjpbMTIwOTM3NTgzNiwtMTc3MjEyODI2NywtMT
+QwNDk4OTYwLC0yMDU3NDY3MjA3LDI0ODMyNTg4MSwxMTk5MDU0
+NTg1LC05MjQ5MDQ1MDEsNjA5NjI3OTY2LDEzMTg4MDExNzAsMz
+QwNjM1MjQ4LC04NjgxNTAzMzIsLTEwMTA5OTE4NTEsMTc0NTAx
+MTI0MiwtNjczMTc2NTM5LC0xMDczNzU4MjE5LC02NDcwMDk0MD
+gsMTYyNjE4NDE1NiwtNjYzMDEyMTk5LDEwMjQ4NjExMDEsLTgy
+MjE1ODE4OV19
 -->
