@@ -69,6 +69,7 @@
 - Jestliže máme nekratší cestu z $a$ do $b$ přes $k$ pak cesta z $a$ do $k$ je také nejkratší stejně tak z $k$ do $b$
 - Belmanova rovnice je trojůhelníková nerovnost s cenami cestami $c$ místo vzdáleností $l$
 - Jinými slovy, nejkratší cesta se skládá ze segmentů nejkratších cest
+![Bellman](https://github.com/pan-sveta/ko-vypisky/blob/main/images/bellman.png?raw=true)
 
 **Algorithm for DAGs**
 
@@ -608,11 +609,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzQ4MzA4ODksLTEyNjA2ODk2MTAsLT
-k0MDM3Nzk5LC0xMzAwMTQxOTk3LC01NDAwMjM5NTMsMzkwNzU1
-NDYxLDEyMDkzNzU4MzYsLTE3NzIxMjgyNjcsLTE0MDQ5ODk2MC
-wtMjA1NzQ2NzIwNywyNDgzMjU4ODEsMTE5OTA1NDU4NSwtOTI0
-OTA0NTAxLDYwOTYyNzk2NiwxMzE4ODAxMTcwLDM0MDYzNTI0OC
-wtODY4MTUwMzMyLC0xMDEwOTkxODUxLDE3NDUwMTEyNDIsLTY3
-MzE3NjUzOV19
+eyJoaXN0b3J5IjpbOTg2Nzk0NTYwLC0xMjYwNjg5NjEwLC05ND
+AzNzc5OSwtMTMwMDE0MTk5NywtNTQwMDIzOTUzLDM5MDc1NTQ2
+MSwxMjA5Mzc1ODM2LC0xNzcyMTI4MjY3LC0xNDA0OTg5NjAsLT
+IwNTc0NjcyMDcsMjQ4MzI1ODgxLDExOTkwNTQ1ODUsLTkyNDkw
+NDUwMSw2MDk2Mjc5NjYsMTMxODgwMTE3MCwzNDA2MzUyNDgsLT
+g2ODE1MDMzMiwtMTAxMDk5MTg1MSwxNzQ1MDExMjQyLC02NzMx
+NzY1MzldfQ==
 -->
