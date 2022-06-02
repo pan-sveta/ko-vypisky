@@ -107,9 +107,11 @@
 - Příklad: https://youtu.be/LCTwYILbmEY?t=991
 - Důkaz (indukcí):
 	- Pro $|R|=1$ tak platí minimum, protože je tam jen start za cenu 0
-	- Pomocí belmana dokážu, že vrchol, který přidávám do $R$ je segmentem nejratší cesty
+	- Pomocí belmana dokážu, že vrchol, který přidávám do $R$ je segmentem nejkratší cesty
 	- Jinými slovy, mám nejkratší cestu $(s,v)$ a přidávám vrchol $w$, protože má ze všech možných cest z $v$ nejmenší cenu. Proto vzniklá cesta $(s,w)$ je opět nejkratší.
 	- https://youtu.be/LCTwYILbmEY?t=1658
+	- Raději přijládám slide z přednášky
+	![Djikstraproof](https://github.com/pan-sveta/ko-vypisky/blob/main/images/djikstra_proof.png?raw=true)
 
 ### Bellman-Ford Algorithm
 
@@ -626,11 +628,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODA1OTM2NzIzLC0xMDE3NTY1MjI0LDE1OD
-Q4NTM0MjYsMzQ4ODQ4Mjk3LC03OTQwMTQyMzIsOTA0MjEwNDQ4
-LDE0NDczMDY3NTQsOTg2Nzk0NTYwLC0xMjYwNjg5NjEwLC05ND
-AzNzc5OSwtMTMwMDE0MTk5NywtNTQwMDIzOTUzLDM5MDc1NTQ2
-MSwxMjA5Mzc1ODM2LC0xNzcyMTI4MjY3LC0xNDA0OTg5NjAsLT
-IwNTc0NjcyMDcsMjQ4MzI1ODgxLDExOTkwNTQ1ODUsLTkyNDkw
-NDUwMV19
+eyJoaXN0b3J5IjpbLTEzMzQ0MTA3MjAsODA1OTM2NzIzLC0xMD
+E3NTY1MjI0LDE1ODQ4NTM0MjYsMzQ4ODQ4Mjk3LC03OTQwMTQy
+MzIsOTA0MjEwNDQ4LDE0NDczMDY3NTQsOTg2Nzk0NTYwLC0xMj
+YwNjg5NjEwLC05NDAzNzc5OSwtMTMwMDE0MTk5NywtNTQwMDIz
+OTUzLDM5MDc1NTQ2MSwxMjA5Mzc1ODM2LC0xNzcyMTI4MjY3LC
+0xNDA0OTg5NjAsLTIwNTc0NjcyMDcsMjQ4MzI1ODgxLDExOTkw
+NTQ1ODVdfQ==
 -->
