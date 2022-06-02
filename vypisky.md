@@ -70,7 +70,7 @@
 		2. Zduplikujeme libovolný vrchol $v$ a zkopírujeme i jeho hrany k novému vrcholu
 		3. Přidáme zdrojový vrchol $s$ a propojíme ho s vrcholem $v$ s cenou 0
 		4. Přidáme cílový vrchol $t$ a propojíme ho s kopiíí vrcholu $v'$ s cenou 0
-	![Negativní cykly redukce](https://github.com/pan-sveta/ko-vypisky/blob/main/images/negative_cycle_reduction.png?raw=true)
+			![Negativní cykly redukce](https://github.com/pan-sveta/ko-vypisky/blob/main/images/negative_cycle_reduction.png?raw=true)
 **Bellmanův princip optimality**
 
 - Jestliže máme nekratší cestu z $a$ do $b$ přes $k$ pak cesta z $a$ do $k$ je také nejkratší stejně tak z $k$ do $b$
@@ -625,11 +625,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTU4NjU3NTgsMzQ4ODQ4Mjk3LC03OT
-QwMTQyMzIsOTA0MjEwNDQ4LDE0NDczMDY3NTQsOTg2Nzk0NTYw
-LC0xMjYwNjg5NjEwLC05NDAzNzc5OSwtMTMwMDE0MTk5NywtNT
-QwMDIzOTUzLDM5MDc1NTQ2MSwxMjA5Mzc1ODM2LC0xNzcyMTI4
-MjY3LC0xNDA0OTg5NjAsLTIwNTc0NjcyMDcsMjQ4MzI1ODgxLD
-ExOTkwNTQ1ODUsLTkyNDkwNDUwMSw2MDk2Mjc5NjYsMTMxODgw
-MTE3MF19
+eyJoaXN0b3J5IjpbMTU4NDg1MzQyNiwzNDg4NDgyOTcsLTc5ND
+AxNDIzMiw5MDQyMTA0NDgsMTQ0NzMwNjc1NCw5ODY3OTQ1NjAs
+LTEyNjA2ODk2MTAsLTk0MDM3Nzk5LC0xMzAwMTQxOTk3LC01ND
+AwMjM5NTMsMzkwNzU1NDYxLDEyMDkzNzU4MzYsLTE3NzIxMjgy
+NjcsLTE0MDQ5ODk2MCwtMjA1NzQ2NzIwNywyNDgzMjU4ODEsMT
+E5OTA1NDU4NSwtOTI0OTA0NTAxLDYwOTYyNzk2NiwxMzE4ODAx
+MTcwXX0=
 -->
