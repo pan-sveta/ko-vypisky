@@ -45,6 +45,7 @@
 	- Je rozdíl, když dělám MST a SPT! Cesty jsou často různé
 - Steiner Tree - nejlevnější propojení vysílače s příjmači v síty
 - Nalézt SP v grafu se zápornými cykli  je NP-hard
+- Bel
 - Sled - posloupnost vrcholů a hran
 - Cesta - sled co neopakuje neopakuje vrcholy
 - $n$ - počet vrcholů
@@ -594,11 +595,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkwNzU1NDYxLDEyMDkzNzU4MzYsLTE3Nz
-IxMjgyNjcsLTE0MDQ5ODk2MCwtMjA1NzQ2NzIwNywyNDgzMjU4
-ODEsMTE5OTA1NDU4NSwtOTI0OTA0NTAxLDYwOTYyNzk2NiwxMz
-E4ODAxMTcwLDM0MDYzNTI0OCwtODY4MTUwMzMyLC0xMDEwOTkx
-ODUxLDE3NDUwMTEyNDIsLTY3MzE3NjUzOSwtMTA3Mzc1ODIxOS
-wtNjQ3MDA5NDA4LDE2MjYxODQxNTYsLTY2MzAxMjE5OSwxMDI0
-ODYxMTAxXX0=
+eyJoaXN0b3J5IjpbMjI4NTczOTAzLDM5MDc1NTQ2MSwxMjA5Mz
+c1ODM2LC0xNzcyMTI4MjY3LC0xNDA0OTg5NjAsLTIwNTc0Njcy
+MDcsMjQ4MzI1ODgxLDExOTkwNTQ1ODUsLTkyNDkwNDUwMSw2MD
+k2Mjc5NjYsMTMxODgwMTE3MCwzNDA2MzUyNDgsLTg2ODE1MDMz
+MiwtMTAxMDk5MTg1MSwxNzQ1MDExMjQyLC02NzMxNzY1MzksLT
+EwNzM3NTgyMTksLTY0NzAwOTQwOCwxNjI2MTg0MTU2LC02NjMw
+MTIxOTldfQ==
 -->
