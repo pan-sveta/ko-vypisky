@@ -53,6 +53,9 @@
 - $n$ - počet vrcholů
 - $m$ - počet hrans
 
+**Troúhelníková nerovnost**
+- U nejkratších cest existuje trojuhelníková nerovnost
+
 **Bellmanův princip optimality**
 
 - Jestliže máme nekratší cestu z $a$ do $b$ přes $k$ pak cesta z $a$ do $k$ je také nejkratší stejně tak z $k$ do $b$
@@ -597,7 +600,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4ODM2MTcyOCwzOTA3NTU0NjEsMTIwOT
+eyJoaXN0b3J5IjpbLTU0MDAyMzk1MywzOTA3NTU0NjEsMTIwOT
 M3NTgzNiwtMTc3MjEyODI2NywtMTQwNDk4OTYwLC0yMDU3NDY3
 MjA3LDI0ODMyNTg4MSwxMTk5MDU0NTg1LC05MjQ5MDQ1MDEsNj
 A5NjI3OTY2LDEzMTg4MDExNzAsMzQwNjM1MjQ4LC04NjgxNTAz
