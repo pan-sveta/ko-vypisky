@@ -61,6 +61,7 @@
 
 **Negativní cykly**
 - Rozbijí nám algoritmy protože porušují trojúhelníkové nerovnosti
+- Proto je nejkratší cesta s negaitvními cykly NP-Hard
 
 
 **Bellmanův princip optimality**
@@ -607,7 +608,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNjY2NTM1MSwtMTMwMDE0MTk5NywtNT
+eyJoaXN0b3J5IjpbLTU3MTA2MzIwOCwtMTMwMDE0MTk5NywtNT
 QwMDIzOTUzLDM5MDc1NTQ2MSwxMjA5Mzc1ODM2LC0xNzcyMTI4
 MjY3LC0xNDA0OTg5NjAsLTIwNTc0NjcyMDcsMjQ4MzI1ODgxLD
 ExOTkwNTQ1ODUsLTkyNDkwNDUwMSw2MDk2Mjc5NjYsMTMxODgw
