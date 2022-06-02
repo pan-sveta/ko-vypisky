@@ -114,7 +114,7 @@
 
 ### A*
 - Když hledáme jen cestu z bodu $s$ do bodu $t$ můžeme ji zrychlit tak, že ukončíme vyhledávání, když dorazíme do bodu $t$
-- Navíc můžeme přidat další informace ()
+- Navíc můžeme přidat další informace (informed search), "jakým směrem" se bod $t$ nachází
 	![Djikstraproof](https://github.com/pan-sveta/ko-vypisky/blob/main/images/djikstra_proof.png?raw=true)
 
 ### Bellman-Ford Algorithm
@@ -632,7 +632,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTMxMjE1NjY2LDI1ODU0ODQ5NiwtMTMzND
+eyJoaXN0b3J5IjpbOTc0NTU3MTUyLDI1ODU0ODQ5NiwtMTMzND
 QxMDcyMCw4MDU5MzY3MjMsLTEwMTc1NjUyMjQsMTU4NDg1MzQy
 NiwzNDg4NDgyOTcsLTc5NDAxNDIzMiw5MDQyMTA0NDgsMTQ0Nz
 MwNjc1NCw5ODY3OTQ1NjAsLTEyNjA2ODk2MTAsLTk0MDM3Nzk5
