@@ -526,8 +526,9 @@ Dáváme **všechny** tásky zdrojům v čase.
 		4. dokud v bodě 3 najdu tasky $\to$ vracím se do bodu 2
 - příklad: https://youtu.be/MjekjcErKPc?t=1874
 
-### Paralel identical resource scheduling ($\alpha _1$ = P)
+### Paralel identical resource scheduling
 --------------------------------------------
+- $\alpha _1$ = P
 - Nejrychleji dokončeno
 	- $P2||C_{max}$ - NP-hard (stejné jako rozdělování lupu mezi dva lupiče)
 	- $P|pmtn|C_{max}$ - easy (McNaughton)
@@ -536,8 +537,8 @@ Dáváme **všechny** tásky zdrojům v čase.
 	- $P||C_{max}$ - NP-hard (LPT aproximation, dynamické programování)
 	- $P|pmtn,prec|C_{max}$ - NP-hard (Muntz&Coffman's level algorithm)
 
-#### McNaughton ($P|pmtn|C_{max}$)
-
+#### McNaughton
+- $P|pmtn|C_{max}$
 - $O(n)$
 - algo:
 	1. spočítám si $C^*_{max}=\max(\max(p_i),\frac{1}{R}\sum^n_1 p_i$)
@@ -546,8 +547,8 @@ Dáváme **všechny** tásky zdrojům v čase.
 	4. dokud nejsou využity všechny tasky $\to$ vracíme se do bodu 2
 - příklad: https://youtu.be/MjekjcErKPc?t=3452
 
-#### LS-aporximation - List scheduling ($P|prec|C_{max}$)
-
+#### LS-aporximation - List scheduling
+- $P|prec|C_{max}$
 - $r=2-\frac{1}{R}$ kde $R$ je počet identických zdrojů
 - algo:
 	1. uspořádáme tásky do seznamu $L$
@@ -556,8 +557,8 @@ Dáváme **všechny** tásky zdrojům v čase.
 	4. z $S$ vybereme první task $T_i$ a vložíme ho do $Z$ se startem v $\max(t_z, a_i)$
 	5. dokud nejsou využity všechny tasky $\to$ vracíme se do bodu 2
 
-#### LPT-aproximation - Longest procesing time first ($P||C_{max}$)
-
+#### LPT-aproximation - Longest procesing time first
+- $P||C_{max}$
 - $O(n \log n)$
 - $r=\frac{4}{3}-\frac{1}{3R}$ kde $R$ je počet identických zdrojů
 - $r=1+\frac{1}{k}-\frac{1}{kR}$ kde $R$ je počet identických zdrojů a $k$ počet tasků na zdroji, který skončí jako poslední
@@ -650,7 +651,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwMDg0NzQyLC02OTA3Mjg5NjUsLTE5NT
+eyJoaXN0b3J5IjpbMjA3NTY5ODgwLC02OTA3Mjg5NjUsLTE5NT
 I4NTA3OTcsLTE1NTk2NjM3ODksMTcwMjIwNDExMSwyNTQxNDI0
 OTUsOTc0NTU3MTUyLDI1ODU0ODQ5NiwtMTMzNDQxMDcyMCw4MD
 U5MzY3MjMsLTEwMTc1NjUyMjQsMTU4NDg1MzQyNiwzNDg4NDgy
