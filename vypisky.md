@@ -132,7 +132,7 @@
 - Příklad 2: https://youtu.be/LCTwYILbmEY?t=7823
 - Důkaz (indukce): 
 	- Vychází z Bellmanova principu optimality
-	- Po prvním kroku (vnější smyčky) budu mít nejkratší cestu $\le$ nejkratší cestě s 1 hranou
+	- Po prvním kroku (vnější smyčky) budu mít nejkratší cestu do vrcholu $v$ $\le$ nejkratší cestě s 1 hranou
 	- Každá další krok tento vztah stále platí jen se zvyšuje počet hran a to právě z bellmana
 	- https://youtu.be/LCTwYILbmEY?t=6967
  
@@ -632,11 +632,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU0MTQyNDk1LDk3NDU1NzE1MiwyNTg1ND
-g0OTYsLTEzMzQ0MTA3MjAsODA1OTM2NzIzLC0xMDE3NTY1MjI0
-LDE1ODQ4NTM0MjYsMzQ4ODQ4Mjk3LC03OTQwMTQyMzIsOTA0Mj
-EwNDQ4LDE0NDczMDY3NTQsOTg2Nzk0NTYwLC0xMjYwNjg5NjEw
-LC05NDAzNzc5OSwtMTMwMDE0MTk5NywtNTQwMDIzOTUzLDM5MD
-c1NTQ2MSwxMjA5Mzc1ODM2LC0xNzcyMTI4MjY3LC0xNDA0OTg5
-NjBdfQ==
+eyJoaXN0b3J5IjpbLTM3MzY3NDE0MSwyNTQxNDI0OTUsOTc0NT
+U3MTUyLDI1ODU0ODQ5NiwtMTMzNDQxMDcyMCw4MDU5MzY3MjMs
+LTEwMTc1NjUyMjQsMTU4NDg1MzQyNiwzNDg4NDgyOTcsLTc5ND
+AxNDIzMiw5MDQyMTA0NDgsMTQ0NzMwNjc1NCw5ODY3OTQ1NjAs
+LTEyNjA2ODk2MTAsLTk0MDM3Nzk5LC0xMzAwMTQxOTk3LC01ND
+AwMjM5NTMsMzkwNzU1NDYxLDEyMDkzNzU4MzYsLTE3NzIxMjgy
+NjddfQ==
 -->
