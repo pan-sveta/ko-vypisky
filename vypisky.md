@@ -111,6 +111,10 @@
 	- Jinými slovy, mám nejkratší cestu $(s,v)$ a přidávám vrchol $w$, protože má ze všech možných cest z $v$ nejmenší cenu. Proto vzniklá cesta $(s,w)$ je opět nejkratší protože neexistují hrany se zápornou váhou.
 	- https://youtu.be/LCTwYILbmEY?t=1658
 	- Raději přijládám slide z přednášky
+
+### A*
+- Když hledáme jen cestu z bodu $s$ do bodu $t$ můžeme ji zrychlit tak, že ukončíme vyhledávání, když dorazíme do bodu $t$
+- Navíc můžeme přidat další informace ()
 	![Djikstraproof](https://github.com/pan-sveta/ko-vypisky/blob/main/images/djikstra_proof.png?raw=true)
 
 ### Bellman-Ford Algorithm
@@ -628,11 +632,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU4NTQ4NDk2LC0xMzM0NDEwNzIwLDgwNT
-kzNjcyMywtMTAxNzU2NTIyNCwxNTg0ODUzNDI2LDM0ODg0ODI5
-NywtNzk0MDE0MjMyLDkwNDIxMDQ0OCwxNDQ3MzA2NzU0LDk4Nj
-c5NDU2MCwtMTI2MDY4OTYxMCwtOTQwMzc3OTksLTEzMDAxNDE5
-OTcsLTU0MDAyMzk1MywzOTA3NTU0NjEsMTIwOTM3NTgzNiwtMT
-c3MjEyODI2NywtMTQwNDk4OTYwLC0yMDU3NDY3MjA3LDI0ODMy
-NTg4MV19
+eyJoaXN0b3J5IjpbOTMxMjE1NjY2LDI1ODU0ODQ5NiwtMTMzND
+QxMDcyMCw4MDU5MzY3MjMsLTEwMTc1NjUyMjQsMTU4NDg1MzQy
+NiwzNDg4NDgyOTcsLTc5NDAxNDIzMiw5MDQyMTA0NDgsMTQ0Nz
+MwNjc1NCw5ODY3OTQ1NjAsLTEyNjA2ODk2MTAsLTk0MDM3Nzk5
+LC0xMzAwMTQxOTk3LC01NDAwMjM5NTMsMzkwNzU1NDYxLDEyMD
+kzNzU4MzYsLTE3NzIxMjgyNjcsLTE0MDQ5ODk2MCwtMjA1NzQ2
+NzIwN119
 -->
