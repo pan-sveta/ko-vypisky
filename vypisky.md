@@ -41,15 +41,15 @@
 - All Pair Shortest Path - nejkratší cesty mezi všemi vrcholy
 - MST (Minimal Spaning Tree) - nejlevnější propojení všech nodů
 - Steiner Tree - nejlevnější propojení vysílače s příjmači v síty
-- nalézt SP v grafu se zápornými cykli  je NP-hard
-- sled - posloupnost vrcholů a hran
-- cesta - sled co neopakuje neopakuje vrcholy
+- Nalézt SP v grafu se zápornými cykli  je NP-hard
+- Sled - posloupnost vrcholů a hran
+- Cesta - sled co neopakuje neopakuje vrcholy
 - $n$ - počet vrcholů
 - $m$ - počet hran
 
 **Bellmanův princip optimality**
 
-- jestliže máme nekratší cestu z $a$ do $b$ přes $k$ pak cesta z $a$ do $k$ je také nejkratší stejně tak z $k$ do $b$
+- Jestliže máme nekratší cestu z $a$ do $b$ přes $k$ pak cesta z $a$ do $k$ je také nejkratší stejně tak z $k$ do $b$
 - Belmanova rovnice je trojůhelníková nerovnost cestami místo hran
 - a.k.a. nejkratší cesta se skládá ze segmentů nejkratších cest
 
@@ -591,10 +591,10 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5OTA1NDU4NSwtOTI0OTA0NTAxLDYwOT
-YyNzk2NiwxMzE4ODAxMTcwLDM0MDYzNTI0OCwtODY4MTUwMzMy
-LC0xMDEwOTkxODUxLDE3NDUwMTEyNDIsLTY3MzE3NjUzOSwtMT
-A3Mzc1ODIxOSwtNjQ3MDA5NDA4LDE2MjYxODQxNTYsLTY2MzAx
-MjE5OSwxMDI0ODYxMTAxLC04MjIxNTgxODksLTE2NDk2MjU5NT
-NdfQ==
+eyJoaXN0b3J5IjpbMjQ4MzI1ODgxLDExOTkwNTQ1ODUsLTkyND
+kwNDUwMSw2MDk2Mjc5NjYsMTMxODgwMTE3MCwzNDA2MzUyNDgs
+LTg2ODE1MDMzMiwtMTAxMDk5MTg1MSwxNzQ1MDExMjQyLC02Nz
+MxNzY1MzksLTEwNzM3NTgyMTksLTY0NzAwOTQwOCwxNjI2MTg0
+MTU2LC02NjMwMTIxOTksMTAyNDg2MTEwMSwtODIyMTU4MTg5LC
+0xNjQ5NjI1OTUzXX0=
 -->
