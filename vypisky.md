@@ -1,6 +1,11 @@
-﻿# KO
 *using KaTeX*
 
+Original author: [Michal Švagr](https://github.com/Mighantos)
+Maintaner: [Filip Štěpánek](https://github.com/pan-sveta)
+
+*Citát*
+
+# KO
 ## ILP
 - $x$ a $y$ - proměnné řešení
 - $l$ - pomocné reálné proměnné
@@ -651,11 +656,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NTY5ODgwLC02OTA3Mjg5NjUsLTE5NT
-I4NTA3OTcsLTE1NTk2NjM3ODksMTcwMjIwNDExMSwyNTQxNDI0
-OTUsOTc0NTU3MTUyLDI1ODU0ODQ5NiwtMTMzNDQxMDcyMCw4MD
-U5MzY3MjMsLTEwMTc1NjUyMjQsMTU4NDg1MzQyNiwzNDg4NDgy
-OTcsLTc5NDAxNDIzMiw5MDQyMTA0NDgsMTQ0NzMwNjc1NCw5OD
-Y3OTQ1NjAsLTEyNjA2ODk2MTAsLTk0MDM3Nzk5LC0xMzAwMTQx
-OTk3XX0=
+eyJoaXN0b3J5IjpbLTExOTM2ODk5NTYsMjA3NTY5ODgwLC02OT
+A3Mjg5NjUsLTE5NTI4NTA3OTcsLTE1NTk2NjM3ODksMTcwMjIw
+NDExMSwyNTQxNDI0OTUsOTc0NTU3MTUyLDI1ODU0ODQ5NiwtMT
+MzNDQxMDcyMCw4MDU5MzY3MjMsLTEwMTc1NjUyMjQsMTU4NDg1
+MzQyNiwzNDg4NDgyOTcsLTc5NDAxNDIzMiw5MDQyMTA0NDgsMT
+Q0NzMwNjc1NCw5ODY3OTQ1NjAsLTEyNjA2ODk2MTAsLTk0MDM3
+Nzk5XX0=
 -->
