@@ -71,6 +71,7 @@
 		3. Přidáme zdrojový vrchol $s$ a propojíme ho s vrcholem $v$ s cenou 0
 		4. Přidáme cílový vrchol $t$ a propojíme ho s kopiíí vrcholu $v'$ s cenou 0
 			![Negativní cykly redukce](https://github.com/pan-sveta/ko-vypisky/blob/main/images/negative_cycle_reduction.png?raw=true)
+
 **Bellmanův princip optimality**
 
 - Jestliže máme nekratší cestu z $a$ do $b$ přes $k$ pak cesta z $a$ do $k$ je také nejkratší stejně tak z $k$ do $b$
@@ -132,7 +133,7 @@
 - Příklad 2: https://youtu.be/LCTwYILbmEY?t=7823
 - Důkaz (indukce): 
 	- Vychází z Bellmanova principu optimality
-	- Po prvním kroku (vnější smyčky) budu mít nejkratší cestu do vrcholu $v$ $\le$ nejkratší cestě s 1 hranou
+	- Po prvním kroku (vnější smyčky) budu mít nejkratší cestu do vrcholu $v$ $\le$ nejkratší cestě s 1 hranou ($l_k(w)=c(c(E(P_k)))$)
 	- Každá další krok tento vztah stále platí jen se zvyšuje počet hran a to právě z bellmana
 	- https://youtu.be/LCTwYILbmEY?t=6967
  
@@ -632,7 +633,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3MzY3NDE0MSwyNTQxNDI0OTUsOTc0NT
+eyJoaXN0b3J5IjpbLTI4OTY0OTA0MSwyNTQxNDI0OTUsOTc0NT
 U3MTUyLDI1ODU0ODQ5NiwtMTMzNDQxMDcyMCw4MDU5MzY3MjMs
 LTEwMTc1NjUyMjQsMTU4NDg1MzQyNiwzNDg4NDgyOTcsLTc5ND
 AxNDIzMiw5MDQyMTA0NDgsMTQ0NzMwNjc1NCw5ODY3OTQ1NjAs
