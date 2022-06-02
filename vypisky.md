@@ -55,10 +55,10 @@
 
 **Algorithm for DAGs**
 
-- skoro jako Bellman-ford
-- vrcholy očíslujeme tak aby menší vždy ukazoval jen na větší
-- postupně bereme vrcholy od prvního po poslední
-- využíváme vlastnosti, že vše co je předemnou už má minimum, takže stačí koukat jen na hrany co do mě vstupují
+- Skoro jako Bellman-ford
+- Vrcholy očíslujeme tak aby menší vždy ukazoval jen na větší
+- Postupně bereme vrcholy od prvního po poslední
+- Využíváme vlastnosti, že vše co je předemnou už má minimum, takže stačí koukat jen na hrany co do mě vstupují
 
 ### Dijkstra Algorithm
 
@@ -591,10 +591,10 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ4MzI1ODgxLDExOTkwNTQ1ODUsLTkyND
-kwNDUwMSw2MDk2Mjc5NjYsMTMxODgwMTE3MCwzNDA2MzUyNDgs
-LTg2ODE1MDMzMiwtMTAxMDk5MTg1MSwxNzQ1MDExMjQyLC02Nz
-MxNzY1MzksLTEwNzM3NTgyMTksLTY0NzAwOTQwOCwxNjI2MTg0
-MTU2LC02NjMwMTIxOTksMTAyNDg2MTEwMSwtODIyMTU4MTg5LC
-0xNjQ5NjI1OTUzXX0=
+eyJoaXN0b3J5IjpbLTIwNTc0NjcyMDcsMjQ4MzI1ODgxLDExOT
+kwNTQ1ODUsLTkyNDkwNDUwMSw2MDk2Mjc5NjYsMTMxODgwMTE3
+MCwzNDA2MzUyNDgsLTg2ODE1MDMzMiwtMTAxMDk5MTg1MSwxNz
+Q1MDExMjQyLC02NzMxNzY1MzksLTEwNzM3NTgyMTksLTY0NzAw
+OTQwOCwxNjI2MTg0MTU2LC02NjMwMTIxOTksMTAyNDg2MTEwMS
+wtODIyMTU4MTg5LC0xNjQ5NjI1OTUzXX0=
 -->
