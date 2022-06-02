@@ -64,8 +64,10 @@
 - Pozor musíme dávat, když otáčíme ceny pro problém nejdelších cest
 - Důkaz:
 	- Dokazujeme přes redukci existence hamiltonovksého cyklu (EHC) na STP
-	- EHC = Máme orientovaný graf s cykly a hledáme cyklusm který prochází všemi vrcholy
-	-  
+	- EHC = Máme orientovaný graf s cykly a hledáme cyklusm který prochází všemi vrcholy právě jednou
+	-  Postup redukce:
+		1. Zkopírujeme graf G a přidáme všem hranám váhu -1
+		2. Zduplikujeme libovolný vrchol
 
 **Bellmanův princip optimality**
 
@@ -621,11 +623,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ4ODQ4Mjk3LC03OTQwMTQyMzIsOTA0Mj
-EwNDQ4LDE0NDczMDY3NTQsOTg2Nzk0NTYwLC0xMjYwNjg5NjEw
-LC05NDAzNzc5OSwtMTMwMDE0MTk5NywtNTQwMDIzOTUzLDM5MD
-c1NTQ2MSwxMjA5Mzc1ODM2LC0xNzcyMTI4MjY3LC0xNDA0OTg5
-NjAsLTIwNTc0NjcyMDcsMjQ4MzI1ODgxLDExOTkwNTQ1ODUsLT
-kyNDkwNDUwMSw2MDk2Mjc5NjYsMTMxODgwMTE3MCwzNDA2MzUy
-NDhdfQ==
+eyJoaXN0b3J5IjpbLTIwMTIxMDAzMjgsMzQ4ODQ4Mjk3LC03OT
+QwMTQyMzIsOTA0MjEwNDQ4LDE0NDczMDY3NTQsOTg2Nzk0NTYw
+LC0xMjYwNjg5NjEwLC05NDAzNzc5OSwtMTMwMDE0MTk5NywtNT
+QwMDIzOTUzLDM5MDc1NTQ2MSwxMjA5Mzc1ODM2LC0xNzcyMTI4
+MjY3LC0xNDA0OTg5NjAsLTIwNTc0NjcyMDcsMjQ4MzI1ODgxLD
+ExOTkwNTQ1ODUsLTkyNDkwNDUwMSw2MDk2Mjc5NjYsMTMxODgw
+MTE3MF19
 -->
