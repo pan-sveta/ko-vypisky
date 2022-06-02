@@ -116,7 +116,7 @@
 ### A*
 - Když hledáme jen cestu z bodu $s$ do bodu $t$ můžeme ji zrychlit tak, že ukončíme vyhledávání, když dorazíme do bodu $t$
 - Navíc můžeme přidat další informace (informed search), "jakým směrem" se bod $t$ nachází
-	![Djikstraproof](https://github.com/pan-sveta/ko-vypisky/blob/main/images/djikstra_proof.png?raw=true)
+	![Djikstraproof](https://github.com/pan-sveta/ko-vypisky/blob/main/images/djiktra_proof.png?raw=true)
 
 ### Bellman-Ford Algorithm
 
@@ -647,11 +647,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MDcyODk2NSwtMTk1Mjg1MDc5NywtMT
-U1OTY2Mzc4OSwxNzAyMjA0MTExLDI1NDE0MjQ5NSw5NzQ1NTcx
-NTIsMjU4NTQ4NDk2LC0xMzM0NDEwNzIwLDgwNTkzNjcyMywtMT
-AxNzU2NTIyNCwxNTg0ODUzNDI2LDM0ODg0ODI5NywtNzk0MDE0
-MjMyLDkwNDIxMDQ0OCwxNDQ3MzA2NzU0LDk4Njc5NDU2MCwtMT
-I2MDY4OTYxMCwtOTQwMzc3OTksLTEzMDAxNDE5OTcsLTU0MDAy
-Mzk1M119
+eyJoaXN0b3J5IjpbLTU4MTY0MjM0NiwtNjkwNzI4OTY1LC0xOT
+UyODUwNzk3LC0xNTU5NjYzNzg5LDE3MDIyMDQxMTEsMjU0MTQy
+NDk1LDk3NDU1NzE1MiwyNTg1NDg0OTYsLTEzMzQ0MTA3MjAsOD
+A1OTM2NzIzLC0xMDE3NTY1MjI0LDE1ODQ4NTM0MjYsMzQ4ODQ4
+Mjk3LC03OTQwMTQyMzIsOTA0MjEwNDQ4LDE0NDczMDY3NTQsOT
+g2Nzk0NTYwLC0xMjYwNjg5NjEwLC05NDAzNzc5OSwtMTMwMDE0
+MTk5N119
 -->
