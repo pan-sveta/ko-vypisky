@@ -45,7 +45,7 @@
 	- Je rozdíl, když dělám MST a SPT! Cesty jsou často různé
 - Steiner Tree - nejlevnější propojení vysílače s příjmači v síty
 - Nalézt SP v grafu se zápornými cykli  je NP-hard
-- Bel
+- Bellman-Ford a Floy podporují negativní hrany
 - Sled - posloupnost vrcholů a hran
 - Cesta - sled co neopakuje neopakuje vrcholy
 - $n$ - počet vrcholů
@@ -595,7 +595,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI4NTczOTAzLDM5MDc1NTQ2MSwxMjA5Mz
+eyJoaXN0b3J5IjpbNDI5MjU4OTc1LDM5MDc1NTQ2MSwxMjA5Mz
 c1ODM2LC0xNzcyMTI4MjY3LC0xNDA0OTg5NjAsLTIwNTc0Njcy
 MDcsMjQ4MzI1ODgxLDExOTkwNTQ1ODUsLTkyNDkwNDUwMSw2MD
 k2Mjc5NjYsMTMxODgwMTE3MCwzNDA2MzUyNDgsLTg2ODE1MDMz
