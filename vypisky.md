@@ -71,7 +71,8 @@
 - Jinými slovy, nejkratší cesta se skládá ze segmentů nejkratších cest
 ![Bellman](https://github.com/pan-sveta/ko-vypisky/blob/main/images/bellman.png?raw=true)
 - Důkaz sporem:
-	- Máme nejkratší cestu z $s$ do $w$, která vede přes $k$
+	- Máme nejkratší cestu z $s$ do $w$, která vede přes $v$, tak, že existuje hrana $(v,w)$
+	- Uvažujme 
 **Algorithm for DAGs**
 
 - Skoro jako Bellman-ford
@@ -610,7 +611,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk2NzY3NTQyLDk4Njc5NDU2MCwtMTI2MD
+eyJoaXN0b3J5IjpbMTAxNzAyMTI1LDk4Njc5NDU2MCwtMTI2MD
 Y4OTYxMCwtOTQwMzc3OTksLTEzMDAxNDE5OTcsLTU0MDAyMzk1
 MywzOTA3NTU0NjEsMTIwOTM3NTgzNiwtMTc3MjEyODI2NywtMT
 QwNDk4OTYwLC0yMDU3NDY3MjA3LDI0ODMyNTg4MSwxMTk5MDU0
