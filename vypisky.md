@@ -63,8 +63,8 @@
 - Proto je nejkratší cesta s negaitvními cykly NP-Hard
 - Pozor musíme dávat, když otáčíme ceny pro problém nejdelších cest
 - Důkaz:
-	- Dokazujeme přes redukci existence hamiltonovksého cyklu na STP
-	- Máme orientovaný graf s cykly a hledáme cyklusm který prochází všemi vrcholy
+	- Dokazujeme přes redukci existence hamiltonovksého cyklu (EHC) na STP
+	- EHC = Máme orientovaný graf s cykly a hledáme cyklusm který prochází všemi vrcholy
 	-  
 
 **Bellmanův princip optimality**
@@ -621,11 +621,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc2ODE4MTUsLTc5NDAxNDIzMiw5MDQyMT
-A0NDgsMTQ0NzMwNjc1NCw5ODY3OTQ1NjAsLTEyNjA2ODk2MTAs
-LTk0MDM3Nzk5LC0xMzAwMTQxOTk3LC01NDAwMjM5NTMsMzkwNz
-U1NDYxLDEyMDkzNzU4MzYsLTE3NzIxMjgyNjcsLTE0MDQ5ODk2
-MCwtMjA1NzQ2NzIwNywyNDgzMjU4ODEsMTE5OTA1NDU4NSwtOT
-I0OTA0NTAxLDYwOTYyNzk2NiwxMzE4ODAxMTcwLDM0MDYzNTI0
-OF19
+eyJoaXN0b3J5IjpbMzQ4ODQ4Mjk3LC03OTQwMTQyMzIsOTA0Mj
+EwNDQ4LDE0NDczMDY3NTQsOTg2Nzk0NTYwLC0xMjYwNjg5NjEw
+LC05NDAzNzc5OSwtMTMwMDE0MTk5NywtNTQwMDIzOTUzLDM5MD
+c1NTQ2MSwxMjA5Mzc1ODM2LC0xNzcyMTI4MjY3LC0xNDA0OTg5
+NjAsLTIwNTc0NjcyMDcsMjQ4MzI1ODgxLDExOTkwNTQ1ODUsLT
+kyNDkwNDUwMSw2MDk2Mjc5NjYsMTMxODgwMTE3MCwzNDA2MzUy
+NDhdfQ==
 -->
