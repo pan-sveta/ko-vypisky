@@ -70,7 +70,8 @@
 - Belmanova rovnice je trojůhelníková nerovnost s cenami cestami $c$ místo vzdáleností $l$
 - Jinými slovy, nejkratší cesta se skládá ze segmentů nejkratších cest
 ![Bellman](https://github.com/pan-sveta/ko-vypisky/blob/main/images/bellman.png?raw=true)
-
+- Důkaz sporem:
+	- Máme nejkratší cestu z $s$ do $w$, která vede přes $k$
 **Algorithm for DAGs**
 
 - Skoro jako Bellman-ford
@@ -609,11 +610,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg2Nzk0NTYwLC0xMjYwNjg5NjEwLC05ND
-AzNzc5OSwtMTMwMDE0MTk5NywtNTQwMDIzOTUzLDM5MDc1NTQ2
-MSwxMjA5Mzc1ODM2LC0xNzcyMTI4MjY3LC0xNDA0OTg5NjAsLT
-IwNTc0NjcyMDcsMjQ4MzI1ODgxLDExOTkwNTQ1ODUsLTkyNDkw
-NDUwMSw2MDk2Mjc5NjYsMTMxODgwMTE3MCwzNDA2MzUyNDgsLT
-g2ODE1MDMzMiwtMTAxMDk5MTg1MSwxNzQ1MDExMjQyLC02NzMx
-NzY1MzldfQ==
+eyJoaXN0b3J5IjpbMjk2NzY3NTQyLDk4Njc5NDU2MCwtMTI2MD
+Y4OTYxMCwtOTQwMzc3OTksLTEzMDAxNDE5OTcsLTU0MDAyMzk1
+MywzOTA3NTU0NjEsMTIwOTM3NTgzNiwtMTc3MjEyODI2NywtMT
+QwNDk4OTYwLC0yMDU3NDY3MjA3LDI0ODMyNTg4MSwxMTk5MDU0
+NTg1LC05MjQ5MDQ1MDEsNjA5NjI3OTY2LDEzMTg4MDExNzAsMz
+QwNjM1MjQ4LC04NjgxNTAzMzIsLTEwMTA5OTE4NTEsMTc0NTAx
+MTI0Ml19
 -->
