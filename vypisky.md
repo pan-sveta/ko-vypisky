@@ -7,8 +7,6 @@ Maintaner: [Filip Štěpánek](https://github.com/pan-sveta)
 *Ano je to těžké, ale život je těžký.*
 ` prof. Dr. Ing. Zdeněk Hanzálek (2021)`
 
-### prof. Dr. Ing. Zdeněk Hanzálek
-
 # KO
 ## ILP
 - $x$ a $y$ - proměnné řešení
@@ -660,7 +658,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDY4MTc4NDgsMjA3NTY5ODgwLC02OT
+eyJoaXN0b3J5IjpbLTEyMDY4ODc0NTksMjA3NTY5ODgwLC02OT
 A3Mjg5NjUsLTE5NTI4NTA3OTcsLTE1NTk2NjM3ODksMTcwMjIw
 NDExMSwyNTQxNDI0OTUsOTc0NTU3MTUyLDI1ODU0ODQ5NiwtMT
 MzNDQxMDcyMCw4MDU5MzY3MjMsLTEwMTc1NjUyMjQsMTU4NDg1
