@@ -37,81 +37,136 @@
 
 - SP (Shortest Path)- nejkratší cesta z $a$ do $b$
 - SPT (Shortest Path Tree) - nejkratší cesty z $a$ do všech ostatních (out-tree)
-- In-tree - nejkratší cesty ze všech do jednoho bodu
+- In-tree - nejkratší cesty ze všech do jednoho bodu (otočíme hrany v SPT)
 - All Pair Shortest Path - nejkratší cesty mezi všemi vrcholy
+- Nejdelší cesta - obrátíme ceny hran
+- Když maj nody váhy - rozdvojím je a vytvořím orintovanou hranu s váhou
 - MST (Minimal Spaning Tree) - nejlevnější propojení všech nodů
+	- Je rozdíl, když dělám MST a SPT! Cesty jsou často různé
 - Steiner Tree - nejlevnější propojení vysílače s příjmači v síty
-- nalézt SP v grafu se zápornými cykli  je NP-hard
-- sled - posloupnost vrcholů a hran
-- cesta - sled co neopakuje neopakuje vrcholy
+- Nalézt SP v grafu se zápornými cykli  je NP-hard
+- Bellman-Ford a Floy podporují negativní hrany
+- Sled (Edge progression) - posloupnost vrcholů a hran
+- Cesta (Path) - neopakují se ani vrcholy ani hrany
+	- Když nejsou negativní cykly - nejkratší sled je i nejkratší cesta
+	- Když nejsou negativní váhy - nejkratší sled obsahuje i nejkratší cestu
 - $n$ - počet vrcholů
-- $m$ - počet hran
+- $m$ - počet hrans
+
+**Troúhelníková nerovnost**
+- $l$ je vzdálenost mezi hranami (počet hran)
+- Platí, že $l(i,j) \leq l(i,k) + l(k,j)$
+![Triangle inequality](https://github.com/pan-sveta/ko-vypisky/blob/main/images/triangle_inequality.png?raw=true)
+
+**Negativní cykly**
+- Rozbijí nám algoritmy
+- Proto je nejkratší cesta s negaitvními cykly NP-Hard
+- Pozor musíme dávat, když otáčíme ceny pro problém nejdelších cest
+- Důkaz:
+	- Dokazujeme přes redukci existence hamiltonovksého cyklu (EHC) na STP
+	- EHC = Máme orientovaný graf s cykly a hledáme cyklusm který prochází všemi vrcholy právě jednou
+	-  Postup redukce:
+		1. Zkopírujeme graf G a přidáme všem hranám váhu -1
+		2. Zduplikujeme libovolný vrchol $v$ a zkopírujeme i jeho hrany k novému vrcholu
+		3. Přidáme zdrojový vrchol $s$ a propojíme ho s vrcholem $v$ s cenou 0
+		4. Přidáme cílový vrchol $t$ a propojíme ho s kopiíí vrcholu $v'$ s cenou 0
+			![Negativní cykly redukce](https://github.com/pan-sveta/ko-vypisky/blob/main/images/negative_cycle_reduction.png?raw=true)
 
 **Bellmanův princip optimality**
 
-- jestliže máme nekratší cestu z $a$ do $b$ přes $k$ pak cesta z $a$ do $k$ je také nejkratší stejně tak z $k$ do $b$
-- Belmanova rovnice je trojůhelníková nerovnost cestami místo hran
-- a.k.a. nejkratší cesta se skládá ze segmentů nejkratších cest
+- Jestliže máme nekratší cestu z $a$ do $b$ přes $k$ pak cesta z $a$ do $k$ je také nejkratší stejně tak z $k$ do $b$
+- Belmanova rovnice je trojůhelníková nerovnost s cenami cestami $c$ místo vzdáleností $l$
+- Jinými slovy, nejkratší cesta se skládá ze segmentů nejkratších cest
+![Bellman](https://github.com/pan-sveta/ko-vypisky/blob/main/images/bellman.png?raw=true)
+- Důkaz sporem:
+	1.
+		- Máme nejkratší cestu z $P_k=(s,w)$, která vede přes $v$, tak, že existují hrany $e=(v,w)$ a $P_{k-1}=(s,v)$
+		- Uvažujme cestu $Q_1 = (s,v)$ takovou, že její cena je menší než cena cesty (v,w)
+		- To je spor s tvrzením, že $P_k=(s,w)$ je nejkratší cesta
+	2. (tohle je možná blbě)
+		- Uvažme další cestu $Q_2 = (s,v)$, která prochází skrze $w$ takovou, že její cesta je kratší než cesta $P_{k-1}$
+		- To je opět spor s tím, že $P_k=(s,w)$ je nejrkatší cesta
+![Bellman proof](https://github.com/pan-sveta/ko-vypisky/blob/main/images/bellman_proof.png?raw=true)
 
 **Algorithm for DAGs**
 
-- skoro jako Bellman-ford
-- vrcholy očíslujeme tak aby menší vždy ukazoval jen na větší
-- postupně bereme vrcholy od prvního po poslední
-- využíváme vlastnosti, že vše co je předemnou už má minimum, takže stačí koukat jen na hrany co do mě vstupují
+- Skoro jako Bellman-ford
+- Vrcholy očíslujeme tak aby menší vždy ukazoval jen na větší
+- Postupně bereme vrcholy od prvního po poslední
+- Využíváme vlastnosti, že vše co je předemnou už má minimum, takže stačí koukat jen na hrany co do mě vstupují
 
 ### Dijkstra Algorithm
 
-- jen nezáporné ceny
+- Pouze nezáporné ceny hran
 - $O(n^2)$ nebo s priority queue $O(m + n \log n)$
 - algo:
-	1. v grafu vrcholům přiřadím hodnotu $\infty$ a startu hodnotu 0
-	2. založíme množinu $R$ což je množina, ve které jsou nejkratší cesty
-	3. vybereme z množini vrcholů mimo $R$ ten s nejmenší hodnotou a vložíme ho do $R$
-	4. pro všechny hrany $\overrightarrow{AB}$ vystupující z $R$ nastavíme hodnotu vrcholů $B$ na opačné straně hrany (mimo $R$) na $\min$(původní hodnota $B$, hodnota $A$ + cena hrany)
-	5. pokud existuje vrchol mimo množinu $R$ $\to$ vracíme se do bodu 3
-- příklad: https://youtu.be/LCTwYILbmEY?t=991
-- proof (indukcí):
-	- pro $|R|=1$ tak platí minimum, protože je tam jen start za cenu 0
-	- pomocí belmana dokážu že ten co přidávám do $R$ už je nejkratší
+	1. V grafu vrcholům přiřadím hodnotu $\infty$ a startu hodnotu 0
+	2. Založíme množinu $R$ což je množina, ve které jsou nejkratší cesty
+	3. Vybereme z množini vrcholů mimo $R$ ten s nejmenší hodnotou a vložíme ho do $R$
+	4. Pro všechny hrany $\overrightarrow{AB}$ vystupující z $R$ nastavíme hodnotu vrcholů $B$ na opačné straně hrany (mimo $R$) na $\min$(původní hodnota $B$, hodnota $A$ + cena hrany)
+	5. Pokud existuje vrchol mimo množinu $R$ $\to$ vracíme se do bodu 3
+- Příklad: https://youtu.be/LCTwYILbmEY?t=991
+- Důkaz (indukcí):
+	- Pro $|R|=1$ tak platí minimum, protože je tam jen start za cenu 0
+	- Pomocí belmana dokážu, že vrchol, který přidávám do $R$ je segmentem nejkratší cesty
+	- Jinými slovy, mám nejkratší cestu $(s,v)$ a přidávám vrchol $w$, protože má ze všech možných cest z $v$ nejmenší cenu. Proto vzniklá cesta $(s,w)$ je opět nejkratší protože neexistují hrany se zápornou váhou.
 	- https://youtu.be/LCTwYILbmEY?t=1658
+	- Raději přijládám slide z přednášky
+
+### A*
+- Když hledáme jen cestu z bodu $s$ do bodu $t$ můžeme ji zrychlit tak, že ukončíme vyhledávání, když dorazíme do bodu $t$
+- Navíc můžeme přidat další informace (informed search), "jakým směrem" se bod $t$ nachází
+	![Djikstraproof](https://github.com/pan-sveta/ko-vypisky/blob/main/images/djikstra_proof.png?raw=true)
 
 ### Bellman-Ford Algorithm
 
-- Umí detekovat záporné cykly (ve vnitřní smyčce kontrolujeme trojúhelníkovou neovnost)
+- Umí detekovat záporné cykly (ve vnitřní smyčce kontrolujeme trojúhelníkovou nerovnost)
 - $O(n*m)$
-- lze řešit dynamickým programováním
-- algo:
-	1. v grafu vrcholům přiřadím hodnotu $\infty$ a startu hodnotu 0
-	2. naincializuji si $i=1$
-	3. projdu všechny hrany $\overrightarrow{AB}$ v grafu a vždy s zeptám zda nezlepším $B$ pomocí hodnoty $A$ + ceny hrany $\overrightarrow{AB}$
-	4. zvětším $i$ = $i+1$
-	5. pokud $i<n$ (kde $n$ je počet vrcholů) a zároveň jsem v bodě 3 vylepšil alespoň jednu hranu $\to$ vracím se do bodu 3
-- příkald 1: https://youtu.be/LCTwYILbmEY?t=6558
-- příklad 2: https://youtu.be/LCTwYILbmEY?t=7823
-- proof (indukce): 
-	- zase z bellmana 
-	- po prvním kroku (vnější smyčky) budu mít nejkratší cestu $\le$ nejkratší cestě s 1 hranou
-	- každá další krok tento vztah stále platí jen se zvyšuje počet hran a to právě z bellmana
+- Lze řešit dynamickým programováním
+- Algoritmus:
+	1. V grafu vrcholům přiřadím hodnotu $\infty$ a startu hodnotu 0
+	2. Naincializuji si $i=1$
+	3. Projdu všechny hrany $\overrightarrow{AB}$ v grafu a vždy s zeptám zda nezlepším $B$ pomocí hodnoty $A$ + ceny hrany $\overrightarrow{AB}$
+	4. Zvětším $i$ = $i+1$
+	5. Pokud $i<n$ (kde $n$ je počet vrcholů) a zároveň jsem v bodě 3 vylepšil alespoň jednu hranu $\to$ vracím se do bodu 3
+- Příkald 1: https://youtu.be/LCTwYILbmEY?t=6558
+- Příklad 2: https://youtu.be/LCTwYILbmEY?t=7823
+- Důkaz (indukce): 
+	- Vychází z Bellmanova principu optimality
+	- Po prvním kroku (vnější smyčky) budu mít nejkratší cestu do vrcholu $v$ $\le$ nejkratší cestě s 1 hranou $(s,v)$
+	- Každá další krok tento vztah stále platí jen se zvyšuje počet hran a to právě z bellmana
+	- Platí $l_k(w)\leq c(E(P_k))$
+		- $l_k(w)$ je label vrcholu $w$ po $k$ iteracích
+		- $P_k$ je nejkratší možná cesta s maximálně $k$ hranami
+		- $c(E(P_k))$ je cena cesty
+	
 	- https://youtu.be/LCTwYILbmEY?t=6967
  
+### DAG
+ - Directed acyclic graph
+ - Graf můžeme topologicky uspořádat tak, že vždycky ukazuje pouze na následníky, nikoli na předky
+ - Užitečné například pro časové osy
+ - Můžeme efektivně procháze modifikovaným Bellman-Fordem v lineárním čase
+ - Složitost $O(|V|+|E|)$
+ ![DAG](https://github.com/pan-sveta/ko-vypisky/blob/main/images/dag.png?raw=true)
+
 ### Floyd Algorithm
 
 - Umí detekovat záporné cykly (na diagonále $l_{ii}$ se objeví záporné číslo)
 - $O(n^3)$
-- hledá All Pair Shortest Path
-- algo:
-	1. nainicializujeme matici $n*n$ s hodnotami $l_{ij}$ dle vah hran, na diagonále $0$ a zbytek $\infin$ 
-	2. nainicializujeme matici $n*n$ s hodnotami $p_{ij}=i$ matice parentů
-	3. máme 3 vnořené smyčky od 1 do $n$ s proměnnými $k$ (vnější), $i$ (prostřední) a $j$ (vnitřní)
-	4. v uplně vnitřní smyčce máme podmínku na zlepšení pokud $l_{ij}>l_{ik}+l_{kj}$ pak nastavíme $l_{ij}=l_{ik}+l_{kj}$ a $p_{ij}=p_{kj}$
-- příklad: https://youtu.be/eFLIzXDeJ6U?t=3518
+- Hledá All Pair Shortest Path
+- Algoritmus:
+	1. Nainicializujeme matici $n*n$ s hodnotami $l_{ij}$ dle vah hran, na diagonále $0$ a zbytek $\infin$ 
+	2. Nainicializujeme matici $n*n$ s hodnotami $p_{ij}=i$ matice parentů
+	3. Máme 3 vnořené smyčky od 1 do $n$ s proměnnými $k$ (vnější), $i$ (prostřední) a $j$ (vnitřní)
+	4. V uplně vnitřní smyčce máme podmínku na zlepšení pokud $l_{ij}>l_{ik}+l_{kj}$ pak nastavíme $l_{ij}=l_{ik}+l_{kj}$ a $p_{ij}=p_{kj}$
+- Příklad: https://youtu.be/eFLIzXDeJ6U?t=3518
 
 **Johnson's algorithm**
 
-- počítá All Pair Shortest Path
-- dobrý na řídké grafy
-- kombinuje Dijkstru a Bellman-Ford
+- Počítá All Pair Shortest Path
+- Dobrý na řídké grafy
+- Kombinuje Dijkstru a Bellman-Ford
 - $O(n*m*\log n)$
 
 ## FLOW
@@ -128,7 +183,7 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 - Max flow - maximalizuje bilanci **s**
 
 **LP zadání**
-![Flows LP](https://github.com/pan-sveta/ko-vypisky/blob/main/images/flows_lp.png?raw=true))
+![Flows LP](https://github.com/pan-sveta/ko-vypisky/blob/main/images/flows_lp.png?raw=true)
 
 **Balance**
  - Hodnota na vrcholu 
@@ -267,10 +322,9 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 - **Maximum Cardinality Matching in Bipartite Graphs** 
 	- Párování s největším počtem hran (spojení) párující vrcholy ze dvou skupin
 	- Lze řešit pomocí max-flow
-	![M-alternig Path](https://github.com/pan-sveta/ko-vypisky/blob/main/images/paring_max_flow.png?raw=true)
+	![Max flow bipartive](https://github.com/pan-sveta/ko-vypisky/blob/main/images/paring_max_flow.png?raw=true)
 - **Minimum Weight Matching in a weighted graph**
 	- Takové párování co nám dá nejmenší součet cen na hranách
-	![M-alternig Path](https://github.com/pan-sveta/ko-vypisky/blob/main/images/paring_max_flow.png?raw=true)
 - **Minimum Weight Perfect Matching**
 	- Takové párování co nám dá nejmenší součet cen na hranách a všechny vrcholy jsou napárované
 	- Známé jako assignment problem
@@ -592,9 +646,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkyNDkwNDUwMSw2MDk2Mjc5NjYsMTMxOD
-gwMTE3MCwzNDA2MzUyNDgsLTg2ODE1MDMzMiwtMTAxMDk5MTg1
-MSwxNzQ1MDExMjQyLC02NzMxNzY1MzksLTEwNzM3NTgyMTksLT
-Y0NzAwOTQwOCwxNjI2MTg0MTU2LC02NjMwMTIxOTksMTAyNDg2
-MTEwMSwtODIyMTU4MTg5LC0xNjQ5NjI1OTUzXX0=
+eyJoaXN0b3J5IjpbLTE5NTI4NTA3OTcsLTE1NTk2NjM3ODksMT
+cwMjIwNDExMSwyNTQxNDI0OTUsOTc0NTU3MTUyLDI1ODU0ODQ5
+NiwtMTMzNDQxMDcyMCw4MDU5MzY3MjMsLTEwMTc1NjUyMjQsMT
+U4NDg1MzQyNiwzNDg4NDgyOTcsLTc5NDAxNDIzMiw5MDQyMTA0
+NDgsMTQ0NzMwNjc1NCw5ODY3OTQ1NjAsLTEyNjA2ODk2MTAsLT
+k0MDM3Nzk5LC0xMzAwMTQxOTk3LC01NDAwMjM5NTMsMzkwNzU1
+NDYxXX0=
 -->
