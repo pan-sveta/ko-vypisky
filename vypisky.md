@@ -447,7 +447,8 @@ Dáváme **všechny** tásky zdrojům v čase.
 		- $\beta$ jsou vlastnosti tasky
 		- $\gamma$ jsou kritéria řešení
 
-### One resurce scheduling ($\alpha$ = 1) --------------------------------------------
+### One resurce scheduling ($\alpha$ = 1)
+--------------------------------------------
 - Nejrychleji dokončeno
 	- $1|prec|C_{max}$ - easy (seřadím dle závislostí + naskládám za sebe)
 	- $1||C_{max}$ - easy (naskádám za sebe)
@@ -647,7 +648,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU4MTY0MjM0NiwtNjkwNzI4OTY1LC0xOT
+eyJoaXN0b3J5IjpbLTM2NTIwMTM3OCwtNjkwNzI4OTY1LC0xOT
 UyODUwNzk3LC0xNTU5NjYzNzg5LDE3MDIyMDQxMTEsMjU0MTQy
 NDk1LDk3NDU1NzE1MiwyNTg1NDg0OTYsLTEzMzQ0MTA3MjAsOD
 A1OTM2NzIzLC0xMDE3NTY1MjI0LDE1ODQ4NTM0MjYsMzQ4ODQ4
