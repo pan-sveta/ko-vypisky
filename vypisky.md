@@ -134,10 +134,12 @@
 - Důkaz (indukce): 
 	- Vychází z Bellmanova principu optimality
 	- Po prvním kroku (vnější smyčky) budu mít nejkratší cestu do vrcholu $v$ $\le$ nejkratší cestě s 1 hranou $(s,v)$
-	- $l_k(w)\leq c(E(P_k))$
-	- $l_k(w)$ je label vrcholu $w$ po $k$ iteracích
-	- $P_k$ je nejrkatší možná cesta s maximálně $k$ hranami
 	- Každá další krok tento vztah stále platí jen se zvyšuje počet hran a to právě z bellmana
+	- Platí $l_k(w)\leq c(E(P_k))$
+		- $l_k(w)$ je label vrcholu $w$ po $k$ iteracích
+		- $P_k$ je nejkratší možná cesta s maximálně $k$ hranami
+		- $c(E(P_k))$ je cena cesty
+	
 	- https://youtu.be/LCTwYILbmEY?t=6967
  
 ### Floyd Algorithm
@@ -636,7 +638,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2NjQyNTQ2NiwyNTQxNDI0OTUsOTc0NT
+eyJoaXN0b3J5IjpbMTcwMjIwNDExMSwyNTQxNDI0OTUsOTc0NT
 U3MTUyLDI1ODU0ODQ5NiwtMTMzNDQxMDcyMCw4MDU5MzY3MjMs
 LTEwMTc1NjUyMjQsMTU4NDg1MzQyNiwzNDg4NDgyOTcsLTc5ND
 AxNDIzMiw5MDQyMTA0NDgsMTQ0NzMwNjc1NCw5ODY3OTQ1NjAs
