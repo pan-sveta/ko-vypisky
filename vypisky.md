@@ -56,8 +56,8 @@
 **Troúhelníková nerovnost**
 - U grafů nás zajímá trojuhelníková nerovnost
 - Pokud platí že $c \leq  a + b$ můžeme použít jednoduší algoritmy
-- U nejkratších cest víme, že $l(i,j) \leq l(i,k) + l(k,j)$
-![Flows LP](https://github.com/pan-sveta/ko-vypisky/blob/main/images/triangle_inequality.png?raw=true)
+- U nejkratších cest víme, že $l(i,j) \leq l(i,k) + l(k,j)$, kde $(i,j)$ je nejkratší cesta
+![Triangle inequality](https://github.com/pan-sveta/ko-vypisky/blob/main/images/triangle_inequality.png?raw=true)
 
 **Bellmanův princip optimality**
 
@@ -603,7 +603,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MzUzNTA4NywtNTQwMDIzOTUzLDM5MD
+eyJoaXN0b3J5IjpbMjAzMzA5OTE4MywtNTQwMDIzOTUzLDM5MD
 c1NTQ2MSwxMjA5Mzc1ODM2LC0xNzcyMTI4MjY3LC0xNDA0OTg5
 NjAsLTIwNTc0NjcyMDcsMjQ4MzI1ODgxLDExOTkwNTQ1ODUsLT
 kyNDkwNDUwMSw2MDk2Mjc5NjYsMTMxODgwMTE3MCwzNDA2MzUy
