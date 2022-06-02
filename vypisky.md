@@ -54,8 +54,9 @@
 - $m$ - počet hrans
 
 **Troúhelníková nerovnost**
-- U nejkratších cest nás zajímá trojuhelníková nerovnost
+- U grafů nás zajímá trojuhelníková nerovnost
 - Pokud platí že $c \leq  a + b$ můžeme použít jednoduší algoritmy
+- U nejkratších cest víme, že $$
 
 **Bellmanův princip optimality**
 
@@ -601,7 +602,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTMwNDM0NDUsLTU0MDAyMzk1MywzOT
+eyJoaXN0b3J5IjpbLTE2NTI4NTA1MzgsLTU0MDAyMzk1MywzOT
 A3NTU0NjEsMTIwOTM3NTgzNiwtMTc3MjEyODI2NywtMTQwNDk4
 OTYwLC0yMDU3NDY3MjA3LDI0ODMyNTg4MSwxMTk5MDU0NTg1LC
 05MjQ5MDQ1MDEsNjA5NjI3OTY2LDEzMTg4MDExNzAsMzQwNjM1
