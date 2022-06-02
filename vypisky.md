@@ -37,7 +37,7 @@
 
 - SP (Shortest Path)- nejkratší cesta z $a$ do $b$
 - SPT (Shortest Path Tree) - nejkratší cesty z $a$ do všech ostatních (out-tree)
-- In-tree - nejkratší cesty ze všech do jednoho bodu
+- In-tree - nejkratší cesty ze všech do jednoho bodu (otočíme hrany v SPT)
 - All Pair Shortest Path - nejkratší cesty mezi všemi vrcholy
 - MST (Minimal Spaning Tree) - nejlevnější propojení všech nodů
 - Steiner Tree - nejlevnější propojení vysílače s příjmači v síty
@@ -591,10 +591,10 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTc0NjcyMDcsMjQ4MzI1ODgxLDExOT
-kwNTQ1ODUsLTkyNDkwNDUwMSw2MDk2Mjc5NjYsMTMxODgwMTE3
-MCwzNDA2MzUyNDgsLTg2ODE1MDMzMiwtMTAxMDk5MTg1MSwxNz
-Q1MDExMjQyLC02NzMxNzY1MzksLTEwNzM3NTgyMTksLTY0NzAw
-OTQwOCwxNjI2MTg0MTU2LC02NjMwMTIxOTksMTAyNDg2MTEwMS
-wtODIyMTU4MTg5LC0xNjQ5NjI1OTUzXX0=
+eyJoaXN0b3J5IjpbNDE4MzUwNzc3LC0yMDU3NDY3MjA3LDI0OD
+MyNTg4MSwxMTk5MDU0NTg1LC05MjQ5MDQ1MDEsNjA5NjI3OTY2
+LDEzMTg4MDExNzAsMzQwNjM1MjQ4LC04NjgxNTAzMzIsLTEwMT
+A5OTE4NTEsMTc0NTAxMTI0MiwtNjczMTc2NTM5LC0xMDczNzU4
+MjE5LC02NDcwMDk0MDgsMTYyNjE4NDE1NiwtNjYzMDEyMTk5LD
+EwMjQ4NjExMDEsLTgyMjE1ODE4OSwtMTY0OTYyNTk1M119
 -->
