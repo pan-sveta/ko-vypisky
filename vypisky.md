@@ -131,7 +131,7 @@
 - Příkald 1: https://youtu.be/LCTwYILbmEY?t=6558
 - Příklad 2: https://youtu.be/LCTwYILbmEY?t=7823
 - Důkaz (indukce): 
-	- Vychází z Bellmanova principu
+	- Vychází z Bellmanova principu optimality
 	- Po prvním kroku (vnější smyčky) budu mít nejkratší cestu $\le$ nejkratší cestě s 1 hranou
 	- Každá další krok tento vztah stále platí jen se zvyšuje počet hran a to právě z bellmana
 	- https://youtu.be/LCTwYILbmEY?t=6967
@@ -140,19 +140,19 @@
 
 - Umí detekovat záporné cykly (na diagonále $l_{ii}$ se objeví záporné číslo)
 - $O(n^3)$
-- hledá All Pair Shortest Path
-- algo:
-	1. nainicializujeme matici $n*n$ s hodnotami $l_{ij}$ dle vah hran, na diagonále $0$ a zbytek $\infin$ 
-	2. nainicializujeme matici $n*n$ s hodnotami $p_{ij}=i$ matice parentů
-	3. máme 3 vnořené smyčky od 1 do $n$ s proměnnými $k$ (vnější), $i$ (prostřední) a $j$ (vnitřní)
-	4. v uplně vnitřní smyčce máme podmínku na zlepšení pokud $l_{ij}>l_{ik}+l_{kj}$ pak nastavíme $l_{ij}=l_{ik}+l_{kj}$ a $p_{ij}=p_{kj}$
-- příklad: https://youtu.be/eFLIzXDeJ6U?t=3518
+- Hledá All Pair Shortest Path
+- Algoritmus:
+	1. Nainicializujeme matici $n*n$ s hodnotami $l_{ij}$ dle vah hran, na diagonále $0$ a zbytek $\infin$ 
+	2. Nainicializujeme matici $n*n$ s hodnotami $p_{ij}=i$ matice parentů
+	3. Máme 3 vnořené smyčky od 1 do $n$ s proměnnými $k$ (vnější), $i$ (prostřední) a $j$ (vnitřní)
+	4. V uplně vnitřní smyčce máme podmínku na zlepšení pokud $l_{ij}>l_{ik}+l_{kj}$ pak nastavíme $l_{ij}=l_{ik}+l_{kj}$ a $p_{ij}=p_{kj}$
+- Příklad: https://youtu.be/eFLIzXDeJ6U?t=3518
 
 **Johnson's algorithm**
 
-- počítá All Pair Shortest Path
-- dobrý na řídké grafy
-- kombinuje Dijkstru a Bellman-Ford
+- Počítá All Pair Shortest Path
+- Dobrý na řídké grafy
+- Kombinuje Dijkstru a Bellman-Ford
 - $O(n*m*\log n)$
 
 ## FLOW
@@ -632,11 +632,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjA0MTc4MjcsOTc0NTU3MTUyLDI1ODU0OD
-Q5NiwtMTMzNDQxMDcyMCw4MDU5MzY3MjMsLTEwMTc1NjUyMjQs
-MTU4NDg1MzQyNiwzNDg4NDgyOTcsLTc5NDAxNDIzMiw5MDQyMT
-A0NDgsMTQ0NzMwNjc1NCw5ODY3OTQ1NjAsLTEyNjA2ODk2MTAs
-LTk0MDM3Nzk5LC0xMzAwMTQxOTk3LC01NDAwMjM5NTMsMzkwNz
-U1NDYxLDEyMDkzNzU4MzYsLTE3NzIxMjgyNjcsLTE0MDQ5ODk2
-MF19
+eyJoaXN0b3J5IjpbMjU0MTQyNDk1LDk3NDU1NzE1MiwyNTg1ND
+g0OTYsLTEzMzQ0MTA3MjAsODA1OTM2NzIzLC0xMDE3NTY1MjI0
+LDE1ODQ4NTM0MjYsMzQ4ODQ4Mjk3LC03OTQwMTQyMzIsOTA0Mj
+EwNDQ4LDE0NDczMDY3NTQsOTg2Nzk0NTYwLC0xMjYwNjg5NjEw
+LC05NDAzNzc5OSwtMTMwMDE0MTk5NywtNTQwMDIzOTUzLDM5MD
+c1NTQ2MSwxMjA5Mzc1ODM2LC0xNzcyMTI4MjY3LC0xNDA0OTg5
+NjBdfQ==
 -->
