@@ -473,8 +473,8 @@ Dáváme **všechny** tásky zdrojům v čase.
 	- $1|pmtn, r_j, d_j=\tilde{d_j}|L_{max}$ - easy (EDD/EDF Horn) 
 	- $1|pmtn, prec, r_j, d_j=\tilde{d_j}|L_{max}$ - easy (převod na $\cancel{prec}$ a pak EDD/EDF) 
 
-#### Bratley's Algorithm (pro $1|r_j,\tilde{d_j}|C_{max}$)
-
+#### Bratley's Algorithm 
+-  $1|r_j,\tilde{d_j}|C_{max}$
 - $O(n!)$
 - algo:
 	- začnu stromovou strukturu s $n$ levely ($n$=počtu tasků)
@@ -487,15 +487,15 @@ Dáváme **všechny** tásky zdrojům v čase.
 		- pokud moje rozpracované řešení má horší hodnotu než již nalezené řešení $\to$ nezanořuji se dál
 - příhlad https://youtu.be/idc516WZZ1I?t=5131
 
-#### Branch and Bound with LP-bounding (pro $1|prec|\sum{w_j C_j}$)
-
+#### Branch and Bound with LP-bounding
+-  $1|prec|\sum{w_j C_j}$
 - branch and bound dokud nenajdu první řešení
 - poté mohu využít částečné řešení ve větvi a spustit LP na zbytek větve
 - výsledek LP ($J^{LP}$) bude lower bound zbytku ve větvi, tudíž pokud $J^{LP}$+částeční řešení větve > aktuálně nejlepší řešení $\to$ větev neprocházím
 - lze použít i jiný zpusob nalezení lower boundu
 
-#### Horn's algorithm  ($1|pmtn, r_j|L_{max}$)
-
+#### Horn's algorithm 
+- $1|pmtn, r_j|L_{max}$
 - řeší: Eareliest Due Date firts a Earliest Deadline First
 - algo:
 	1. najdu $t_1 =\min{(r_j)}$ kde $j$ jsou tasky
@@ -509,8 +509,8 @@ Dáváme **všechny** tásky zdrojům v čase.
 	7. algorithm končí když se provedly všechny tasky
 - příklad: https://youtu.be/MjekjcErKPc?t=708
 
-#### Chetto, Silly, Bouchentouf algorithm  ($1|pmtn, prec, r_j, d_j=\tilde{d_j}|L_{max}$)
-
+#### Chetto, Silly, Bouchentouf algorithm
+- $1|pmtn, prec, r_j, d_j=\tilde{d_j}|L_{max}$
 - pouze změní tasky aby se dal použít Horn
 - $O(n)$
 - algo:
@@ -526,7 +526,8 @@ Dáváme **všechny** tásky zdrojům v čase.
 		4. dokud v bodě 3 najdu tasky $\to$ vracím se do bodu 2
 - příklad: https://youtu.be/MjekjcErKPc?t=1874
 
-### Paralel identical resource scheduling ($\alpha _1$ = P) --------------------------------------------
+### Paralel identical resource scheduling ($\alpha _1$ = P)
+--------------------------------------------
 - Nejrychleji dokončeno
 	- $P2||C_{max}$ - NP-hard (stejné jako rozdělování lupu mezi dva lupiče)
 	- $P|pmtn|C_{max}$ - easy (McNaughton)
@@ -649,7 +650,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTQxMzgwLC02OTA3Mjg5NjUsLTE5NT
+eyJoaXN0b3J5IjpbLTkwMDg0NzQyLC02OTA3Mjg5NjUsLTE5NT
 I4NTA3OTcsLTE1NTk2NjM3ODksMTcwMjIwNDExMSwyNTQxNDI0
 OTUsOTc0NTU3MTUyLDI1ODU0ODQ5NiwtMTMzNDQxMDcyMCw4MD
 U5MzY3MjMsLTEwMTc1NjUyMjQsMTU4NDg1MzQyNiwzNDg4NDgy
