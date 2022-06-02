@@ -72,11 +72,11 @@
 ![Bellman](https://github.com/pan-sveta/ko-vypisky/blob/main/images/bellman.png?raw=true)
 - Důkaz sporem:
 	1.
-		- Máme nejkratší cestu z $P_k=(s,w)$, která vede přes $v$, tak, že existuje hrana $(v,w)$ a označíme jí $P_{k-1}=(s,v)$
+		- Máme nejkratší cestu z $P_k=(s,w)$, která vede přes $v$, tak, že existuje hrana $(v,w)$, $P_{k-1}=(s,v)$
 		- Uvažujme cestu $Q_1 = (s,v)$ takovou, že její cena je menší než cena cesty (v,w)
 		- To je spor s tvrzením, že $(s,w)$ je nejkratší cesta
 	2. (tohle je možná blbě)
-		- Uvažme další cestu $Q_2 = (s,v)$, která prochází skrze $w$
+		- Uvažme další cestu $Q_2 = (s,v)$, která prochází skrze $w$ takovou, že její cesta je kratší než cesta $P_{k-1}$
 		- 
 
 
@@ -618,11 +618,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ0NzMwNjc1NCw5ODY3OTQ1NjAsLTEyNj
-A2ODk2MTAsLTk0MDM3Nzk5LC0xMzAwMTQxOTk3LC01NDAwMjM5
-NTMsMzkwNzU1NDYxLDEyMDkzNzU4MzYsLTE3NzIxMjgyNjcsLT
-E0MDQ5ODk2MCwtMjA1NzQ2NzIwNywyNDgzMjU4ODEsMTE5OTA1
-NDU4NSwtOTI0OTA0NTAxLDYwOTYyNzk2NiwxMzE4ODAxMTcwLD
-M0MDYzNTI0OCwtODY4MTUwMzMyLC0xMDEwOTkxODUxLDE3NDUw
-MTEyNDJdfQ==
+eyJoaXN0b3J5IjpbNzU2MjIyMzA0LDE0NDczMDY3NTQsOTg2Nz
+k0NTYwLC0xMjYwNjg5NjEwLC05NDAzNzc5OSwtMTMwMDE0MTk5
+NywtNTQwMDIzOTUzLDM5MDc1NTQ2MSwxMjA5Mzc1ODM2LC0xNz
+cyMTI4MjY3LC0xNDA0OTg5NjAsLTIwNTc0NjcyMDcsMjQ4MzI1
+ODgxLDExOTkwNTQ1ODUsLTkyNDkwNDUwMSw2MDk2Mjc5NjYsMT
+MxODgwMTE3MCwzNDA2MzUyNDgsLTg2ODE1MDMzMiwtMTAxMDk5
+MTg1MV19
 -->
