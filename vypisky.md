@@ -108,7 +108,7 @@
 - Důkaz (indukcí):
 	- Pro $|R|=1$ tak platí minimum, protože je tam jen start za cenu 0
 	- Pomocí belmana dokážu, že vrchol, který přidávám do $R$ je segmentem nejkratší cesty
-	- Jinými slovy, mám nejkratší cestu $(s,v)$ a přidávám vrchol $w$, protože má ze všech možných cest z $v$ nejmenší cenu. Proto vzniklá cesta $(s,w)$ je opět nejkratší.
+	- Jinými slovy, mám nejkratší cestu $(s,v)$ a přidávám vrchol $w$, protože má ze všech možných cest z $v$ nejmenší cenu. Proto vzniklá cesta $(s,w)$ je opět nejkratší protože neexistují hrany se zápornou váhou.
 	- https://youtu.be/LCTwYILbmEY?t=1658
 	- Raději přijládám slide z přednášky
 	![Djikstraproof](https://github.com/pan-sveta/ko-vypisky/blob/main/images/djikstra_proof.png?raw=true)
@@ -628,11 +628,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzQ0MTA3MjAsODA1OTM2NzIzLC0xMD
-E3NTY1MjI0LDE1ODQ4NTM0MjYsMzQ4ODQ4Mjk3LC03OTQwMTQy
-MzIsOTA0MjEwNDQ4LDE0NDczMDY3NTQsOTg2Nzk0NTYwLC0xMj
-YwNjg5NjEwLC05NDAzNzc5OSwtMTMwMDE0MTk5NywtNTQwMDIz
-OTUzLDM5MDc1NTQ2MSwxMjA5Mzc1ODM2LC0xNzcyMTI4MjY3LC
-0xNDA0OTg5NjAsLTIwNTc0NjcyMDcsMjQ4MzI1ODgxLDExOTkw
-NTQ1ODVdfQ==
+eyJoaXN0b3J5IjpbMjU4NTQ4NDk2LC0xMzM0NDEwNzIwLDgwNT
+kzNjcyMywtMTAxNzU2NTIyNCwxNTg0ODUzNDI2LDM0ODg0ODI5
+NywtNzk0MDE0MjMyLDkwNDIxMDQ0OCwxNDQ3MzA2NzU0LDk4Nj
+c5NDU2MCwtMTI2MDY4OTYxMCwtOTQwMzc3OTksLTEzMDAxNDE5
+OTcsLTU0MDAyMzk1MywzOTA3NTU0NjEsMTIwOTM3NTgzNiwtMT
+c3MjEyODI2NywtMTQwNDk4OTYwLC0yMDU3NDY3MjA3LDI0ODMy
+NTg4MV19
 -->
