@@ -142,11 +142,14 @@
 	
 	- https://youtu.be/LCTwYILbmEY?t=6967
  
- ### DAG
+### DAG
  - Directed acyclic graph
  - Graf můžeme topologicky uspořádat tak, že vždycky ukazuje pouze na následníky, nikoli na předky
  - Užitečné například pro časové osy
- 
+ - Můžeme efektivně procháze modifikovaným Bellman-Fordem v lineárním čase
+ - Složitost $O(|V|+|E|)$
+ ![DAG](https://github.com/pan-sveta/ko-vypisky/blob/main/images/dag.png?raw=true)
+
 ### Floyd Algorithm
 
 - Umí detekovat záporné cykly (na diagonále $l_{ii}$ se objeví záporné číslo)
@@ -643,11 +646,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwMjcxNTA5NCwtMTU1OTY2Mzc4OSwxNz
-AyMjA0MTExLDI1NDE0MjQ5NSw5NzQ1NTcxNTIsMjU4NTQ4NDk2
-LC0xMzM0NDEwNzIwLDgwNTkzNjcyMywtMTAxNzU2NTIyNCwxNT
-g0ODUzNDI2LDM0ODg0ODI5NywtNzk0MDE0MjMyLDkwNDIxMDQ0
-OCwxNDQ3MzA2NzU0LDk4Njc5NDU2MCwtMTI2MDY4OTYxMCwtOT
-QwMzc3OTksLTEzMDAxNDE5OTcsLTU0MDAyMzk1MywzOTA3NTU0
-NjFdfQ==
+eyJoaXN0b3J5IjpbLTE5NTI4NTA3OTcsLTE1NTk2NjM3ODksMT
+cwMjIwNDExMSwyNTQxNDI0OTUsOTc0NTU3MTUyLDI1ODU0ODQ5
+NiwtMTMzNDQxMDcyMCw4MDU5MzY3MjMsLTEwMTc1NjUyMjQsMT
+U4NDg1MzQyNiwzNDg4NDgyOTcsLTc5NDAxNDIzMiw5MDQyMTA0
+NDgsMTQ0NzMwNjc1NCw5ODY3OTQ1NjAsLTEyNjA2ODk2MTAsLT
+k0MDM3Nzk5LC0xMzAwMTQxOTk3LC01NDAwMjM5NTMsMzkwNzU1
+NDYxXX0=
 -->
