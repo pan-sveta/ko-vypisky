@@ -397,6 +397,10 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 - Tabulky: https://youtu.be/71B1FMVVX_o?t=7252
 - Lze zmenšit počet sloupců (zrychlit algo) nalezením dělitele $t$ ve tvaru $\bar{c_j} = \lfloor \frac{c_j}{t} \rfloor$ (pokud se nejedná o společného dělitele snižujeme přesnost řešení)
 
+#### Aproximační schéma
+1. Spustíme 2-aproximační algoritmus
+2. Spočítáme proměnou $t=max\{
+
 ## TSP
 - Cesta v grafu přes všechny vrcholy grafu - Hamiltonovská cesta
 - Spojení posledního a prvního vrcholu - Hamiltonovská kružnice
@@ -748,11 +752,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzQ0NjIyNzA4LC03MzU3MjgwNTQsLTEyND
-E3NzY0ODIsLTE2MTg4NjkxMzQsMjEyODg3NjYwMSwtMTU0NzM5
-Njg5OCwtNDkyNDM2MDY1LC0zOTk3ODQzMTYsMTc5ODI4NTY0NC
-wtMTU0MjU2OTA4MSw1OTA2NzY4OTcsMTk1Mzk5OTAzMCwtMTMw
-MzE3OTMyMSw5NDExNzQyNjIsLTE0MzQ5NDc3MzMsLTIxNTc5NT
-E2MywtMTgzNTM2NjMzOCwtMTc2NzQ5NTk1MywtNDc0NzM0MDk2
-LC0xMjA2ODg3NDU5XX0=
+eyJoaXN0b3J5IjpbMTYwNDAwMDgzOCwzNDQ2MjI3MDgsLTczNT
+cyODA1NCwtMTI0MTc3NjQ4MiwtMTYxODg2OTEzNCwyMTI4ODc2
+NjAxLC0xNTQ3Mzk2ODk4LC00OTI0MzYwNjUsLTM5OTc4NDMxNi
+wxNzk4Mjg1NjQ0LC0xNTQyNTY5MDgxLDU5MDY3Njg5NywxOTUz
+OTk5MDMwLC0xMzAzMTc5MzIxLDk0MTE3NDI2MiwtMTQzNDk0Nz
+czMywtMjE1Nzk1MTYzLC0xODM1MzY2MzM4LC0xNzY3NDk1OTUz
+LC00NzQ3MzQwOTZdfQ==
 -->
