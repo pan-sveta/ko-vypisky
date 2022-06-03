@@ -461,13 +461,15 @@ Stejné jako knapsack, ale předměty nemusíme vkládat celé. Řeší bin pack
 
 - 2-aproximační alog
 - $O(n^2)$
-- algo:
-	1. najdeme MST
-	2. pomocí zdvojení hran v MST najdeme Eulerovský tah
-	3. z Eulerovského tahu odebereme vrcholy co jsme už navštívili, ale ponecháme poslední
-		- příkald: https://youtu.be/p9qiafTnd6Q?t=3726
+- Algoritmus:
+	1. Najdeme MST
+	2. Pomocí zdvojení hran v MST najdeme Eulerovský tah
+	3. Z Eulerovského tahu odebereme vrcholy co jsme už navštívili, ale ponecháme poslední
+		- Příkald: https://youtu.be/p9qiafTnd6Q?t=3726
 			- EuT = ABCBADAEA
 			- TSP = ABCDEA
+- Důkaz faktoru $r=2$:
+	- Protozože v grafu existu
 
 ### Christofides Algorithm (metric TSP)
 
@@ -721,11 +723,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDMxNzkzMjEsOTQxMTc0MjYyLC0xND
-M0OTQ3NzMzLC0yMTU3OTUxNjMsLTE4MzUzNjYzMzgsLTE3Njc0
-OTU5NTMsLTQ3NDczNDA5NiwtMTIwNjg4NzQ1OSwyMDc1Njk4OD
-AsLTY5MDcyODk2NSwtMTk1Mjg1MDc5NywtMTU1OTY2Mzc4OSwx
-NzAyMjA0MTExLDI1NDE0MjQ5NSw5NzQ1NTcxNTIsMjU4NTQ4ND
-k2LC0xMzM0NDEwNzIwLDgwNTkzNjcyMywtMTAxNzU2NTIyNCwx
-NTg0ODUzNDI2XX0=
+eyJoaXN0b3J5IjpbLTE2OTQ4OTYyMTYsLTEzMDMxNzkzMjEsOT
+QxMTc0MjYyLC0xNDM0OTQ3NzMzLC0yMTU3OTUxNjMsLTE4MzUz
+NjYzMzgsLTE3Njc0OTU5NTMsLTQ3NDczNDA5NiwtMTIwNjg4Nz
+Q1OSwyMDc1Njk4ODAsLTY5MDcyODk2NSwtMTk1Mjg1MDc5Nywt
+MTU1OTY2Mzc4OSwxNzAyMjA0MTExLDI1NDE0MjQ5NSw5NzQ1NT
+cxNTIsMjU4NTQ4NDk2LC0xMzM0NDEwNzIwLDgwNTkzNjcyMywt
+MTAxNzU2NTIyNF19
 -->
