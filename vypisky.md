@@ -464,12 +464,12 @@ Stejné jako knapsack, ale předměty nemusíme vkládat celé. Řeší bin pack
 - Algoritmus:
 	1. Najdeme MST $T$
 	2. Pomocí zdvojení hran v $T$ najdeme Eulerovský tah $L$
-	3. Z Eulerovského tahu $T$ odebereme vrcholy co jsme už navštívili, ale ponecháme poslední
+	3. Z Eulerovského tahu $T$ odebereme vrcholy co jsme už navštívili, ale ponecháme poslední a tím vytvoříme Hamilnovskou kružnici $H$
 		- Příkald: https://youtu.be/p9qiafTnd6Q?t=3726
 			- EuT = ABCBADAEA
 			- TSP = ABCDEA
 - Důkaz faktoru $r=2$:
-	- Protozože v grafu platí troúhelníková nerovnost, vynechané hrany nemůžou prodloužit cestu, $c(E(L)) \ge c(E(H))
+	- Protozože v grafu platí troúhelníková nerovnost, vynechané hrany nemůžou prodloužit cestu, $c(E(L)) \ge c(E(H))$
 
 ### Christofides Algorithm (metric TSP)
 
@@ -723,11 +723,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1Mzk5OTAzMCwtMTMwMzE3OTMyMSw5ND
-ExNzQyNjIsLTE0MzQ5NDc3MzMsLTIxNTc5NTE2MywtMTgzNTM2
-NjMzOCwtMTc2NzQ5NTk1MywtNDc0NzM0MDk2LC0xMjA2ODg3ND
-U5LDIwNzU2OTg4MCwtNjkwNzI4OTY1LC0xOTUyODUwNzk3LC0x
-NTU5NjYzNzg5LDE3MDIyMDQxMTEsMjU0MTQyNDk1LDk3NDU1Nz
-E1MiwyNTg1NDg0OTYsLTEzMzQ0MTA3MjAsODA1OTM2NzIzLC0x
-MDE3NTY1MjI0XX0=
+eyJoaXN0b3J5IjpbMTU2NzQ5ODE2OCwxOTUzOTk5MDMwLC0xMz
+AzMTc5MzIxLDk0MTE3NDI2MiwtMTQzNDk0NzczMywtMjE1Nzk1
+MTYzLC0xODM1MzY2MzM4LC0xNzY3NDk1OTUzLC00NzQ3MzQwOT
+YsLTEyMDY4ODc0NTksMjA3NTY5ODgwLC02OTA3Mjg5NjUsLTE5
+NTI4NTA3OTcsLTE1NTk2NjM3ODksMTcwMjIwNDExMSwyNTQxND
+I0OTUsOTc0NTU3MTUyLDI1ODU0ODQ5NiwtMTMzNDQxMDcyMCw4
+MDU5MzY3MjNdfQ==
 -->
