@@ -1,6 +1,13 @@
-﻿# KO
 *using KaTeX*
 
+Original author: [Michal Švagr](https://github.com/Mighantos)
+Maintaner: [Filip Štěpánek](https://github.com/pan-sveta)
+
+***Citát***
+*Ano je to těžké, ale život je těžký.*
+` prof. Dr. Ing. Zdeněk Hanzálek (2021)`
+
+# KO
 ## ILP
 - $x$ a $y$ - proměnné řešení
 - $l$ - pomocné reálné proměnné
@@ -54,8 +61,13 @@
 - $m$ - počet hrans
 
 **Troúhelníková nerovnost**
-- $l$ je vzdálenost mezi hranami (počet hran)
-- Platí, že $l(i,j) \leq l(i,k) + l(k,j)$
+- $l$ je suma cen v nejkratší cestě 
+- $c$ je suma cen v cestě
+- Platí, že:
+	- $l(i,j) \leq l(i,k) + l(k,j)$
+	- $l(i, j) \leq c(i, j)$
+	- $l(i, j) \leq l(i, k) + c(k, j)$
+	- $l(i, j) \leq c(i, k) + l(k, j)$
 ![Triangle inequality](https://github.com/pan-sveta/ko-vypisky/blob/main/images/triangle_inequality.png?raw=true)
 
 **Negativní cykly**
@@ -277,7 +289,7 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 	 - Postup:
 		 1. Nastavíme **b(v)**=0 pro všechny vrcholy
 		 2. Nastavíme **l(e)**=1 a **u(e)**=∞ pro všechny hrany
-		 3. Vyřešíme max flow
+		 3. Vyřešíme min flow
 	- Existuje pošťákova cesta, která využívá každou hranu přesně jednou (tj.  Eulerian walk) iif pokud má každý vrchol stejný indegree a outdegree (tj. Eulerian digraph).
 
 ### Cycle Canceling Algorithm (řeší Minimum cost flow)
@@ -371,52 +383,125 @@ Stejné jako knapsack, ale předměty nemusíme vkládat celé. Řeší bin pack
 	- tabulky: https://youtu.be/71B1FMVVX_o?t=7252
 	- lze zmenšit počet sloupců (zrychlit algo) nalezením dělitele $t$ ve tvaru $\bar{c_j} = \lfloor \frac{c_j}{t} \rfloor$ (pokud se nejedná o společného dělitele snižujeme přesnost řešení)
 
+
 ## TSP
 
-Cesta v grafu přes všechny vrcholy grafu (Hamiltonovská cesta) a spojení posledního a prvního vrcholu (Hamiltonovská kružnice) s minimální cenou. Reálné problémy TSP: Capacitated Vehicle routing Problem, Time Windows, Pick-up and Delivery.
-- symetrické TSP - v neorientovaném grafu
-- asymetrické TSP - v orientovaném grafu
-- neexistuje n-aproximační algo pro **obecné** TSP
+- Cesta v grafu přes všechny vrcholy grafu - Hamiltonovská cesta
+- Spojení posledního a prvního vrcholu - Hamiltonovská kružnice
+- Reálné problémy TSP: Capacitated Vehicle routing Problem, Time Windows, Pick-up and Delivery.
+- **EHC** - existence hamiltonovské kružnice (circuit)
+	- Existuje kružnice, která prochází všemi vrcholy právě jednou?
+	- Neorintovaný graf (obecný)
+	- Rozhodovací problém - NP-Complete
+	- Podobně existence hamiltonovského cyklu - v orientovaném grafu
+- **TSP** - traveling salesman problem
+	- Naleznout hamiltonovskou kružnici s minimální váhou
+	- Symetrické TSP - v neorientovaném grafu
+	- Asymetrické TSP - v orientovaném grafu
+	- Optimalizační problém - NP-Hard
+		- Počet hamiltonovských kružnic = $\frac{(n-1)!}{2}$
+		- Ale nevíme proč je to tak těžký (jakože to neví ani Hanzálek), MSTs je ještě víc
 
-**Metric TSP** - Má vlastnost, že platí trojůhelníková nerovnost (cesta $|\overrightarrow{AB}| \le$ cestě $|\overrightarrow{ACB}|$)
+### NP-Hard problémy
+- NP-Hard problémy 
+	- Neumíme najít polynomiální algoritmy
+	- Řešitelné pseudopolynomiálním algoritmem (e.g. dynamické programování)
+	- Složitost se pronásobuje konstantou, která souvisí s nějakým parametrem grafu (e.g. součet vah objektů u Knapsacku)
+- Silně NP-Hard problémy
+	- Neumíme na ně najít pseudopolynomiální algoritmy (e.g. dynamické programování)
+	- Nepomůže nám omezit parametry vstupu polynomem - stále zůstává NP-Hard
+
+### Důkaz, že TSP je NP-Hard
+- Mějme:
+	-  $L = TSP$
+	- $L_p = TSP\ s\ resktricí\ c(e) \in {1,2}$ (t.j. omezení na váhy hran 1 a 2)
+- Dokazujeme, že i když takto omezíme váhy hran, problém je stále NP hard a proto je silně NP-Hard
+- Použijeme polynomiální redukci z existence hamiltonovské kružnice
+- Postup:
+	- Vezmeme neoritovaný graf $G$ s $n$ vrcholy
+	- V tom najdeme libovolnou hamiltonovskou kružnici $G'$
+	- V grafu $G$ ohodnotíme každou hranu z $G'$ váhou 1 a ostatní hrany váhou 2
+	- $G$ má hamiltonovskou kružnici iif optimální TSP řešení je rovno $n$
+![TSP is NP-Hard](https://github.com/pan-sveta/ko-vypisky/blob/main/images/tsp_is_hard.png?raw=true)
+
+### Obecný r-aproximační algoritmus
+- Neexistuje n-aproximační algoritmus pro **obecné** TSP
+- Důkaz sporem
+- Uvažujme, že existuje r-aproximační algoritmus $\mathcal{A}$ s $r \ge 1$
+- Ukážeme, že s tímto $\mathcal{A}$ jsme schopni řešit existenci hamiltonovské kružnice
+- To by znamenalo, že $P=NP$
+- Postup:
+	- Mějme neorientovaný graf $G$, ve kterém chceme najít hamiltonovskou kružnici
+	- Vytvoříme TSP instanci $K_n$ takovou, že vrcholy jsou totožné a hrany ohodnotíme:
+		- $1$ pro hrany $\in G$
+		- $2 + (r-1)*n$ pro hrany $\not\in G$
+	- Vyřešíme pomocí $\mathcal{A}$ 
+		- Pokud je optimum v intervalu $<n, r*n>$, pak Hamiltonovská kružnice existuje
+		- Pokud je větší, G nemá hamiltonovský cyklus
+![Genereal approximation proof](https://github.com/pan-sveta/ko-vypisky/blob/main/images/tsp_general_approx_proof.png?raw=true)
+
+**Metric TSP**
+- Má vlastnost, že platí trojůhelníková nerovnost $c(|\overrightarrow{AB}|) \le$ $c(|\overrightarrow{AC}|)+ c (|\overrightarrow{CB}|$)
+- Nadále silně NP-hard
+- Existují aproximační algoritmy
+- Nemetrickou instanci můžeme pevést na metrickou přičtením největší váhy hrany ke všem hranám
+	- To neporošuje přechozí důkaz, protože nalezené optimum pro transformovaný graf neodpovídá přesně původnímu grafu, protože je k němu přičteno "velké číslo" zatažené transformací
 
 **Nearest Neighbor** 
-1. vybereme první vrchol a přeindexujeme na $v_{[1]}$
-2. vybereme nejlacinější hranu, která z nás vychází a nejde do vrcholů, ve kterých jsme už byli
-3. opakujeme bod 2 dokud nemáme všechny vecholy
-4. spojíme poslední vrchol s $v_{[1]}$
 - $O(n^2)$
+- Heuristika, nikoli aproximační algoritmus
+- Postup:
+	1. Vybereme první vrchol a přeindexujeme na $v_{[1]}$
+	2. Vybereme nejlacinější hranu, která z nás vychází a nejde do vrcholů, ve kterých jsme už byli
+	3. Opakujeme bod 2 dokud nemáme všechny vrcholy
+	4. Spojíme poslední vrchol s $v_{[1]}$
+
 
 ### Double-tree (metric TSP)
 
 - 2-aproximační alog
 - $O(n^2)$
-- algo:
-	1. najdeme MST
-	2. pomocí zdvojení hran v MST najdeme Eulerovský tah
-	3. z Eulerovského tahu odebereme vrcholy co jsme už navštívili, ale ponecháme poslední
-		- příkald: https://youtu.be/p9qiafTnd6Q?t=3726
+- Algoritmus:
+	1. Najdeme MST $T$
+	2. Všchny hrany v  $T$ zvojíme
+	3. V $T$ nalezneme Eulerovský tah $L$
+	4. Z Eulerovského tahu $L$ odebereme vrcholy co jsme už navštívili, ale ponecháme poslední a tím vytvoříme Hamilnovskou kružnici $H$
+		- Příkald: https://youtu.be/p9qiafTnd6Q?t=3726
 			- EuT = ABCBADAEA
 			- TSP = ABCDEA
+- Důkaz faktoru $r=2$:
+	1. Protozože v grafu platí troúhelníková nerovnost, vynechané hrany nemůžou prodloužit cestu, $c(E(L)) \ge c(E(H))$ ($H$ může používat zkratky, které nejsou v $L$)
+	2. Když smažeme jednu hranu v kružnici, vytvoříme strom. Proto platí nerovnost $OPT(K_n,c) \ge c(E(T))$ (cena kružnice $\ge$ cena MST)
+	3. Platí $2*c(E(T))=c(E(L))$ protože tvoříme $L$ zdvojením hran v $T$
+	- Z toho vyvozujeme, že $2*OPT(K_n,c) \ge c(E(H))$
+		- protože $2*OPT(K_n,c)\ge^{2.}2*c(E(T))=^{3.}c(E(L))\ge^{1.}c(E(H))$
 
 ### Christofides Algorithm (metric TSP)
 
 - $\frac{3}{2}$-aproximační algo
 - $O(n^3)$
-- algo:
-	1. najdeme MST
-	2. najdeme množinu $W$ = vrcholům s lichým stupněm (bude jich sudý počet)
-	3. v množině $W$ najdemme Minimum weight matching a tyto hrany přidáme do MST
-	4. najdeme Eulerovský tah v upraveném MST
-	5. z Eulerovského tahu odebereme vrcholy co jsme už navštívili, ale ponecháme poslední
-- příkald (pravá část tabule): https://youtu.be/p9qiafTnd6Q?t=4615
+- Algoritmus:
+	1. Najdeme MST $T$
+	2. Najdeme množinu $W$ = vrcholům s lichým stupněm z $T$ (bude jich sudý počet)
+	3. V množině $W$ najdemme Minimum weight matching $M$ a tyto hrany přidáme do $T$
+	4. Najdeme Eulerovský tah $L$ v upraveném MST
+	5. z Eulerovského tahu odebereme vrcholy co jsme už navštívili, ale ponecháme poslední a tím získáme hamiltnovskou kružnici $H$
+- Příkald (pravá část tabule): https://youtu.be/p9qiafTnd6Q?t=4615
+- Důkaz faktoru $r=\frac{3}{2}$:
+	1. Protozože v grafu platí troúhelníková nerovnost, vynechané hrany nemůžou prodloužit cestu, $c(E(L)) \ge c(E(H))$ ($H$ může používat zkratky, které nejsou v $L$)
+	2. Když smažeme jednu hranu v kružnici, vytvoříme strom. Proto platí nerovnost $OPT(K_n,c) \ge c(E(T))$ (cena kružnice $\ge$ cena MST)
+	3. Protože perfektní párování $M$ používá každou druhou hranu ve střídajiící cestě a protože je to párování s minimální vahou, tak vybere menší polovinu
+		- $\frac{OPT(K_n),c}{2}\ge c(E(M))$
+		![Christofides 3](https://github.com/pan-sveta/ko-vypisky/blob/main/images/christo_3.png?raw=true)
+	4. Tvorba $L$ zaručuje $c(E(M))+c(E(T))=c(E(L))$
+- Z toho získáme $\frac{3}{2}*OPT(K_n, c) \ge^{2.,3.} c(E(T)) + c(E(M)) =^{4.} c(E(L)) \ge^{1.} c(E(H))$
 
 **Tour improvement Heuristic - local seach k-OPT**
 
-1. máme nějakou Hemiltonovskou kružnici
-2. smažeme $k$ hran
-3. propojíme oddělené tahy novými $k$ hranami tak aby opět vznikla Hemiltonovská kružnice
-4. zkontrolujeme zlepšení (nastavitelné kritérium), pokud nezlepšuje => změnu zahodíme
+1. Máme nějakou Hemiltonovskou kružnici
+2. Smažeme $k$ hran
+3. Propojíme oddělené tahy novými $k$ hranami tak aby opět vznikla Hemiltonovská kružnice
+4. Zkontrolujeme zlepšení (nastavitelné kritérium), pokud nezlepšuje => změnu zahodíme
 
 ## Scheduling
 
@@ -651,11 +736,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA3NTY5ODgwLC02OTA3Mjg5NjUsLTE5NT
-I4NTA3OTcsLTE1NTk2NjM3ODksMTcwMjIwNDExMSwyNTQxNDI0
-OTUsOTc0NTU3MTUyLDI1ODU0ODQ5NiwtMTMzNDQxMDcyMCw4MD
-U5MzY3MjMsLTEwMTc1NjUyMjQsMTU4NDg1MzQyNiwzNDg4NDgy
-OTcsLTc5NDAxNDIzMiw5MDQyMTA0NDgsMTQ0NzMwNjc1NCw5OD
-Y3OTQ1NjAsLTEyNjA2ODk2MTAsLTk0MDM3Nzk5LC0xMzAwMTQx
-OTk3XX0=
+eyJoaXN0b3J5IjpbLTM5OTc4NDMxNiwxNzk4Mjg1NjQ0LC0xNT
+QyNTY5MDgxLDU5MDY3Njg5NywxOTUzOTk5MDMwLC0xMzAzMTc5
+MzIxLDk0MTE3NDI2MiwtMTQzNDk0NzczMywtMjE1Nzk1MTYzLC
+0xODM1MzY2MzM4LC0xNzY3NDk1OTUzLC00NzQ3MzQwOTYsLTEy
+MDY4ODc0NTksMjA3NTY5ODgwLC02OTA3Mjg5NjUsLTE5NTI4NT
+A3OTcsLTE1NTk2NjM3ODksMTcwMjIwNDExMSwyNTQxNDI0OTUs
+OTc0NTU3MTUyXX0=
 -->
