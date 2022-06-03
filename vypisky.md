@@ -355,16 +355,16 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 - Maximalizujeme cenu věcí v batohu 
 
 **Fractional Knapsack problem**
-Stejné jako knapsack, ale předměty nemusíme vkládat celé. Řeší bin packing, contaner loading, 1-D, 2-D, 3-D cutting problem.
-
+-Stejné jako knapsack, ale předměty nemusíme vkládat celé
+- Řeší: bin packing, contaner loading, 1-D, 2-D, 3-D cutting problem.
 - $O(n\log n)$ jen znovu seřadím
-- Algo:
-	1. pokud $\sum_{i=1}^{n} w_i <W$ vložíme vše a jsme done
-	2. vyřadíme předměty s $w_i > W$
-	3. přeindexujeme předměty podle $\frac {c_i}{w_i}$ od největšího po nejmenší
-	4. postupně dáváme předměty do batohu dokud se nám tam další předmět nevejde celý
-	5. tendo předmě označíme jako $h$
-	6. do batohu dáme takovou čás $h$, která se do něj ještě vejde
+- Algoritmus:
+	1. Pokud $\sum_{i=1}^{n} w_i <W$ vložíme vše a máme hotvo
+	2. Vyřadíme předměty s $w_i > W$
+	3. Přeindexujeme předměty podle $\frac {c_i}{w_i}$ od největšího po nejmenší
+	4. Postupně dáváme předměty do batohu dokud se nám tam další předmět nevejde celý
+	5. Tento předmě označíme jako $h$
+	6. Do batohu dáme takovou čás $h$, která se do něj ještě vejde
 
 
 **Knapsack** (0/1 Knapsack)
@@ -734,11 +734,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExMzYxMjQyOSwtNDkyNDM2MDY1LC0zOT
-k3ODQzMTYsMTc5ODI4NTY0NCwtMTU0MjU2OTA4MSw1OTA2NzY4
-OTcsMTk1Mzk5OTAzMCwtMTMwMzE3OTMyMSw5NDExNzQyNjIsLT
-E0MzQ5NDc3MzMsLTIxNTc5NTE2MywtMTgzNTM2NjMzOCwtMTc2
-NzQ5NTk1MywtNDc0NzM0MDk2LC0xMjA2ODg3NDU5LDIwNzU2OT
-g4MCwtNjkwNzI4OTY1LC0xOTUyODUwNzk3LC0xNTU5NjYzNzg5
-LDE3MDIyMDQxMTFdfQ==
+eyJoaXN0b3J5IjpbLTE1NDczOTY4OTgsLTQ5MjQzNjA2NSwtMz
+k5Nzg0MzE2LDE3OTgyODU2NDQsLTE1NDI1NjkwODEsNTkwNjc2
+ODk3LDE5NTM5OTkwMzAsLTEzMDMxNzkzMjEsOTQxMTc0MjYyLC
+0xNDM0OTQ3NzMzLC0yMTU3OTUxNjMsLTE4MzUzNjYzMzgsLTE3
+Njc0OTU5NTMsLTQ3NDczNDA5NiwtMTIwNjg4NzQ1OSwyMDc1Nj
+k4ODAsLTY5MDcyODk2NSwtMTk1Mjg1MDc5NywtMTU1OTY2Mzc4
+OSwxNzAyMjA0MTExXX0=
 -->
