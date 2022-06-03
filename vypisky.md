@@ -387,8 +387,8 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 - $O(nC)$ kde $C$ je velmi veliké číslo
 - 2 varianty: máme celočíselné ceny, máme celočíselné váhy
 - celočáselné hodnoty napíšeme do sloupců, řádky budou indexy předmětů pro vložení a hodnoty jsou neceločíselné valstnosti
-- tabulky: https://youtu.be/71B1FMVVX_o?t=7252
-- lze zmenšit počet sloupců (zrychlit algo) nalezením dělitele $t$ ve tvaru $\bar{c_j} = \lfloor \frac{c_j}{t} \rfloor$ (pokud se nejedná o společného dělitele snižujeme přesnost řešení)
+- Tabulky: https://youtu.be/71B1FMVVX_o?t=7252
+- Lze zmenšit počet sloupců (zrychlit algo) nalezením dělitele $t$ ve tvaru $\bar{c_j} = \lfloor \frac{c_j}{t} \rfloor$ (pokud se nejedná o společného dělitele snižujeme přesnost řešení)
 
 ## TSP
 - Cesta v grafu přes všechny vrcholy grafu - Hamiltonovská cesta
@@ -741,7 +741,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM3NDY3ODM1LDIxMjg4NzY2MDEsLTE1ND
+eyJoaXN0b3J5IjpbMTc2MTUxMTYzLDIxMjg4NzY2MDEsLTE1ND
 czOTY4OTgsLTQ5MjQzNjA2NSwtMzk5Nzg0MzE2LDE3OTgyODU2
 NDQsLTE1NDI1NjkwODEsNTkwNjc2ODk3LDE5NTM5OTkwMzAsLT
 EzMDMxNzkzMjEsOTQxMTc0MjYyLC0xNDM0OTQ3NzMzLC0yMTU3
