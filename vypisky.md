@@ -605,15 +605,15 @@ Dáváme **všechny** tásky zdrojům v čase.
 #### Bratley's Algorithm 
 -  $1|r_j,\tilde{d_j}|C_{max}$
 - $O(n!)$
-- algo:
-	- začnu stromovou strukturu s $n$ levely ($n$=počtu tasků)
-	- root na levelu 0 je před vložením prvního tasku
-	- na level 1 zadávám první tasky, na levelu 2 zadávám druhé tásky ze zbytku, atd.
-	- pravidla pro ukončení větve:
-		- pokud mezi childy nodu, existuje child, který nedodrží deadline tasku $\to$ do nodu se nazanořuji
-		- jestliže jsem našel node, který dokončil všechny využité tasky před $r_i$ všech zbylích tasků, jsem v optimální větvi $\to$ stačí projít pouze childy tohoto nodu
-		- jestliže jsem našel řešení a test optimality říká true $\to$ skončím
-		- pokud moje rozpracované řešení má horší hodnotu než již nalezené řešení $\to$ nezanořuji se dál
+- Algoritmus:
+	- Začnu stromovou strukturu s $n$ levely ($n$=počtu tasků)
+	- Root na levelu 0 je před vložením prvního tasku
+	- Na level 1 zadávám první tasky, na levelu 2 zadávám druhé tásky ze zbytku, atd.
+	- Pravidla pro ukončení větve:
+		- Pokud mezi childy nodu, existuje child, který nedodrží deadline tasku $\to$ do nodu se nazanořuji
+		- Jestliže jsem našel node, který dokončil všechny využité tasky před $r_i$ všech zbylích tasků, jsem v optimální větvi $\to$ stačí projít pouze childy tohoto nodu
+		- Jestliže jsem našel řešení a test optimality říká true $\to$ skončím
+		- Pokud moje rozpracované řešení má horší hodnotu než již nalezené řešení $\to$ nezanořuji se dál
 - příhlad https://youtu.be/idc516WZZ1I?t=5131
 
 #### Branch and Bound with LP-bounding
@@ -780,11 +780,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjMyMjc0ODMsLTQ1NjQ1ODM2MiwtMj
-g3MTM2NjY0LC05OTMzNDQ5NCwtMTU3MzEyOTU4NSwxOTIzMzcw
-MzM1LDEyNzE4NTIzMTksNjY4MzI0NDQ1LDM0NDYyMjcwOCwtNz
-M1NzI4MDU0LC0xMjQxNzc2NDgyLC0xNjE4ODY5MTM0LDIxMjg4
-NzY2MDEsLTE1NDczOTY4OTgsLTQ5MjQzNjA2NSwtMzk5Nzg0Mz
-E2LDE3OTgyODU2NDQsLTE1NDI1NjkwODEsNTkwNjc2ODk3LDE5
-NTM5OTkwMzBdfQ==
+eyJoaXN0b3J5IjpbNjg0NDQyNjE1LC0xMjIzMjI3NDgzLC00NT
+Y0NTgzNjIsLTI4NzEzNjY2NCwtOTkzMzQ0OTQsLTE1NzMxMjk1
+ODUsMTkyMzM3MDMzNSwxMjcxODUyMzE5LDY2ODMyNDQ0NSwzND
+Q2MjI3MDgsLTczNTcyODA1NCwtMTI0MTc3NjQ4MiwtMTYxODg2
+OTEzNCwyMTI4ODc2NjAxLC0xNTQ3Mzk2ODk4LC00OTI0MzYwNj
+UsLTM5OTc4NDMxNiwxNzk4Mjg1NjQ0LC0xNTQyNTY5MDgxLDU5
+MDY3Njg5N119
 -->
