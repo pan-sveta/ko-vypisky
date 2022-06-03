@@ -576,7 +576,8 @@ Dáváme **všechny** tásky zdrojům v čase.
 #### Důjaz že je silně NP-Hard
 - Redukce z 3-partion problému
 - Mějme 3-Partition rozhodovací problém $I_{3P}=(A,B)$
-	- Multiset $A$ $3m$ čísel $a_1,a_2,...,a_{3m}
+	- Multiset $A$ $3m$ čísel $a_1,a_2,...,a_{3m}$ (velikost předmětů)
+	- Kladné číslo $B$ (velimost košů) takov=e, že $\forall$
 
 - Nejmenší doba čekání
 	- $1||\sum{C_j}$ - easy (seřazené dle $p_j$)
@@ -773,11 +774,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwNTg3OTk4NSwtMjg3MTM2NjY0LC05OT
-MzNDQ5NCwtMTU3MzEyOTU4NSwxOTIzMzcwMzM1LDEyNzE4NTIz
-MTksNjY4MzI0NDQ1LDM0NDYyMjcwOCwtNzM1NzI4MDU0LC0xMj
-QxNzc2NDgyLC0xNjE4ODY5MTM0LDIxMjg4NzY2MDEsLTE1NDcz
-OTY4OTgsLTQ5MjQzNjA2NSwtMzk5Nzg0MzE2LDE3OTgyODU2ND
-QsLTE1NDI1NjkwODEsNTkwNjc2ODk3LDE5NTM5OTkwMzAsLTEz
-MDMxNzkzMjFdfQ==
+eyJoaXN0b3J5IjpbLTIzNjMxODMwLC0yODcxMzY2NjQsLTk5Mz
+M0NDk0LC0xNTczMTI5NTg1LDE5MjMzNzAzMzUsMTI3MTg1MjMx
+OSw2NjgzMjQ0NDUsMzQ0NjIyNzA4LC03MzU3MjgwNTQsLTEyND
+E3NzY0ODIsLTE2MTg4NjkxMzQsMjEyODg3NjYwMSwtMTU0NzM5
+Njg5OCwtNDkyNDM2MDY1LC0zOTk3ODQzMTYsMTc5ODI4NTY0NC
+wtMTU0MjU2OTA4MSw1OTA2NzY4OTcsMTk1Mzk5OTAzMCwtMTMw
+MzE3OTMyMV19
 -->
