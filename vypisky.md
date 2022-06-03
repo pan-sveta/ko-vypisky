@@ -535,9 +535,10 @@ Dáváme **všechny** tásky zdrojům v čase.
 - On-line - postupně nám tasky přicházejí
 - Každá task může být v jednu dobu zpracováván jen jedním zdrojem
 - Každá zdroj vykonává v jednu dobu max jednu úlohu
+- Terminologie:
+ 	- $T_i$ - task
+	- $m$ typů zdrojů s kapactiou $R_k$
 - Parametry:
-	- $T_i$ - task
-	- $R_k$ - resourcy
 	- $r_j$ - release time
 	- $p_j$ - procesing time
 	- $d_j$ - due date
@@ -761,11 +762,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MTI0MjAwMiwxOTIzMzcwMzM1LDEyNz
-E4NTIzMTksNjY4MzI0NDQ1LDM0NDYyMjcwOCwtNzM1NzI4MDU0
-LC0xMjQxNzc2NDgyLC0xNjE4ODY5MTM0LDIxMjg4NzY2MDEsLT
-E1NDczOTY4OTgsLTQ5MjQzNjA2NSwtMzk5Nzg0MzE2LDE3OTgy
-ODU2NDQsLTE1NDI1NjkwODEsNTkwNjc2ODk3LDE5NTM5OTkwMz
-AsLTEzMDMxNzkzMjEsOTQxMTc0MjYyLC0xNDM0OTQ3NzMzLC0y
-MTU3OTUxNjNdfQ==
+eyJoaXN0b3J5IjpbLTk1NTIxMzczLDE5MjMzNzAzMzUsMTI3MT
+g1MjMxOSw2NjgzMjQ0NDUsMzQ0NjIyNzA4LC03MzU3MjgwNTQs
+LTEyNDE3NzY0ODIsLTE2MTg4NjkxMzQsMjEyODg3NjYwMSwtMT
+U0NzM5Njg5OCwtNDkyNDM2MDY1LC0zOTk3ODQzMTYsMTc5ODI4
+NTY0NCwtMTU0MjU2OTA4MSw1OTA2NzY4OTcsMTk1Mzk5OTAzMC
+wtMTMwMzE3OTMyMSw5NDExNzQyNjIsLTE0MzQ5NDc3MzMsLTIx
+NTc5NTE2M119
 -->
