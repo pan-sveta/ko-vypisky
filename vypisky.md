@@ -579,9 +579,9 @@ Dáváme **všechny** tásky zdrojům v čase.
 	- Multiset $A$ $3m$ čísel $a_1,a_2,...,a_{3m}$ (velikost předmětů)
 	- Kladné číslo $B$ (velikost košů) takové, že $\forall i \in \{1,2,...,3m\}$ platí $\frac{B}{4} \lt a_i \lt \frac{B}{2}$ a $\sum_{i=1}^{3m}a_i=m*B$
 	- Ptáme se, jestli jsme schopni rozdělit přesně 3 přeměty do každého koše tak, že se přesně vejdou
-- Vyrobíme $1|r_j,\tilde{d_j}|C_{max}$ rozvrhový problém I_{SCH} , který se skládá ze $4*m$ úloh $T_j=(p_j,r_j,\tilde{d_j})$ takových, že:
+- Vyrobíme $1|r_j,\tilde{d_j}|C_{max}$ rozvrhový problém $I_{SCH}$ , který se skládá ze $4*m$ úloh $T_j=(p_j,r_j,\tilde{d_j})$ takových, že:
 	- $\forall j \in \{1,..,m\}:T_j=(1,(B+1)*(j-1),(B+1)*(j-1)+1)$ - umělé tasky oddělující subsety
-	-   $\forall j \in \{1+1,..,4m\}:T_j=(1,(B+1)*(j-1),(B+1)*(j-1)+1)$
+	-   $\forall j \in \{1+1,..,4m\}:T_j=(a_i,0,\infin), i=j-m$ - každý tento task  $T_j$ odpovídá elementu I
 
 ![is NP-Hard](https://github.com/pan-sveta/ko-vypisky/blob/main/images/3_partition_proof.png?raw=true)
 
@@ -780,11 +780,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY0MDQ5NzYzLC00NTY0NTgzNjIsLTI4Nz
-EzNjY2NCwtOTkzMzQ0OTQsLTE1NzMxMjk1ODUsMTkyMzM3MDMz
-NSwxMjcxODUyMzE5LDY2ODMyNDQ0NSwzNDQ2MjI3MDgsLTczNT
-cyODA1NCwtMTI0MTc3NjQ4MiwtMTYxODg2OTEzNCwyMTI4ODc2
-NjAxLC0xNTQ3Mzk2ODk4LC00OTI0MzYwNjUsLTM5OTc4NDMxNi
-wxNzk4Mjg1NjQ0LC0xNTQyNTY5MDgxLDU5MDY3Njg5NywxOTUz
-OTk5MDMwXX0=
+eyJoaXN0b3J5IjpbLTQyNDAwNDkwMSwtNDU2NDU4MzYyLC0yOD
+cxMzY2NjQsLTk5MzM0NDk0LC0xNTczMTI5NTg1LDE5MjMzNzAz
+MzUsMTI3MTg1MjMxOSw2NjgzMjQ0NDUsMzQ0NjIyNzA4LC03Mz
+U3MjgwNTQsLTEyNDE3NzY0ODIsLTE2MTg4NjkxMzQsMjEyODg3
+NjYwMSwtMTU0NzM5Njg5OCwtNDkyNDM2MDY1LC0zOTk3ODQzMT
+YsMTc5ODI4NTY0NCwtMTU0MjU2OTA4MSw1OTA2NzY4OTcsMTk1
+Mzk5OTAzMF19
 -->
