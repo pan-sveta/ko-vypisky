@@ -386,8 +386,8 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 - Důkaz, že $r=2$
 	- Můžeme vynechat předměty, jejichž $w\gt W$
 	- Když $\sum_{i=1}^{n}w_i\lt W$, tak máme optimální řešení
-	- Protože $\sum_{i=1}^{h}c_i$ je horním omezením optimální hodnoty, lepší z dvou možných řešení $\{\sum_{i=1}^{h-1}c_i, \}$ a ${h}$ je minimálně polovina optimální hodnoty
-		- $J^A(I)=max\{\}$
+	- Protože $\sum_{i=1}^{h}c_i$ je horním omezením optimální hodnoty, lepší z dvou možných řešení $\{\sum_{i=1}^{h}c_i\}$ a ${h}$ je minimálně polovina optimální hodnoty
+		- $J^A(I)=max\{\sum_{i=1}^{h-1}c_i, c_h\}\ge\frac{\sum_{i=1}^{c}}{}$
 #### Dynamic programing
 - $O(nC)$ kde $C$ je velmi veliké číslo
 - 2 varianty: máme celočíselné ceny, máme celočíselné váhy
@@ -746,11 +746,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjE0NDQzMDUxOSwtMTYxODg2OTEzNCwyMT
-I4ODc2NjAxLC0xNTQ3Mzk2ODk4LC00OTI0MzYwNjUsLTM5OTc4
-NDMxNiwxNzk4Mjg1NjQ0LC0xNTQyNTY5MDgxLDU5MDY3Njg5Ny
-wxOTUzOTk5MDMwLC0xMzAzMTc5MzIxLDk0MTE3NDI2MiwtMTQz
-NDk0NzczMywtMjE1Nzk1MTYzLC0xODM1MzY2MzM4LC0xNzY3ND
-k1OTUzLC00NzQ3MzQwOTYsLTEyMDY4ODc0NTksMjA3NTY5ODgw
-LC02OTA3Mjg5NjVdfQ==
+eyJoaXN0b3J5IjpbLTE3MTU2MTE5OTUsLTE2MTg4NjkxMzQsMj
+EyODg3NjYwMSwtMTU0NzM5Njg5OCwtNDkyNDM2MDY1LC0zOTk3
+ODQzMTYsMTc5ODI4NTY0NCwtMTU0MjU2OTA4MSw1OTA2NzY4OT
+csMTk1Mzk5OTAzMCwtMTMwMzE3OTMyMSw5NDExNzQyNjIsLTE0
+MzQ5NDc3MzMsLTIxNTc5NTE2MywtMTgzNTM2NjMzOCwtMTc2Nz
+Q5NTk1MywtNDc0NzM0MDk2LC0xMjA2ODg3NDU5LDIwNzU2OTg4
+MCwtNjkwNzI4OTY1XX0=
 -->
