@@ -376,9 +376,13 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 #### 2-Aproximation algo
 - Alespoň $\frac {1}{r}$ optima (kde $r$=2) 
 - $O(n)$
-- stejný postup jako u Fractional Kanpsack problem kde máme 2 možnosti
--  vložíme předměty $\{1, ...\ ,h-1\}$ nebo jen $\{h\}$
-- podle toho co je výhodnější
+- Algoritmus:
+	1. Pokud $\sum_{i=1}^{n} w_i <W$ vložíme vše a máme hotvo
+	2. Vyřadíme předměty s $w_i > W$
+	3. Přeindexujeme předměty podle $\frac {c_i}{w_i}$ od největšího po nejmenší
+	4. Postupně dáváme předměty do batohu dokud se nám tam další předmět nevejde celý
+	5. Tento předmě označíme jako $h$
+	6. vložíme předměty $\{1, ...\ ,h-1\}$ nebo jen $\{h\}$ na základě toho, co je výhodnější
 #### Dynamic programing
 - $O(nC)$ kde $C$ je velmi veliké číslo
 - 2 varianty: máme celočíselné ceny, máme celočíselné váhy
@@ -739,11 +743,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzY0MTU2MzUsMjEyODg3NjYwMSwtMT
-U0NzM5Njg5OCwtNDkyNDM2MDY1LC0zOTk3ODQzMTYsMTc5ODI4
-NTY0NCwtMTU0MjU2OTA4MSw1OTA2NzY4OTcsMTk1Mzk5OTAzMC
-wtMTMwMzE3OTMyMSw5NDExNzQyNjIsLTE0MzQ5NDc3MzMsLTIx
-NTc5NTE2MywtMTgzNTM2NjMzOCwtMTc2NzQ5NTk1MywtNDc0Nz
-M0MDk2LC0xMjA2ODg3NDU5LDIwNzU2OTg4MCwtNjkwNzI4OTY1
-LC0xOTUyODUwNzk3XX0=
+eyJoaXN0b3J5IjpbLTMxMjU3MjMzNSwyMTI4ODc2NjAxLC0xNT
+Q3Mzk2ODk4LC00OTI0MzYwNjUsLTM5OTc4NDMxNiwxNzk4Mjg1
+NjQ0LC0xNTQyNTY5MDgxLDU5MDY3Njg5NywxOTUzOTk5MDMwLC
+0xMzAzMTc5MzIxLDk0MTE3NDI2MiwtMTQzNDk0NzczMywtMjE1
+Nzk1MTYzLC0xODM1MzY2MzM4LC0xNzY3NDk1OTUzLC00NzQ3Mz
+QwOTYsLTEyMDY4ODc0NTksMjA3NTY5ODgwLC02OTA3Mjg5NjUs
+LTE5NTI4NTA3OTddfQ==
 -->
