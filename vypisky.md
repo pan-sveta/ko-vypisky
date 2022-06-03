@@ -61,7 +61,7 @@ Maintaner: [Filip Štěpánek](https://github.com/pan-sveta)
 - $m$ - počet hrans
 
 **Troúhelníková nerovnost**
-- $l$ je vzdálenost mezi hranami (počet hran)
+- $l$ je suma cen v dané cestě
 - Platí, že $l(i,j) \leq l(i,k) + l(k,j)$
 ![Triangle inequality](https://github.com/pan-sveta/ko-vypisky/blob/main/images/triangle_inequality.png?raw=true)
 
@@ -716,11 +716,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTQxMTc0MjYyLC0xNDM0OTQ3NzMzLC0yMT
-U3OTUxNjMsLTE4MzUzNjYzMzgsLTE3Njc0OTU5NTMsLTQ3NDcz
-NDA5NiwtMTIwNjg4NzQ1OSwyMDc1Njk4ODAsLTY5MDcyODk2NS
-wtMTk1Mjg1MDc5NywtMTU1OTY2Mzc4OSwxNzAyMjA0MTExLDI1
-NDE0MjQ5NSw5NzQ1NTcxNTIsMjU4NTQ4NDk2LC0xMzM0NDEwNz
-IwLDgwNTkzNjcyMywtMTAxNzU2NTIyNCwxNTg0ODUzNDI2LDM0
-ODg0ODI5N119
+eyJoaXN0b3J5IjpbMzExODQ4MDE4LDk0MTE3NDI2MiwtMTQzND
+k0NzczMywtMjE1Nzk1MTYzLC0xODM1MzY2MzM4LC0xNzY3NDk1
+OTUzLC00NzQ3MzQwOTYsLTEyMDY4ODc0NTksMjA3NTY5ODgwLC
+02OTA3Mjg5NjUsLTE5NTI4NTA3OTcsLTE1NTk2NjM3ODksMTcw
+MjIwNDExMSwyNTQxNDI0OTUsOTc0NTU3MTUyLDI1ODU0ODQ5Ni
+wtMTMzNDQxMDcyMCw4MDU5MzY3MjMsLTEwMTc1NjUyMjQsMTU4
+NDg1MzQyNl19
 -->
