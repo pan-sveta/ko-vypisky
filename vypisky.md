@@ -400,12 +400,13 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 #### Aproximační schéma
 - $\epsilon = 1-r$
 - Mějme zadaný knapsack a $\epsilon$ (o kolik jsme ochotni být vzdáleni od optima v procentech)
+- $O(n^2*\frac{1}{\epsilon})$
 - Postup:
 	1. Spustíme 2-aproximační algoritmus a řešení označíme jako $S_1$
 	2. Spočítáme proměnou $t=max\{1,\frac{\epsilon * c(S_1)}{n}\}$
 	3. Spočítáme $c_j^{'} = |{\frac{c_j}{t}}|\ for\ j=1,...,n$ 
 	4. Spustíme dynamické programování s pozměněnými cenami s upper boundem $C=\frac{2c(S_1)}{t}$
-	5. 
+	5. Vrátíme vyšší cenu z $S_1$ a $S_2$
 
 ## TSP
 - Cesta v grafu přes všechny vrcholy grafu - Hamiltonovská cesta
@@ -758,11 +759,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMzExNTU1NjYsMzQ0NjIyNzA4LC03Mz
-U3MjgwNTQsLTEyNDE3NzY0ODIsLTE2MTg4NjkxMzQsMjEyODg3
-NjYwMSwtMTU0NzM5Njg5OCwtNDkyNDM2MDY1LC0zOTk3ODQzMT
-YsMTc5ODI4NTY0NCwtMTU0MjU2OTA4MSw1OTA2NzY4OTcsMTk1
-Mzk5OTAzMCwtMTMwMzE3OTMyMSw5NDExNzQyNjIsLTE0MzQ5ND
-c3MzMsLTIxNTc5NTE2MywtMTgzNTM2NjMzOCwtMTc2NzQ5NTk1
-MywtNDc0NzM0MDk2XX0=
+eyJoaXN0b3J5IjpbNjY4MzI0NDQ1LDM0NDYyMjcwOCwtNzM1Nz
+I4MDU0LC0xMjQxNzc2NDgyLC0xNjE4ODY5MTM0LDIxMjg4NzY2
+MDEsLTE1NDczOTY4OTgsLTQ5MjQzNjA2NSwtMzk5Nzg0MzE2LD
+E3OTgyODU2NDQsLTE1NDI1NjkwODEsNTkwNjc2ODk3LDE5NTM5
+OTkwMzAsLTEzMDMxNzkzMjEsOTQxMTc0MjYyLC0xNDM0OTQ3Nz
+MzLC0yMTU3OTUxNjMsLTE4MzUzNjYzMzgsLTE3Njc0OTU5NTMs
+LTQ3NDczNDA5Nl19
 -->
