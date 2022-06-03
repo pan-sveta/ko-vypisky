@@ -493,7 +493,7 @@ Stejné jako knapsack, ale předměty nemusíme vkládat celé. Řeší bin pack
 	3. Protože perfektní párování $M$ používá každou druhou hranu ve střídajiící ceste a protože je to párování s minimální vahou, tak vybere menší polovinu
 		- $\frac{OPT(K_n),c}{2}\ge c(E(M))$
 	4. Tvorba $L$ zaručuje $c(E(M))+c(E(T))=c(E(L))$
-- Z toho získáme $\frac{3}{2}*OPT(K_n, c) \ge^{2.,3.} c(E(T)) + c(E(M)) =^{4.} c(E(L)) =^{1.} c(E(H))$
+- Z toho získáme $\frac{3}{2}*OPT(K_n, c) \ge^{2.,3.} c(E(T)) + c(E(M)) =^{4.} c(E(L)) \g^{1.} c(E(H))$
 
 **Tour improvement Heuristic - local seach k-OPT**
 
@@ -735,11 +735,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5ODI4NTY0NCwtMTU0MjU2OTA4MSw1OT
-A2NzY4OTcsMTk1Mzk5OTAzMCwtMTMwMzE3OTMyMSw5NDExNzQy
-NjIsLTE0MzQ5NDc3MzMsLTIxNTc5NTE2MywtMTgzNTM2NjMzOC
-wtMTc2NzQ5NTk1MywtNDc0NzM0MDk2LC0xMjA2ODg3NDU5LDIw
-NzU2OTg4MCwtNjkwNzI4OTY1LC0xOTUyODUwNzk3LC0xNTU5Nj
-YzNzg5LDE3MDIyMDQxMTEsMjU0MTQyNDk1LDk3NDU1NzE1Miwy
-NTg1NDg0OTZdfQ==
+eyJoaXN0b3J5IjpbMTYxMTkxNzg3OCwxNzk4Mjg1NjQ0LC0xNT
+QyNTY5MDgxLDU5MDY3Njg5NywxOTUzOTk5MDMwLC0xMzAzMTc5
+MzIxLDk0MTE3NDI2MiwtMTQzNDk0NzczMywtMjE1Nzk1MTYzLC
+0xODM1MzY2MzM4LC0xNzY3NDk1OTUzLC00NzQ3MzQwOTYsLTEy
+MDY4ODc0NTksMjA3NTY5ODgwLC02OTA3Mjg5NjUsLTE5NTI4NT
+A3OTcsLTE1NTk2NjM3ODksMTcwMjIwNDExMSwyNTQxNDI0OTUs
+OTc0NTU3MTUyXX0=
 -->
