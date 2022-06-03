@@ -345,14 +345,14 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 ![M-alternig Path](https://github.com/pan-sveta/ko-vypisky/blob/main/images/paring_assignment.png?raw=true)
 
 ## Knapsack
-
-Je zadán jako: 
-- $n$ = počet předmětů
-- $c_i$ = cena předmětu
-- $w_i$ = váha předmětu
-- $W$ = nosnost batohu (nesmí být překročena)
+- NP-Hard, ale ne moc (existují kvalitní aproximační algoritmy)
+- Je zadán jako: 
+	- $n$ = počet předmětů
+	- $c_i$ = cena předmětu
+	- $w_i$ = váha předmětu
+	- $W$ = nosnost batohu (nesmí být překročena)
 - předmět buď vložíme nebo nevložíme do batohu
-- Maximalizujeme cenu
+- Maximalizujeme cenu věcí v batohu 
 
 **Fractional Knapsack problem**
 
@@ -369,8 +369,6 @@ Stejné jako knapsack, ale předměty nemusíme vkládat celé. Řeší bin pack
 
 
 **Knapsack** (0/1 Knapsack)
-- NP-Hard, ale ne moc (existují kvalitní aproximační algoritmy)
--  
 - **2-Aproximation algo**
 	- alespoň $\frac {1}{r}$ optima (kde $r$=2) 
 	- $O(n)$
@@ -737,11 +735,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjQyNjc2ODEsLTM5OTc4NDMxNiwxNz
-k4Mjg1NjQ0LC0xNTQyNTY5MDgxLDU5MDY3Njg5NywxOTUzOTk5
-MDMwLC0xMzAzMTc5MzIxLDk0MTE3NDI2MiwtMTQzNDk0NzczMy
-wtMjE1Nzk1MTYzLC0xODM1MzY2MzM4LC0xNzY3NDk1OTUzLC00
-NzQ3MzQwOTYsLTEyMDY4ODc0NTksMjA3NTY5ODgwLC02OTA3Mj
-g5NjUsLTE5NTI4NTA3OTcsLTE1NTk2NjM3ODksMTcwMjIwNDEx
-MSwyNTQxNDI0OTVdfQ==
+eyJoaXN0b3J5IjpbLTQ5MjQzNjA2NSwtMzk5Nzg0MzE2LDE3OT
+gyODU2NDQsLTE1NDI1NjkwODEsNTkwNjc2ODk3LDE5NTM5OTkw
+MzAsLTEzMDMxNzkzMjEsOTQxMTc0MjYyLC0xNDM0OTQ3NzMzLC
+0yMTU3OTUxNjMsLTE4MzUzNjYzMzgsLTE3Njc0OTU5NTMsLTQ3
+NDczNDA5NiwtMTIwNjg4NzQ1OSwyMDc1Njk4ODAsLTY5MDcyOD
+k2NSwtMTk1Mjg1MDc5NywtMTU1OTY2Mzc4OSwxNzAyMjA0MTEx
+LDI1NDE0MjQ5NV19
 -->
