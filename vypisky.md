@@ -399,7 +399,7 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 
 #### Aproximační schéma
 1. Spustíme 2-aproximační algoritmus
-2. Spočítáme proměnou $t=max\{
+2. Spočítáme proměnou $t=max\{1,\frac{\epsilon \subset (S_1)}{n}\}$
 
 ## TSP
 - Cesta v grafu přes všechny vrcholy grafu - Hamiltonovská cesta
@@ -752,11 +752,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwNDAwMDgzOCwzNDQ2MjI3MDgsLTczNT
-cyODA1NCwtMTI0MTc3NjQ4MiwtMTYxODg2OTEzNCwyMTI4ODc2
-NjAxLC0xNTQ3Mzk2ODk4LC00OTI0MzYwNjUsLTM5OTc4NDMxNi
-wxNzk4Mjg1NjQ0LC0xNTQyNTY5MDgxLDU5MDY3Njg5NywxOTUz
-OTk5MDMwLC0xMzAzMTc5MzIxLDk0MTE3NDI2MiwtMTQzNDk0Nz
-czMywtMjE1Nzk1MTYzLC0xODM1MzY2MzM4LC0xNzY3NDk1OTUz
-LC00NzQ3MzQwOTZdfQ==
+eyJoaXN0b3J5IjpbLTE0NzI2OTI3ODgsMzQ0NjIyNzA4LC03Mz
+U3MjgwNTQsLTEyNDE3NzY0ODIsLTE2MTg4NjkxMzQsMjEyODg3
+NjYwMSwtMTU0NzM5Njg5OCwtNDkyNDM2MDY1LC0zOTk3ODQzMT
+YsMTc5ODI4NTY0NCwtMTU0MjU2OTA4MSw1OTA2NzY4OTcsMTk1
+Mzk5OTAzMCwtMTMwMzE3OTMyMSw5NDExNzQyNjIsLTE0MzQ5ND
+c3MzMsLTIxNTc5NTE2MywtMTgzNTM2NjMzOCwtMTc2NzQ5NTk1
+MywtNDc0NzM0MDk2XX0=
 -->
