@@ -369,11 +369,11 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 ### R-aproximační algoritmus
 - Takový algoritmus $A$, který je definován číslem $r\in Q$ pro problém $J$
 - Výsledek algoritmu $A$ je maxilmálně $\frac{1}{r}$ hodnoty optima algoritmu $J$
-- 
+- $J^A(I)\ge \frac{1}{r}*J^*(I)$
 
-### Knapsack** (0/1 Knapsack)
-- **2-Aproximation algo**
-	- alespoň $\frac {1}{r}$ optima (kde $r$=2) 
+### Knapsack (0/1 Knapsack)
+#### 2-Aproximation algo**
+	- Alespoň $\frac {1}{r}$ optima (kde $r$=2) 
 	- $O(n)$
 	- stejný postup jako u Fractional Kanpsack problem kde máme 2 možnosti
 		-  vložíme předměty $\{1, ...\ ,h-1\}$ nebo jen $\{h\}$
@@ -738,7 +738,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMzk5NDkyNSwtMTU0NzM5Njg5OCwtND
+eyJoaXN0b3J5IjpbLTEwODIwMTA2MiwtMTU0NzM5Njg5OCwtND
 kyNDM2MDY1LC0zOTk3ODQzMTYsMTc5ODI4NTY0NCwtMTU0MjU2
 OTA4MSw1OTA2NzY4OTcsMTk1Mzk5OTAzMCwtMTMwMzE3OTMyMS
 w5NDExNzQyNjIsLTE0MzQ5NDc3MzMsLTIxNTc5NTE2MywtMTgz
