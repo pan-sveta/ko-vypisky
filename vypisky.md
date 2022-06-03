@@ -575,7 +575,8 @@ Dáváme **všechny** tásky zdrojům v čase.
 
 #### Důjaz že je silně NP-Hard
 - Redukce z 3-partion problému
-- 
+- Mějme 3-Partition rozhodovací problém $I_{3P}=(A,B)$
+	- Multiset $A$ $3m$ čísel $a_1,a_2,...,a_{3m}
 
 - Nejmenší doba čekání
 	- $1||\sum{C_j}$ - easy (seřazené dle $p_j$)
@@ -772,11 +773,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI4NzEzNjY2NCwtOTkzMzQ0OTQsLTE1Nz
-MxMjk1ODUsMTkyMzM3MDMzNSwxMjcxODUyMzE5LDY2ODMyNDQ0
-NSwzNDQ2MjI3MDgsLTczNTcyODA1NCwtMTI0MTc3NjQ4MiwtMT
-YxODg2OTEzNCwyMTI4ODc2NjAxLC0xNTQ3Mzk2ODk4LC00OTI0
-MzYwNjUsLTM5OTc4NDMxNiwxNzk4Mjg1NjQ0LC0xNTQyNTY5MD
-gxLDU5MDY3Njg5NywxOTUzOTk5MDMwLC0xMzAzMTc5MzIxLDk0
-MTE3NDI2Ml19
+eyJoaXN0b3J5IjpbLTQwNTg3OTk4NSwtMjg3MTM2NjY0LC05OT
+MzNDQ5NCwtMTU3MzEyOTU4NSwxOTIzMzcwMzM1LDEyNzE4NTIz
+MTksNjY4MzI0NDQ1LDM0NDYyMjcwOCwtNzM1NzI4MDU0LC0xMj
+QxNzc2NDgyLC0xNjE4ODY5MTM0LDIxMjg4NzY2MDEsLTE1NDcz
+OTY4OTgsLTQ5MjQzNjA2NSwtMzk5Nzg0MzE2LDE3OTgyODU2ND
+QsLTE1NDI1NjkwODEsNTkwNjc2ODk3LDE5NTM5OTkwMzAsLTEz
+MDMxNzkzMjFdfQ==
 -->
