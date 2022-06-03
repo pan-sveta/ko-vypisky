@@ -558,6 +558,10 @@ Dáváme **všechny** tásky zdrojům v čase.
 		- $\alpha$ jsou zdroje 
 		- $\beta$ jsou vlastnosti tasky
 		- $\gamma$ jsou kritéria řešení
+			- $C_{max}$ - délka rozvrhu
+			- $\sum{C_j}$ suma časů dokončení
+			- $\sum{C_j *w_j}$ suma vážených časů dokončení
+			- $L_max$
 
 ### One resurce scheduling
 --------------------------------------------
@@ -763,11 +767,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzMxMjk1ODUsMTkyMzM3MDMzNSwxMj
-cxODUyMzE5LDY2ODMyNDQ0NSwzNDQ2MjI3MDgsLTczNTcyODA1
-NCwtMTI0MTc3NjQ4MiwtMTYxODg2OTEzNCwyMTI4ODc2NjAxLC
-0xNTQ3Mzk2ODk4LC00OTI0MzYwNjUsLTM5OTc4NDMxNiwxNzk4
-Mjg1NjQ0LC0xNTQyNTY5MDgxLDU5MDY3Njg5NywxOTUzOTk5MD
-MwLC0xMzAzMTc5MzIxLDk0MTE3NDI2MiwtMTQzNDk0NzczMywt
-MjE1Nzk1MTYzXX0=
+eyJoaXN0b3J5IjpbMTY0Njg0OTU1NiwtMTU3MzEyOTU4NSwxOT
+IzMzcwMzM1LDEyNzE4NTIzMTksNjY4MzI0NDQ1LDM0NDYyMjcw
+OCwtNzM1NzI4MDU0LC0xMjQxNzc2NDgyLC0xNjE4ODY5MTM0LD
+IxMjg4NzY2MDEsLTE1NDczOTY4OTgsLTQ5MjQzNjA2NSwtMzk5
+Nzg0MzE2LDE3OTgyODU2NDQsLTE1NDI1NjkwODEsNTkwNjc2OD
+k3LDE5NTM5OTkwMzAsLTEzMDMxNzkzMjEsOTQxMTc0MjYyLC0x
+NDM0OTQ3NzMzXX0=
 -->
