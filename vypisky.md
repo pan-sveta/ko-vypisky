@@ -462,9 +462,9 @@ Stejné jako knapsack, ale předměty nemusíme vkládat celé. Řeší bin pack
 - 2-aproximační alog
 - $O(n^2)$
 - Algoritmus:
-	1. Najdeme MST
-	2. Pomocí zdvojení hran v MST najdeme Eulerovský tah
-	3. Z Eulerovského tahu odebereme vrcholy co jsme už navštívili, ale ponecháme poslední
+	1. Najdeme MST $T$
+	2. Pomocí zdvojení hran v $T$ najdeme Eulerovský tah $L$
+	3. Z Eulerovského tahu $T$ odebereme vrcholy co jsme už navštívili, ale ponecháme poslední
 		- Příkald: https://youtu.be/p9qiafTnd6Q?t=3726
 			- EuT = ABCBADAEA
 			- TSP = ABCDEA
@@ -723,7 +723,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0ODQ5NDkwMCwtMTMwMzE3OTMyMSw5ND
+eyJoaXN0b3J5IjpbMTk1Mzk5OTAzMCwtMTMwMzE3OTMyMSw5ND
 ExNzQyNjIsLTE0MzQ5NDc3MzMsLTIxNTc5NTE2MywtMTgzNTM2
 NjMzOCwtMTc2NzQ5NTk1MywtNDc0NzM0MDk2LC0xMjA2ODg3ND
 U5LDIwNzU2OTg4MCwtNjkwNzI4OTY1LC0xOTUyODUwNzk3LC0x
