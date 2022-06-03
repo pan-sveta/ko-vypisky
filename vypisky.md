@@ -480,9 +480,9 @@ Stejné jako knapsack, ale předměty nemusíme vkládat celé. Řeší bin pack
 
 - $\frac{3}{2}$-aproximační algo
 - $O(n^3)$
-- algo:
-	1. najdeme MST
-	2. najdeme množinu $W$ = vrcholům s lichým stupněm (bude jich sudý počet)
+- Algoritmus:
+	1. Najdeme MST
+	2. Najdeme množinu $W$ = vrcholům s lichým stupněm (bude jich sudý počet)
 	3. v množině $W$ najdemme Minimum weight matching a tyto hrany přidáme do MST
 	4. najdeme Eulerovský tah v upraveném MST
 	5. z Eulerovského tahu odebereme vrcholy co jsme už navštívili, ale ponecháme poslední
@@ -728,11 +728,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDI1NjkwODEsNTkwNjc2ODk3LDE5NT
-M5OTkwMzAsLTEzMDMxNzkzMjEsOTQxMTc0MjYyLC0xNDM0OTQ3
-NzMzLC0yMTU3OTUxNjMsLTE4MzUzNjYzMzgsLTE3Njc0OTU5NT
-MsLTQ3NDczNDA5NiwtMTIwNjg4NzQ1OSwyMDc1Njk4ODAsLTY5
-MDcyODk2NSwtMTk1Mjg1MDc5NywtMTU1OTY2Mzc4OSwxNzAyMj
-A0MTExLDI1NDE0MjQ5NSw5NzQ1NTcxNTIsMjU4NTQ4NDk2LC0x
-MzM0NDEwNzIwXX0=
+eyJoaXN0b3J5IjpbMTY4MzIyMDQ2OSwtMTU0MjU2OTA4MSw1OT
+A2NzY4OTcsMTk1Mzk5OTAzMCwtMTMwMzE3OTMyMSw5NDExNzQy
+NjIsLTE0MzQ5NDc3MzMsLTIxNTc5NTE2MywtMTgzNTM2NjMzOC
+wtMTc2NzQ5NTk1MywtNDc0NzM0MDk2LC0xMjA2ODg3NDU5LDIw
+NzU2OTg4MCwtNjkwNzI4OTY1LC0xOTUyODUwNzk3LC0xNTU5Nj
+YzNzg5LDE3MDIyMDQxMTEsMjU0MTQyNDk1LDk3NDU1NzE1Miwy
+NTg1NDg0OTZdfQ==
 -->
