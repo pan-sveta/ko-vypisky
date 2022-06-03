@@ -579,7 +579,7 @@ Dáváme **všechny** tásky zdrojům v čase.
 	- Multiset $A$ $3m$ čísel $a_1,a_2,...,a_{3m}$ (velikost předmětů)
 	- Kladné číslo $B$ (velikost košů) takové, že $\forall i \in \{1,2,...,3m\}$ platí $\frac{B}{4} \lt a_i \lt \frac{B}{2}$ a $\sum_{i=1}^{3m}a_i=m*B$
 	- Ptáme se, jestli jsme schopni rozdělit přesně 3 přeměty do každého koše tak, že se přesně vejdou
-- Vyrobíme $1|r_j,\tilde{d_j}|C_{max}$ rozvrh takový
+- Vyrobíme $1|r_j,\tilde{d_j}|C_{max}$ rozvrh
 
 ![is NP-Hard](https://github.com/pan-sveta/ko-vypisky/blob/main/images/3_partition_proof.png?raw=true)
 
@@ -778,11 +778,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1NjQ1ODM2MiwtMjg3MTM2NjY0LC05OT
-MzNDQ5NCwtMTU3MzEyOTU4NSwxOTIzMzcwMzM1LDEyNzE4NTIz
-MTksNjY4MzI0NDQ1LDM0NDYyMjcwOCwtNzM1NzI4MDU0LC0xMj
-QxNzc2NDgyLC0xNjE4ODY5MTM0LDIxMjg4NzY2MDEsLTE1NDcz
-OTY4OTgsLTQ5MjQzNjA2NSwtMzk5Nzg0MzE2LDE3OTgyODU2ND
-QsLTE1NDI1NjkwODEsNTkwNjc2ODk3LDE5NTM5OTkwMzAsLTEz
-MDMxNzkzMjFdfQ==
+eyJoaXN0b3J5IjpbMTU5MzI1MTEyOCwtNDU2NDU4MzYyLC0yOD
+cxMzY2NjQsLTk5MzM0NDk0LC0xNTczMTI5NTg1LDE5MjMzNzAz
+MzUsMTI3MTg1MjMxOSw2NjgzMjQ0NDUsMzQ0NjIyNzA4LC03Mz
+U3MjgwNTQsLTEyNDE3NzY0ODIsLTE2MTg4NjkxMzQsMjEyODg3
+NjYwMSwtMTU0NzM5Njg5OCwtNDkyNDM2MDY1LC0zOTk3ODQzMT
+YsMTc5ODI4NTY0NCwtMTU0MjU2OTA4MSw1OTA2NzY4OTcsMTk1
+Mzk5OTAzMF19
 -->
