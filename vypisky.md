@@ -586,7 +586,7 @@ Dáváme **všechny** tásky zdrojům v čase.
 ![is NP-Hard](https://github.com/pan-sveta/ko-vypisky/blob/main/images/3_partition_proof.png?raw=true)
 
 - Nejmenší doba čekání
-	- $1||\sum{C_j}$ - easy (seřazené dle $p_j$)
+	- $1||\sum{C_j}$ - easy (seřazené dle $p_j$ - SPT shortest processing time first)
 	- $1||\sum{w_j C_j}$ - easy (seřazené dle $\frac{p_j}{w_j}$)
 	- $1|r_j|\sum{C_j}$ - NP-hard
 	- $1|pmtn, r_j|\sum{C_j}$ - easy (upravené seřazení dle $p_j$)
@@ -792,11 +792,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MTYyMzY4LDg2OTU5MDgzNyw2ODQ0ND
-I2MTUsLTEyMjMyMjc0ODMsLTQ1NjQ1ODM2MiwtMjg3MTM2NjY0
-LC05OTMzNDQ5NCwtMTU3MzEyOTU4NSwxOTIzMzcwMzM1LDEyNz
-E4NTIzMTksNjY4MzI0NDQ1LDM0NDYyMjcwOCwtNzM1NzI4MDU0
-LC0xMjQxNzc2NDgyLC0xNjE4ODY5MTM0LDIxMjg4NzY2MDEsLT
-E1NDczOTY4OTgsLTQ5MjQzNjA2NSwtMzk5Nzg0MzE2LDE3OTgy
-ODU2NDRdfQ==
+eyJoaXN0b3J5IjpbLTEzNDY1NjAzNjYsMjA0MTYyMzY4LDg2OT
+U5MDgzNyw2ODQ0NDI2MTUsLTEyMjMyMjc0ODMsLTQ1NjQ1ODM2
+MiwtMjg3MTM2NjY0LC05OTMzNDQ5NCwtMTU3MzEyOTU4NSwxOT
+IzMzcwMzM1LDEyNzE4NTIzMTksNjY4MzI0NDQ1LDM0NDYyMjcw
+OCwtNzM1NzI4MDU0LC0xMjQxNzc2NDgyLC0xNjE4ODY5MTM0LD
+IxMjg4NzY2MDEsLTE1NDczOTY4OTgsLTQ5MjQzNjA2NSwtMzk5
+Nzg0MzE2XX0=
 -->
