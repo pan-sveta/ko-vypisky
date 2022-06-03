@@ -354,7 +354,7 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 - předmět buď vložíme nebo nevložíme do batohu
 - Maximalizujeme cenu věcí v batohu 
 
-**Fractional Knapsack problem**
+### Fractional Knapsack problem
 -Stejné jako knapsack, ale předměty nemusíme vkládat celé
 - Řeší: bin packing, contaner loading, 1-D, 2-D, 3-D cutting problem.
 - $O(n\log n)$ jen znovu seřadím
@@ -366,8 +366,10 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 	5. Tento předmě označíme jako $h$
 	6. Do batohu dáme takovou čás $h$, která se do něj ještě vejde
 
+### Aproximační algoritmus
+- Takový algo
 
-**Knapsack** (0/1 Knapsack)
+### Knapsack** (0/1 Knapsack)
 - **2-Aproximation algo**
 	- alespoň $\frac {1}{r}$ optima (kde $r$=2) 
 	- $O(n)$
@@ -734,11 +736,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDczOTY4OTgsLTQ5MjQzNjA2NSwtMz
-k5Nzg0MzE2LDE3OTgyODU2NDQsLTE1NDI1NjkwODEsNTkwNjc2
-ODk3LDE5NTM5OTkwMzAsLTEzMDMxNzkzMjEsOTQxMTc0MjYyLC
-0xNDM0OTQ3NzMzLC0yMTU3OTUxNjMsLTE4MzUzNjYzMzgsLTE3
-Njc0OTU5NTMsLTQ3NDczNDA5NiwtMTIwNjg4NzQ1OSwyMDc1Nj
-k4ODAsLTY5MDcyODk2NSwtMTk1Mjg1MDc5NywtMTU1OTY2Mzc4
-OSwxNzAyMjA0MTExXX0=
+eyJoaXN0b3J5IjpbMTA5MTkzOTUwMSwtMTU0NzM5Njg5OCwtND
+kyNDM2MDY1LC0zOTk3ODQzMTYsMTc5ODI4NTY0NCwtMTU0MjU2
+OTA4MSw1OTA2NzY4OTcsMTk1Mzk5OTAzMCwtMTMwMzE3OTMyMS
+w5NDExNzQyNjIsLTE0MzQ5NDc3MzMsLTIxNTc5NTE2MywtMTgz
+NTM2NjMzOCwtMTc2NzQ5NTk1MywtNDc0NzM0MDk2LC0xMjA2OD
+g3NDU5LDIwNzU2OTg4MCwtNjkwNzI4OTY1LC0xOTUyODUwNzk3
+LC0xNTU5NjYzNzg5XX0=
 -->
