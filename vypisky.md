@@ -65,9 +65,9 @@ Maintaner: [Filip Štěpánek](https://github.com/pan-sveta)
 - $c$ je suma cen v cestě
 - Platí, že:
 	- $l(i,j) \leq l(i,k) + l(k,j)$
-	- $l(i, j) ≤ c(i, j)$
-	- $l(i, j) ≤ l(i, k) + c(k, j)$
-	- $l(i, j) ≤ c(i, k) + l(k, j)$
+	- $l(i, j) \leq c(i, j)$
+	- $l(i, j) \leq l(i, k) + c(k, j)$
+	- $l(i, j) \leq c(i, k) + l(k, j)$
 ![Triangle inequality](https://github.com/pan-sveta/ko-vypisky/blob/main/images/triangle_inequality.png?raw=true)
 
 **Negativní cykly**
@@ -721,7 +721,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTg2MDc0NjksOTQxMTc0MjYyLC0xND
+eyJoaXN0b3J5IjpbLTEzMDMxNzkzMjEsOTQxMTc0MjYyLC0xND
 M0OTQ3NzMzLC0yMTU3OTUxNjMsLTE4MzUzNjYzMzgsLTE3Njc0
 OTU5NTMsLTQ3NDczNDA5NiwtMTIwNjg4NzQ1OSwyMDc1Njk4OD
 AsLTY5MDcyODk2NSwtMTk1Mjg1MDc5NywtMTU1OTY2Mzc4OSwx
