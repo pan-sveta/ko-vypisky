@@ -398,7 +398,7 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 - Lze zmenšit počet sloupců (zrychlit algo) nalezením dělitele $t$ ve tvaru $\bar{c_j} = \lfloor \frac{c_j}{t} \rfloor$ (pokud se nejedná o společného dělitele snižujeme přesnost řešení)
 
 #### Aproximační schéma
-- $\epsilon = 1+r$
+- $r = 1+\epsilon$
 - Mějme zadaný knapsack a $\epsilon$ (o kolik jsme ochotni být vzdáleni od optima v procentech)
 - $O(n^2*\frac{1}{\epsilon})$
 - Postup:
@@ -759,7 +759,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIyNjMwNjAxNyw2NjgzMjQ0NDUsMzQ0Nj
+eyJoaXN0b3J5IjpbMTI3MTg1MjMxOSw2NjgzMjQ0NDUsMzQ0Nj
 IyNzA4LC03MzU3MjgwNTQsLTEyNDE3NzY0ODIsLTE2MTg4Njkx
 MzQsMjEyODg3NjYwMSwtMTU0NzM5Njg5OCwtNDkyNDM2MDY1LC
 0zOTk3ODQzMTYsMTc5ODI4NTY0NCwtMTU0MjU2OTA4MSw1OTA2
