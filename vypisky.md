@@ -385,7 +385,8 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 	6. vložíme předměty $\{1, ...\ ,h-1\}$ nebo jen $\{h\}$ na základě toho, co je výhodnější
 - Důkaz, že $r=2$
 	- Můžeme vynechat předměty, jejichž $w\gt W$
-	- Když $\sum_{i=1}^{n}w_i\lt W$, tak máme opti
+	- Když $\sum_{i=1}^{n}w_i\lt W$, tak máme optimální řešení
+	- Protože $\sum_{i=1}^{h}c_i$ je horním omezením optimální hodnoty, lepší z dvou možných řešení ${{1,...,h-1}}$ a ${h}$
 #### Dynamic programing
 - $O(nC)$ kde $C$ je velmi veliké číslo
 - 2 varianty: máme celočíselné ceny, máme celočíselné váhy
@@ -744,7 +745,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNjczNTYxNCwtMTYxODg2OTEzNCwyMT
+eyJoaXN0b3J5IjpbLTcxMjQ0MTgxOCwtMTYxODg2OTEzNCwyMT
 I4ODc2NjAxLC0xNTQ3Mzk2ODk4LC00OTI0MzYwNjUsLTM5OTc4
 NDMxNiwxNzk4Mjg1NjQ0LC0xNTQyNTY5MDgxLDU5MDY3Njg5Ny
 wxOTUzOTk5MDMwLC0xMzAzMTc5MzIxLDk0MTE3NDI2MiwtMTQz
