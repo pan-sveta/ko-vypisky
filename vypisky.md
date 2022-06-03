@@ -387,7 +387,7 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 	- Můžeme vynechat předměty, jejichž $w\gt W$
 	- Když $\sum_{i=1}^{n}w_i\lt W$, tak máme optimální řešení
 	- Protože $\sum_{i=1}^{h}c_i$ je horním omezením optimální hodnoty, lepší z dvou možných řešení $\{\sum_{i=1}^{h}c_i\}$ a ${h}$ je minimálně polovina optimální hodnoty
-		- $J^A(I)=max\{\sum_{i=1}^{h-1}c_i, c_h\}\ge\frac{\sum_{i=1}^{c}}{}$
+		- $J^A(I)=max\{\sum_{i=1}^{h-1}c_i, c_h\}\ge\frac{\sum_{i=1}^{h}c_i}{2}\ge\frac{1}{2}J^*(I)$
 #### Dynamic programing
 - $O(nC)$ kde $C$ je velmi veliké číslo
 - 2 varianty: máme celočíselné ceny, máme celočíselné váhy
@@ -746,7 +746,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTU2MTE5OTUsLTE2MTg4NjkxMzQsMj
+eyJoaXN0b3J5IjpbLTEyNDE3NzY0ODIsLTE2MTg4NjkxMzQsMj
 EyODg3NjYwMSwtMTU0NzM5Njg5OCwtNDkyNDM2MDY1LC0zOTk3
 ODQzMTYsMTc5ODI4NTY0NCwtMTU0MjU2OTA4MSw1OTA2NzY4OT
 csMTk1Mzk5OTAzMCwtMTMwMzE3OTMyMSw5NDExNzQyNjIsLTE0
