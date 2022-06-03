@@ -440,14 +440,17 @@ Stejné jako knapsack, ale předměty nemusíme vkládat celé. Řeší bin pack
 - Nadále silně NP-hard
 - Existují aproximační algoritmy
 - Nemetrickou instanci můžeme pevést na metrickou přičtením největší váhy hrany ke všem hranám
-	- To neporošuje přechozí důkaz, protože nalezené optimum pro transformovaný graf neodpovídá přesně původnímu grafu
+	- To neporošuje přechozí důkaz, protože nalezené optimum pro transformovaný graf neodpovídá přesně původnímu grafu, protože je k němu přičteno "velké číslo" zatažené transformací
 
 **Nearest Neighbor** 
-1. vybereme první vrchol a přeindexujeme na $v_{[1]}$
-2. vybereme nejlacinější hranu, která z nás vychází a nejde do vrcholů, ve kterých jsme už byli
-3. opakujeme bod 2 dokud nemáme všechny vecholy
-4. spojíme poslední vrchol s $v_{[1]}$
 - $O(n^2)$
+- Heuristika, ni
+- Postup:
+	1. Vybereme první vrchol a přeindexujeme na $v_{[1]}$
+	2. Vybereme nejlacinější hranu, která z nás vychází a nejde do vrcholů, ve kterých jsme už byli
+	3. Opakujeme bod 2 dokud nemáme všechny vecholy
+	4. Spojíme poslední vrchol s $v_{[1]}$
+
 
 ### Double-tree (metric TSP)
 
@@ -713,11 +716,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY5MzUwODAwNCwtMTQzNDk0NzczMywtMj
-E1Nzk1MTYzLC0xODM1MzY2MzM4LC0xNzY3NDk1OTUzLC00NzQ3
-MzQwOTYsLTEyMDY4ODc0NTksMjA3NTY5ODgwLC02OTA3Mjg5Nj
-UsLTE5NTI4NTA3OTcsLTE1NTk2NjM3ODksMTcwMjIwNDExMSwy
-NTQxNDI0OTUsOTc0NTU3MTUyLDI1ODU0ODQ5NiwtMTMzNDQxMD
-cyMCw4MDU5MzY3MjMsLTEwMTc1NjUyMjQsMTU4NDg1MzQyNiwz
-NDg4NDgyOTddfQ==
+eyJoaXN0b3J5IjpbLTE2MDg5OTA5NzYsLTE0MzQ5NDc3MzMsLT
+IxNTc5NTE2MywtMTgzNTM2NjMzOCwtMTc2NzQ5NTk1MywtNDc0
+NzM0MDk2LC0xMjA2ODg3NDU5LDIwNzU2OTg4MCwtNjkwNzI4OT
+Y1LC0xOTUyODUwNzk3LC0xNTU5NjYzNzg5LDE3MDIyMDQxMTEs
+MjU0MTQyNDk1LDk3NDU1NzE1MiwyNTg1NDg0OTYsLTEzMzQ0MT
+A3MjAsODA1OTM2NzIzLC0xMDE3NTY1MjI0LDE1ODQ4NTM0MjYs
+MzQ4ODQ4Mjk3XX0=
 -->
