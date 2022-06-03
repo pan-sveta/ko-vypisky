@@ -530,13 +530,14 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 
 Dáváme **všechny** tásky zdrojům v čase.
 - Pokud se jeden task nevejde mezi relase a deadline je úloha infeasible
+- Každá úloha se musí provést
 - Můžeme minimalizovat čas (cost) dokončení $C_{max}$ nebo spoždění (lateness) $L_{max}$
 - Off-line - známe všechny tasky na začátku
 - On-line - postupně nám tasky přicházejí
 - Každá task může být v jednu dobu zpracováván jen jedním zdrojem
 - Každá zdroj vykonává v jednu dobu max jednu úlohu
 - Terminologie:
- 	- $T_i$ - task
+ 	- $T_i$ - úloha
 	- $m$ typů zdrojů s kapactiou $R_k$
 - Parametry:
 	- $r_j$ - release time
@@ -762,11 +763,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1NTIxMzczLDE5MjMzNzAzMzUsMTI3MT
-g1MjMxOSw2NjgzMjQ0NDUsMzQ0NjIyNzA4LC03MzU3MjgwNTQs
-LTEyNDE3NzY0ODIsLTE2MTg4NjkxMzQsMjEyODg3NjYwMSwtMT
-U0NzM5Njg5OCwtNDkyNDM2MDY1LC0zOTk3ODQzMTYsMTc5ODI4
-NTY0NCwtMTU0MjU2OTA4MSw1OTA2NzY4OTcsMTk1Mzk5OTAzMC
-wtMTMwMzE3OTMyMSw5NDExNzQyNjIsLTE0MzQ5NDc3MzMsLTIx
-NTc5NTE2M119
+eyJoaXN0b3J5IjpbLTE1NzMxMjk1ODUsMTkyMzM3MDMzNSwxMj
+cxODUyMzE5LDY2ODMyNDQ0NSwzNDQ2MjI3MDgsLTczNTcyODA1
+NCwtMTI0MTc3NjQ4MiwtMTYxODg2OTEzNCwyMTI4ODc2NjAxLC
+0xNTQ3Mzk2ODk4LC00OTI0MzYwNjUsLTM5OTc4NDMxNiwxNzk4
+Mjg1NjQ0LC0xNTQyNTY5MDgxLDU5MDY3Njg5NywxOTUzOTk5MD
+MwLC0xMzAzMTc5MzIxLDk0MTE3NDI2MiwtMTQzNDk0NzczMywt
+MjE1Nzk1MTYzXX0=
 -->
