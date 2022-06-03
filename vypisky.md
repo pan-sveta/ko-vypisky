@@ -420,6 +420,9 @@ Stejné jako knapsack, ale předměty nemusíme vkládat celé. Řeší bin pack
 	- $G$ má hamiltonovskou kružnici iif optimální TSP řešení je rovno $n$
 ![TSP is NP-Hard](https://github.com/pan-sveta/ko-vypisky/blob/main/images/tsp_is_hard.png?raw=true)
 
+### Důkaz, že neexistuje r-aproximační algoritmus
+- Důkaz sporem
+- Uvažujme, že existuje r-aproximační algoritmus s $r \ge 1$
 
 **Metric TSP** - Má vlastnost, že platí trojůhelníková nerovnost (cesta $|\overrightarrow{AB}| \le$ cestě $|\overrightarrow{ACB}|$)
 
@@ -694,11 +697,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3NDczNDA5NiwtMTIwNjg4NzQ1OSwyMD
-c1Njk4ODAsLTY5MDcyODk2NSwtMTk1Mjg1MDc5NywtMTU1OTY2
-Mzc4OSwxNzAyMjA0MTExLDI1NDE0MjQ5NSw5NzQ1NTcxNTIsMj
-U4NTQ4NDk2LC0xMzM0NDEwNzIwLDgwNTkzNjcyMywtMTAxNzU2
-NTIyNCwxNTg0ODUzNDI2LDM0ODg0ODI5NywtNzk0MDE0MjMyLD
-kwNDIxMDQ0OCwxNDQ3MzA2NzU0LDk4Njc5NDU2MCwtMTI2MDY4
-OTYxMF19
+eyJoaXN0b3J5IjpbOTUyMDU2NTQ3LC00NzQ3MzQwOTYsLTEyMD
+Y4ODc0NTksMjA3NTY5ODgwLC02OTA3Mjg5NjUsLTE5NTI4NTA3
+OTcsLTE1NTk2NjM3ODksMTcwMjIwNDExMSwyNTQxNDI0OTUsOT
+c0NTU3MTUyLDI1ODU0ODQ5NiwtMTMzNDQxMDcyMCw4MDU5MzY3
+MjMsLTEwMTc1NjUyMjQsMTU4NDg1MzQyNiwzNDg4NDgyOTcsLT
+c5NDAxNDIzMiw5MDQyMTA0NDgsMTQ0NzMwNjc1NCw5ODY3OTQ1
+NjBdfQ==
 -->
