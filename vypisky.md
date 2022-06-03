@@ -383,6 +383,8 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 	4. Postupně dáváme předměty do batohu dokud se nám tam další předmět nevejde celý
 	5. Tento předmě označíme jako $h$
 	6. vložíme předměty $\{1, ...\ ,h-1\}$ nebo jen $\{h\}$ na základě toho, co je výhodnější
+- Důkaz, že $r=2$
+- 
 #### Dynamic programing
 - $O(nC)$ kde $C$ je velmi veliké číslo
 - 2 varianty: máme celočíselné ceny, máme celočíselné váhy
@@ -741,11 +743,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MTUxMTYzLDIxMjg4NzY2MDEsLTE1ND
-czOTY4OTgsLTQ5MjQzNjA2NSwtMzk5Nzg0MzE2LDE3OTgyODU2
-NDQsLTE1NDI1NjkwODEsNTkwNjc2ODk3LDE5NTM5OTkwMzAsLT
-EzMDMxNzkzMjEsOTQxMTc0MjYyLC0xNDM0OTQ3NzMzLC0yMTU3
-OTUxNjMsLTE4MzUzNjYzMzgsLTE3Njc0OTU5NTMsLTQ3NDczND
-A5NiwtMTIwNjg4NzQ1OSwyMDc1Njk4ODAsLTY5MDcyODk2NSwt
-MTk1Mjg1MDc5N119
+eyJoaXN0b3J5IjpbLTE2MTg4NjkxMzQsMjEyODg3NjYwMSwtMT
+U0NzM5Njg5OCwtNDkyNDM2MDY1LC0zOTk3ODQzMTYsMTc5ODI4
+NTY0NCwtMTU0MjU2OTA4MSw1OTA2NzY4OTcsMTk1Mzk5OTAzMC
+wtMTMwMzE3OTMyMSw5NDExNzQyNjIsLTE0MzQ5NDc3MzMsLTIx
+NTc5NTE2MywtMTgzNTM2NjMzOCwtMTc2NzQ5NTk1MywtNDc0Nz
+M0MDk2LC0xMjA2ODg3NDU5LDIwNzU2OTg4MCwtNjkwNzI4OTY1
+LC0xOTUyODUwNzk3XX0=
 -->
