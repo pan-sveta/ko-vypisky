@@ -444,11 +444,11 @@ Stejné jako knapsack, ale předměty nemusíme vkládat celé. Řeší bin pack
 
 **Nearest Neighbor** 
 - $O(n^2)$
-- Heuristika, ni
+- Heuristika, nikoli aproximační algoritmus
 - Postup:
 	1. Vybereme první vrchol a přeindexujeme na $v_{[1]}$
 	2. Vybereme nejlacinější hranu, která z nás vychází a nejde do vrcholů, ve kterých jsme už byli
-	3. Opakujeme bod 2 dokud nemáme všechny vecholy
+	3. Opakujeme bod 2 dokud nemáme všechny vrcholy
 	4. Spojíme poslední vrchol s $v_{[1]}$
 
 
@@ -716,11 +716,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDg5OTA5NzYsLTE0MzQ5NDc3MzMsLT
-IxNTc5NTE2MywtMTgzNTM2NjMzOCwtMTc2NzQ5NTk1MywtNDc0
-NzM0MDk2LC0xMjA2ODg3NDU5LDIwNzU2OTg4MCwtNjkwNzI4OT
-Y1LC0xOTUyODUwNzk3LC0xNTU5NjYzNzg5LDE3MDIyMDQxMTEs
-MjU0MTQyNDk1LDk3NDU1NzE1MiwyNTg1NDg0OTYsLTEzMzQ0MT
-A3MjAsODA1OTM2NzIzLC0xMDE3NTY1MjI0LDE1ODQ4NTM0MjYs
-MzQ4ODQ4Mjk3XX0=
+eyJoaXN0b3J5IjpbOTQxMTc0MjYyLC0xNDM0OTQ3NzMzLC0yMT
+U3OTUxNjMsLTE4MzUzNjYzMzgsLTE3Njc0OTU5NTMsLTQ3NDcz
+NDA5NiwtMTIwNjg4NzQ1OSwyMDc1Njk4ODAsLTY5MDcyODk2NS
+wtMTk1Mjg1MDc5NywtMTU1OTY2Mzc4OSwxNzAyMjA0MTExLDI1
+NDE0MjQ5NSw5NzQ1NTcxNTIsMjU4NTQ4NDk2LC0xMzM0NDEwNz
+IwLDgwNTkzNjcyMywtMTAxNzU2NTIyNCwxNTg0ODUzNDI2LDM0
+ODg0ODI5N119
 -->
