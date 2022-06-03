@@ -369,7 +369,8 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 ### R-aproximační algoritmus
 - Takový algoritmus $A$, který je definován číslem $r\in Q$ pro problém $J$
 - Výsledek algoritmu $A$ je maxilmálně $\frac{1}{r}$ hodnoty optima algoritmu $J$
-- $J^*(I)\ge J^A(I)\ge \frac{1}{r}*J^*(I)$
+- Pro maximalizaci $J^A(I)\ge \frac{1}{r}*J^*(I)$
+- Pro minimalizaci $r*J^*(I)\ge J^A(I)$
 
 ### Knapsack (0/1 Knapsack)
 #### 2-Aproximation algo
@@ -738,11 +739,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyODg3NjYwMSwtMTU0NzM5Njg5OCwtND
-kyNDM2MDY1LC0zOTk3ODQzMTYsMTc5ODI4NTY0NCwtMTU0MjU2
-OTA4MSw1OTA2NzY4OTcsMTk1Mzk5OTAzMCwtMTMwMzE3OTMyMS
-w5NDExNzQyNjIsLTE0MzQ5NDc3MzMsLTIxNTc5NTE2MywtMTgz
-NTM2NjMzOCwtMTc2NzQ5NTk1MywtNDc0NzM0MDk2LC0xMjA2OD
-g3NDU5LDIwNzU2OTg4MCwtNjkwNzI4OTY1LC0xOTUyODUwNzk3
-LC0xNTU5NjYzNzg5XX0=
+eyJoaXN0b3J5IjpbLTEzNzY0MTU2MzUsMjEyODg3NjYwMSwtMT
+U0NzM5Njg5OCwtNDkyNDM2MDY1LC0zOTk3ODQzMTYsMTc5ODI4
+NTY0NCwtMTU0MjU2OTA4MSw1OTA2NzY4OTcsMTk1Mzk5OTAzMC
+wtMTMwMzE3OTMyMSw5NDExNzQyNjIsLTE0MzQ5NDc3MzMsLTIx
+NTc5NTE2MywtMTgzNTM2NjMzOCwtMTc2NzQ5NTk1MywtNDc0Nz
+M0MDk2LC0xMjA2ODg3NDU5LDIwNzU2OTg4MCwtNjkwNzI4OTY1
+LC0xOTUyODUwNzk3XX0=
 -->
