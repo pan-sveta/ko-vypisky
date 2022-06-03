@@ -630,10 +630,10 @@ Dáváme **všechny** tásky zdrojům v čase.
 
 #### Branch and Bound with LP-bounding
 -  $1|prec|\sum{w_j C_j}$
-- branch and bound dokud nenajdu první řešení
-- poté mohu využít částečné řešení ve větvi a spustit LP na zbytek větve
-- výsledek LP ($J^{LP}$) bude lower bound zbytku ve větvi, tudíž pokud $J^{LP}$+částeční řešení větve > aktuálně nejlepší řešení $\to$ větev neprocházím
-- lze použít i jiný zpusob nalezení lower boundu
+- Branch and bound dokud nenajdu první řešení
+- Poté mohu využít částečné řešení ve větvi a spustit LP na zbytek větve
+- Výsledek LP ($J^{LP}$) bude lower bound zbytku ve větvi, tudíž pokud $J^{LP}$+částeční řešení větve > aktuálně nejlepší řešení $\to$ větev neprocházím
+- Lze použít i jiný zpusob nalezení lower boundu
 
 #### Horn's algorithm 
 - $1|pmtn, r_j|L_{max}$
@@ -792,7 +792,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDY1NjAzNjYsMjA0MTYyMzY4LDg2OT
+eyJoaXN0b3J5IjpbLTEwOTUyODMwNTQsMjA0MTYyMzY4LDg2OT
 U5MDgzNyw2ODQ0NDI2MTUsLTEyMjMyMjc0ODMsLTQ1NjQ1ODM2
 MiwtMjg3MTM2NjY0LC05OTMzNDQ5NCwtMTU3MzEyOTU4NSwxOT
 IzMzcwMzM1LDEyNzE4NTIzMTksNjY4MzI0NDQ1LDM0NDYyMjcw
