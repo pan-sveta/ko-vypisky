@@ -561,7 +561,7 @@ Dáváme **všechny** tásky zdrojům v čase.
 			- $C_{max}$ - délka rozvrhu
 			- $\sum{C_j}$ suma časů dokončení
 			- $\sum{C_j *w_j}$ suma vážených časů dokončení
-			- $L_max$
+			- $L_max$ - zpoždění
 
 ### One resurce scheduling
 --------------------------------------------
@@ -767,11 +767,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0Njg0OTU1NiwtMTU3MzEyOTU4NSwxOT
-IzMzcwMzM1LDEyNzE4NTIzMTksNjY4MzI0NDQ1LDM0NDYyMjcw
-OCwtNzM1NzI4MDU0LC0xMjQxNzc2NDgyLC0xNjE4ODY5MTM0LD
-IxMjg4NzY2MDEsLTE1NDczOTY4OTgsLTQ5MjQzNjA2NSwtMzk5
-Nzg0MzE2LDE3OTgyODU2NDQsLTE1NDI1NjkwODEsNTkwNjc2OD
-k3LDE5NTM5OTkwMzAsLTEzMDMxNzkzMjEsOTQxMTc0MjYyLC0x
-NDM0OTQ3NzMzXX0=
+eyJoaXN0b3J5IjpbLTk5MzM0NDk0LC0xNTczMTI5NTg1LDE5Mj
+MzNzAzMzUsMTI3MTg1MjMxOSw2NjgzMjQ0NDUsMzQ0NjIyNzA4
+LC03MzU3MjgwNTQsLTEyNDE3NzY0ODIsLTE2MTg4NjkxMzQsMj
+EyODg3NjYwMSwtMTU0NzM5Njg5OCwtNDkyNDM2MDY1LC0zOTk3
+ODQzMTYsMTc5ODI4NTY0NCwtMTU0MjU2OTA4MSw1OTA2NzY4OT
+csMTk1Mzk5OTAzMCwtMTMwMzE3OTMyMSw5NDExNzQyNjIsLTE0
+MzQ5NDc3MzNdfQ==
 -->
