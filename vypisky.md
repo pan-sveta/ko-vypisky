@@ -490,10 +490,10 @@ Stejné jako knapsack, ale předměty nemusíme vkládat celé. Řeší bin pack
 - Důkaz faktoru $r=\frac{3}{2}$:
 	1. Protozože v grafu platí troúhelníková nerovnost, vynechané hrany nemůžou prodloužit cestu, $c(E(L)) \ge c(E(H))$ ($H$ může používat zkratky, které nejsou v $L$)
 	2. Když smažeme jednu hranu v kružnici, vytvoříme strom. Proto platí nerovnost $OPT(K_n,c) \ge c(E(T))$ (cena kružnice $\ge$ cena MST)
-	3. Protože perfektní párování $M$ používá každou druhou hranu ve střídajiící ceste a protože je to párování s minimální vahou, tak vybere menší polovinu
+	3. Protože perfektní párování $M$ používá každou druhou hranu ve střídajiící cestě a protože je to párování s minimální vahou, tak vybere menší polovinu
 		- $\frac{OPT(K_n),c}{2}\ge c(E(M))$
 	4. Tvorba $L$ zaručuje $c(E(M))+c(E(T))=c(E(L))$
-- Z toho získáme $\frac{3}{2}*OPT(K_n, c) \ge^{2.,3.} c(E(T)) + c(E(M)) =^{4.} c(E(L)) \g^{1.} c(E(H))$
+- Z toho získáme $\frac{3}{2}*OPT(K_n, c) \ge^{2.,3.} c(E(T)) + c(E(M)) =^{4.} c(E(L)) \ge^{1.} c(E(H))$
 
 **Tour improvement Heuristic - local seach k-OPT**
 
@@ -735,7 +735,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMTkxNzg3OCwxNzk4Mjg1NjQ0LC0xNT
+eyJoaXN0b3J5IjpbLTcxMDUxNTEyNywxNzk4Mjg1NjQ0LC0xNT
 QyNTY5MDgxLDU5MDY3Njg5NywxOTUzOTk5MDMwLC0xMzAzMTc5
 MzIxLDk0MTE3NDI2MiwtMTQzNDk0NzczMywtMjE1Nzk1MTYzLC
 0xODM1MzY2MzM4LC0xNzY3NDk1OTUzLC00NzQ3MzQwOTYsLTEy
