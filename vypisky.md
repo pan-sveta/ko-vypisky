@@ -463,8 +463,9 @@ Stejné jako knapsack, ale předměty nemusíme vkládat celé. Řeší bin pack
 - $O(n^2)$
 - Algoritmus:
 	1. Najdeme MST $T$
-	2. Všchny hran $T$ najdeme Eulerovský tah $L$
-	3. Z Eulerovského tahu $T$ odebereme vrcholy co jsme už navštívili, ale ponecháme poslední a tím vytvoříme Hamilnovskou kružnici $H$
+	2. Všchny hrany v  $T$ zvojíme
+	3. V $T$ nalezneme Eulerovský tah $L$
+	4. Z Eulerovského tahu $L$ odebereme vrcholy co jsme už navštívili, ale ponecháme poslední a tím vytvoříme Hamilnovskou kružnici $H$
 		- Příkald: https://youtu.be/p9qiafTnd6Q?t=3726
 			- EuT = ABCBADAEA
 			- TSP = ABCDEA
@@ -723,11 +724,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMjgyMDg4NjEsMTk1Mzk5OTAzMCwtMT
-MwMzE3OTMyMSw5NDExNzQyNjIsLTE0MzQ5NDc3MzMsLTIxNTc5
-NTE2MywtMTgzNTM2NjMzOCwtMTc2NzQ5NTk1MywtNDc0NzM0MD
-k2LC0xMjA2ODg3NDU5LDIwNzU2OTg4MCwtNjkwNzI4OTY1LC0x
-OTUyODUwNzk3LC0xNTU5NjYzNzg5LDE3MDIyMDQxMTEsMjU0MT
-QyNDk1LDk3NDU1NzE1MiwyNTg1NDg0OTYsLTEzMzQ0MTA3MjAs
-ODA1OTM2NzIzXX0=
+eyJoaXN0b3J5IjpbLTY5MjE0NDExMywxOTUzOTk5MDMwLC0xMz
+AzMTc5MzIxLDk0MTE3NDI2MiwtMTQzNDk0NzczMywtMjE1Nzk1
+MTYzLC0xODM1MzY2MzM4LC0xNzY3NDk1OTUzLC00NzQ3MzQwOT
+YsLTEyMDY4ODc0NTksMjA3NTY5ODgwLC02OTA3Mjg5NjUsLTE5
+NTI4NTA3OTcsLTE1NTk2NjM3ODksMTcwMjIwNDExMSwyNTQxND
+I0OTUsOTc0NTU3MTUyLDI1ODU0ODQ5NiwtMTMzNDQxMDcyMCw4
+MDU5MzY3MjNdfQ==
 -->
