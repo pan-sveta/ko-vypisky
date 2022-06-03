@@ -390,9 +390,10 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 	- Protože $\sum_{i=1}^{h}c_i$ je horním omezením optimální hodnoty, lepší z dvou možných řešení $\{\sum_{i=1}^{h}c_i\}$ a ${h}$ je minimálně polovina optimální hodnoty
 		- $J^A(I)=max\{\sum_{i=1}^{h-1}c_i, c_h\}\ge\frac{\sum_{i=1}^{h}c_i}{2}\ge\frac{1}{2}J^*(I)$
 #### Dynamic programing
+- Pseudopolynomiální
 - $O(nC)$ kde $C$ je velmi veliké číslo
 - 2 varianty: máme celočíselné ceny, máme celočíselné váhy
-- celočáselné hodnoty napíšeme do sloupců, řádky budou indexy předmětů pro vložení a hodnoty jsou neceločíselné valstnosti
+- Celočíselné hodnoty napíšeme do sloupců, řádky budou indexy předmětů pro vložení a hodnoty jsou neceločíselné valstnosti
 - Tabulky: https://youtu.be/71B1FMVVX_o?t=7252
 - Lze zmenšit počet sloupců (zrychlit algo) nalezením dělitele $t$ ve tvaru $\bar{c_j} = \lfloor \frac{c_j}{t} \rfloor$ (pokud se nejedná o společného dělitele snižujeme přesnost řešení)
 
@@ -747,11 +748,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNTcyODA1NCwtMTI0MTc3NjQ4MiwtMT
-YxODg2OTEzNCwyMTI4ODc2NjAxLC0xNTQ3Mzk2ODk4LC00OTI0
-MzYwNjUsLTM5OTc4NDMxNiwxNzk4Mjg1NjQ0LC0xNTQyNTY5MD
-gxLDU5MDY3Njg5NywxOTUzOTk5MDMwLC0xMzAzMTc5MzIxLDk0
-MTE3NDI2MiwtMTQzNDk0NzczMywtMjE1Nzk1MTYzLC0xODM1Mz
-Y2MzM4LC0xNzY3NDk1OTUzLC00NzQ3MzQwOTYsLTEyMDY4ODc0
-NTksMjA3NTY5ODgwXX0=
+eyJoaXN0b3J5IjpbMzQ0NjIyNzA4LC03MzU3MjgwNTQsLTEyND
+E3NzY0ODIsLTE2MTg4NjkxMzQsMjEyODg3NjYwMSwtMTU0NzM5
+Njg5OCwtNDkyNDM2MDY1LC0zOTk3ODQzMTYsMTc5ODI4NTY0NC
+wtMTU0MjU2OTA4MSw1OTA2NzY4OTcsMTk1Mzk5OTAzMCwtMTMw
+MzE3OTMyMSw5NDExNzQyNjIsLTE0MzQ5NDc3MzMsLTIxNTc5NT
+E2MywtMTgzNTM2NjMzOCwtMTc2NzQ5NTk1MywtNDc0NzM0MDk2
+LC0xMjA2ODg3NDU5XX0=
 -->
