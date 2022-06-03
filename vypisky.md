@@ -403,7 +403,7 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 - Postup:
 	1. Spustíme 2-aproximační algoritmus a řešení označíme jako $S_1$
 	2. Spočítáme proměnou $t=max\{1,\frac{\epsilon * c(S_1)}{n}\}$
-	3. Spočítáme $c_j^\'$
+	3. Spočítáme $c_j^{'} $
 
 ## TSP
 - Cesta v grafu přes všechny vrcholy grafu - Hamiltonovská cesta
@@ -756,11 +756,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDI4MDU5MzIwLDM0NDYyMjcwOCwtNzM1Nz
-I4MDU0LC0xMjQxNzc2NDgyLC0xNjE4ODY5MTM0LDIxMjg4NzY2
-MDEsLTE1NDczOTY4OTgsLTQ5MjQzNjA2NSwtMzk5Nzg0MzE2LD
-E3OTgyODU2NDQsLTE1NDI1NjkwODEsNTkwNjc2ODk3LDE5NTM5
-OTkwMzAsLTEzMDMxNzkzMjEsOTQxMTc0MjYyLC0xNDM0OTQ3Nz
-MzLC0yMTU3OTUxNjMsLTE4MzUzNjYzMzgsLTE3Njc0OTU5NTMs
-LTQ3NDczNDA5Nl19
+eyJoaXN0b3J5IjpbMTk5MTEzOTQxMCwzNDQ2MjI3MDgsLTczNT
+cyODA1NCwtMTI0MTc3NjQ4MiwtMTYxODg2OTEzNCwyMTI4ODc2
+NjAxLC0xNTQ3Mzk2ODk4LC00OTI0MzYwNjUsLTM5OTc4NDMxNi
+wxNzk4Mjg1NjQ0LC0xNTQyNTY5MDgxLDU5MDY3Njg5NywxOTUz
+OTk5MDMwLC0xMzAzMTc5MzIxLDk0MTE3NDI2MiwtMTQzNDk0Nz
+czMywtMjE1Nzk1MTYzLC0xODM1MzY2MzM4LC0xNzY3NDk1OTUz
+LC00NzQ3MzQwOTZdfQ==
 -->
