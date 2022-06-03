@@ -493,6 +493,7 @@ Stejné jako knapsack, ale předměty nemusíme vkládat celé. Řeší bin pack
 	3. Protože perfektní párování $M$ používá každou druhou hranu ve střídajiící ceste a protože je to párování s minimální vahou, tak vybere menší polovinu
 		- $\frac{OPT(K_n),c}{2}\ge c(E(M))$
 	4. Tvorba $L$ zaručuje $c(E(M))+c(E(T))=c(E(L))$
+	- Z toho získáme $Rfrac$
 
 **Tour improvement Heuristic - local seach k-OPT**
 
@@ -734,7 +735,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjYyNjgzMjM5LC0xNTQyNTY5MDgxLDU5MD
+eyJoaXN0b3J5IjpbLTIxNDM5ODcwLC0xNTQyNTY5MDgxLDU5MD
 Y3Njg5NywxOTUzOTk5MDMwLC0xMzAzMTc5MzIxLDk0MTE3NDI2
 MiwtMTQzNDk0NzczMywtMjE1Nzk1MTYzLC0xODM1MzY2MzM4LC
 0xNzY3NDk1OTUzLC00NzQ3MzQwOTYsLTEyMDY4ODc0NTksMjA3
