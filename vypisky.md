@@ -470,7 +470,8 @@ Stejné jako knapsack, ale předměty nemusíme vkládat celé. Řeší bin pack
 			- EuT = ABCBADAEA
 			- TSP = ABCDEA
 - Důkaz faktoru $r=2$:
-	1. Protozože v grafu platí troúhelníková nerovnost, vynechané hrany nemůžou prodloužit cestu, $c(E(L)) \ge c(E(H))$ 
+	1. Protozože v grafu platí troúhelníková nerovnost, vynechané hrany nemůžou prodloužit cestu, $c(E(L)) \ge c(E(H))$ ($H$ může používat zkratky, které nejsou v $L$)
+	2. Když smažeme jednu hranu v kružnici, vytvoříme strom. Porto platí nerovnost $
 
 ### Christofides Algorithm (metric TSP)
 
@@ -724,7 +725,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MjE0NDExMywxOTUzOTk5MDMwLC0xMz
+eyJoaXN0b3J5IjpbMjEyNzg1MzExMCwxOTUzOTk5MDMwLC0xMz
 AzMTc5MzIxLDk0MTE3NDI2MiwtMTQzNDk0NzczMywtMjE1Nzk1
 MTYzLC0xODM1MzY2MzM4LC0xNzY3NDk1OTUzLC00NzQ3MzQwOT
 YsLTEyMDY4ODc0NTksMjA3NTY5ODgwLC02OTA3Mjg5NjUsLTE5
