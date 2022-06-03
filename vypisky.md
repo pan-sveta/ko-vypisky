@@ -439,7 +439,8 @@ Stejné jako knapsack, ale předměty nemusíme vkládat celé. Řeší bin pack
 - Má vlastnost, že platí trojůhelníková nerovnost $c(|\overrightarrow{AB}|) \le$ $c(|\overrightarrow{AC}|)+ c (|\overrightarrow{CB}|$)
 - Nadále silně NP-hard
 - Existují aproximační algoritmy
-- Nemetrickou instanci můžeme pevést na metrickou přičtením největší 
+- Nemetrickou instanci můžeme pevést na metrickou přičtením největší váhy hrany ke všem hranám
+	- To neporošuje přechozí důkaz, protože nalezené optimum pro transformovaný graf
 
 **Nearest Neighbor** 
 1. vybereme první vrchol a přeindexujeme na $v_{[1]}$
@@ -712,11 +713,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTI2Njc5MzMsLTE0MzQ5NDc3MzMsLT
-IxNTc5NTE2MywtMTgzNTM2NjMzOCwtMTc2NzQ5NTk1MywtNDc0
-NzM0MDk2LC0xMjA2ODg3NDU5LDIwNzU2OTg4MCwtNjkwNzI4OT
-Y1LC0xOTUyODUwNzk3LC0xNTU5NjYzNzg5LDE3MDIyMDQxMTEs
-MjU0MTQyNDk1LDk3NDU1NzE1MiwyNTg1NDg0OTYsLTEzMzQ0MT
-A3MjAsODA1OTM2NzIzLC0xMDE3NTY1MjI0LDE1ODQ4NTM0MjYs
-MzQ4ODQ4Mjk3XX0=
+eyJoaXN0b3J5IjpbLTQ4MTkwMDY2NSwtMTQzNDk0NzczMywtMj
+E1Nzk1MTYzLC0xODM1MzY2MzM4LC0xNzY3NDk1OTUzLC00NzQ3
+MzQwOTYsLTEyMDY4ODc0NTksMjA3NTY5ODgwLC02OTA3Mjg5Nj
+UsLTE5NTI4NTA3OTcsLTE1NTk2NjM3ODksMTcwMjIwNDExMSwy
+NTQxNDI0OTUsOTc0NTU3MTUyLDI1ODU0ODQ5NiwtMTMzNDQxMD
+cyMCw4MDU5MzY3MjMsLTEwMTc1NjUyMjQsMTU4NDg1MzQyNiwz
+NDg4NDgyOTddfQ==
 -->
