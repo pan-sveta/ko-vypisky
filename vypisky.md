@@ -577,7 +577,7 @@ Dáváme **všechny** tásky zdrojům v čase.
 - Redukce z 3-partion problému
 - Mějme 3-Partition rozhodovací problém $I_{3P}=(A,B)$
 	- Multiset $A$ $3m$ čísel $a_1,a_2,...,a_{3m}$ (velikost předmětů)
-	- Kladné číslo $B$ (velimost košů) takov=e, že $\forall$
+	- Kladné číslo $B$ (velimost košů) takové, že $\forall i \in \{1,2,...,3m\}$ platí $\frac{B}{4} \le a_i \le \frac{B}{2}$
 
 - Nejmenší doba čekání
 	- $1||\sum{C_j}$ - easy (seřazené dle $p_j$)
@@ -774,7 +774,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzNjMxODMwLC0yODcxMzY2NjQsLTk5Mz
+eyJoaXN0b3J5IjpbNzY3NDk2NTg3LC0yODcxMzY2NjQsLTk5Mz
 M0NDk0LC0xNTczMTI5NTg1LDE5MjMzNzAzMzUsMTI3MTg1MjMx
 OSw2NjgzMjQ0NDUsMzQ0NjIyNzA4LC03MzU3MjgwNTQsLTEyND
 E3NzY0ODIsLTE2MTg4NjkxMzQsMjEyODg3NjYwMSwtMTU0NzM5
