@@ -424,7 +424,10 @@ Stejné jako knapsack, ale předměty nemusíme vkládat celé. Řeší bin pack
 - Důkaz sporem
 - Uvažujme, že existuje r-aproximační algoritmus $\mathcal{A}$ s $r \ge 1$
 - Ukážeme, že s tímto $\mathcal{A}$ jsme schopni řešit existenci hamiltonovské kružnice
-- To by znamenalo, že P=NP
+- To by znamenalo, že $P=NP$
+- Postup:
+	- Mějme neorientovaný graf $G$, ve kterém chceme najít hamiltonovskou kružnici
+	- Vytvoř
 
 **Metric TSP** - Má vlastnost, že platí trojůhelníková nerovnost (cesta $|\overrightarrow{AB}| \le$ cestě $|\overrightarrow{ACB}|$)
 
@@ -699,11 +702,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njc0OTU5NTMsLTQ3NDczNDA5NiwtMT
-IwNjg4NzQ1OSwyMDc1Njk4ODAsLTY5MDcyODk2NSwtMTk1Mjg1
-MDc5NywtMTU1OTY2Mzc4OSwxNzAyMjA0MTExLDI1NDE0MjQ5NS
-w5NzQ1NTcxNTIsMjU4NTQ4NDk2LC0xMzM0NDEwNzIwLDgwNTkz
-NjcyMywtMTAxNzU2NTIyNCwxNTg0ODUzNDI2LDM0ODg0ODI5Ny
-wtNzk0MDE0MjMyLDkwNDIxMDQ0OCwxNDQ3MzA2NzU0LDk4Njc5
-NDU2MF19
+eyJoaXN0b3J5IjpbLTM2MjIxMDY3MCwtMTc2NzQ5NTk1MywtND
+c0NzM0MDk2LC0xMjA2ODg3NDU5LDIwNzU2OTg4MCwtNjkwNzI4
+OTY1LC0xOTUyODUwNzk3LC0xNTU5NjYzNzg5LDE3MDIyMDQxMT
+EsMjU0MTQyNDk1LDk3NDU1NzE1MiwyNTg1NDg0OTYsLTEzMzQ0
+MTA3MjAsODA1OTM2NzIzLC0xMDE3NTY1MjI0LDE1ODQ4NTM0Mj
+YsMzQ4ODQ4Mjk3LC03OTQwMTQyMzIsOTA0MjEwNDQ4LDE0NDcz
+MDY3NTRdfQ==
 -->
