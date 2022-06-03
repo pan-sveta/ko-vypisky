@@ -572,6 +572,11 @@ Dáváme **všechny** tásky zdrojům v čase.
 	- $1|r_j|C_{max}$ - easy (od nejmenšího $r_j$)
 	- $1|\tilde{d_j}|C_{max}$ - easy (od nejmenšího $\tilde{d_j}$)
 	- $1|r_j,\tilde{d_j}|C_{max}$ - NP-hard (krome $p_j$=1 $\to$ easy)
+
+#### Důjaz že je silně NP-Hard
+- Proč je $1|r_j,\tilde{d_j}|C_{max}$  NP-Hard
+
+
 - Nejmenší doba čekání
 	- $1||\sum{C_j}$ - easy (seřazené dle $p_j$)
 	- $1||\sum{w_j C_j}$ - easy (seřazené dle $\frac{p_j}{w_j}$)
@@ -767,11 +772,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDE5OTgyMjgxLC05OTMzNDQ5NCwtMTU3Mz
-EyOTU4NSwxOTIzMzcwMzM1LDEyNzE4NTIzMTksNjY4MzI0NDQ1
-LDM0NDYyMjcwOCwtNzM1NzI4MDU0LC0xMjQxNzc2NDgyLC0xNj
-E4ODY5MTM0LDIxMjg4NzY2MDEsLTE1NDczOTY4OTgsLTQ5MjQz
-NjA2NSwtMzk5Nzg0MzE2LDE3OTgyODU2NDQsLTE1NDI1NjkwOD
-EsNTkwNjc2ODk3LDE5NTM5OTkwMzAsLTEzMDMxNzkzMjEsOTQx
-MTc0MjYyXX0=
+eyJoaXN0b3J5IjpbMTQ4OTUyNjg5MSwtOTkzMzQ0OTQsLTE1Nz
+MxMjk1ODUsMTkyMzM3MDMzNSwxMjcxODUyMzE5LDY2ODMyNDQ0
+NSwzNDQ2MjI3MDgsLTczNTcyODA1NCwtMTI0MTc3NjQ4MiwtMT
+YxODg2OTEzNCwyMTI4ODc2NjAxLC0xNTQ3Mzk2ODk4LC00OTI0
+MzYwNjUsLTM5OTc4NDMxNiwxNzk4Mjg1NjQ0LC0xNTQyNTY5MD
+gxLDU5MDY3Njg5NywxOTUzOTk5MDMwLC0xMzAzMTc5MzIxLDk0
+MTE3NDI2Ml19
 -->
