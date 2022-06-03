@@ -427,7 +427,7 @@ Stejné jako knapsack, ale předměty nemusíme vkládat celé. Řeší bin pack
 - To by znamenalo, že $P=NP$
 - Postup:
 	- Mějme neorientovaný graf $G$, ve kterém chceme najít hamiltonovskou kružnici
-	- Vytvoř
+	- Vytvoříme TSP instanci $K_n$ takovou, že vrcholy jsou totožné a hrany ohodno
 
 **Metric TSP** - Má vlastnost, že platí trojůhelníková nerovnost (cesta $|\overrightarrow{AB}| \le$ cestě $|\overrightarrow{ACB}|$)
 
@@ -702,7 +702,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MjIxMDY3MCwtMTc2NzQ5NTk1MywtND
+eyJoaXN0b3J5IjpbLTM5ODYyNjE0NiwtMTc2NzQ5NTk1MywtND
 c0NzM0MDk2LC0xMjA2ODg3NDU5LDIwNzU2OTg4MCwtNjkwNzI4
 OTY1LC0xOTUyODUwNzk3LC0xNTU5NjYzNzg5LDE3MDIyMDQxMT
 EsMjU0MTQyNDk1LDk3NDU1NzE1MiwyNTg1NDg0OTYsLTEzMzQ0
