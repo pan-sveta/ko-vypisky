@@ -384,7 +384,8 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 	5. Tento předmě označíme jako $h$
 	6. vložíme předměty $\{1, ...\ ,h-1\}$ nebo jen $\{h\}$ na základě toho, co je výhodnější
 - Důkaz, že $r=2$
-	- Můžeme vynechat předměty, jejichť
+	- Můžeme vynechat předměty, jejichž $w\gt W$
+	- Když $\sum_{i=1}^{n}w_i\lt W$, tak máme opti
 #### Dynamic programing
 - $O(nC)$ kde $C$ je velmi veliké číslo
 - 2 varianty: máme celočíselné ceny, máme celočíselné váhy
@@ -743,11 +744,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxOTUyMTkyLC0xNjE4ODY5MTM0LDIxMj
-g4NzY2MDEsLTE1NDczOTY4OTgsLTQ5MjQzNjA2NSwtMzk5Nzg0
-MzE2LDE3OTgyODU2NDQsLTE1NDI1NjkwODEsNTkwNjc2ODk3LD
-E5NTM5OTkwMzAsLTEzMDMxNzkzMjEsOTQxMTc0MjYyLC0xNDM0
-OTQ3NzMzLC0yMTU3OTUxNjMsLTE4MzUzNjYzMzgsLTE3Njc0OT
-U5NTMsLTQ3NDczNDA5NiwtMTIwNjg4NzQ1OSwyMDc1Njk4ODAs
-LTY5MDcyODk2NV19
+eyJoaXN0b3J5IjpbMjEwNjczNTYxNCwtMTYxODg2OTEzNCwyMT
+I4ODc2NjAxLC0xNTQ3Mzk2ODk4LC00OTI0MzYwNjUsLTM5OTc4
+NDMxNiwxNzk4Mjg1NjQ0LC0xNTQyNTY5MDgxLDU5MDY3Njg5Ny
+wxOTUzOTk5MDMwLC0xMzAzMTc5MzIxLDk0MTE3NDI2MiwtMTQz
+NDk0NzczMywtMjE1Nzk1MTYzLC0xODM1MzY2MzM4LC0xNzY3ND
+k1OTUzLC00NzQ3MzQwOTYsLTEyMDY4ODc0NTksMjA3NTY5ODgw
+LC02OTA3Mjg5NjVdfQ==
 -->
