@@ -433,6 +433,7 @@ Stejné jako knapsack, ale předměty nemusíme vkládat celé. Řeší bin pack
 	- Vyřešíme pomocí $\mathcal{A}$ 
 		- Pokud je optimum v intervalu $<n, r*n>$, pak Hamiltonovská kružnice existuje
 		- Pokud je větší, G nemá hamiltonovský cyklus
+![Genereal approximation proof](https://github.com/pan-sveta/ko-vypisky/blob/main/images/tsp_general_approx_proof.png?raw=true)
 
 **Metric TSP** - Má vlastnost, že platí trojůhelníková nerovnost (cesta $|\overrightarrow{AB}| \le$ cestě $|\overrightarrow{ACB}|$)
 
@@ -707,7 +708,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczNDg0NTc0NCwtMTgzNTM2NjMzOCwtMT
+eyJoaXN0b3J5IjpbLTIxNTc5NTE2MywtMTgzNTM2NjMzOCwtMT
 c2NzQ5NTk1MywtNDc0NzM0MDk2LC0xMjA2ODg3NDU5LDIwNzU2
 OTg4MCwtNjkwNzI4OTY1LC0xOTUyODUwNzk3LC0xNTU5NjYzNz
 g5LDE3MDIyMDQxMTEsMjU0MTQyNDk1LDk3NDU1NzE1MiwyNTg1
