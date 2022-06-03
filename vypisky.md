@@ -440,7 +440,7 @@ Stejné jako knapsack, ale předměty nemusíme vkládat celé. Řeší bin pack
 - Nadále silně NP-hard
 - Existují aproximační algoritmy
 - Nemetrickou instanci můžeme pevést na metrickou přičtením největší váhy hrany ke všem hranám
-	- To neporošuje přechozí důkaz, protože nalezené optimum pro transformovaný graf
+	- To neporošuje přechozí důkaz, protože nalezené optimum pro transformovaný graf neodpovídá přesně původnímu grafu
 
 **Nearest Neighbor** 
 1. vybereme první vrchol a přeindexujeme na $v_{[1]}$
@@ -713,7 +713,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4MTkwMDY2NSwtMTQzNDk0NzczMywtMj
+eyJoaXN0b3J5IjpbMTY5MzUwODAwNCwtMTQzNDk0NzczMywtMj
 E1Nzk1MTYzLC0xODM1MzY2MzM4LC0xNzY3NDk1OTUzLC00NzQ3
 MzQwOTYsLTEyMDY4ODc0NTksMjA3NTY5ODgwLC02OTA3Mjg5Nj
 UsLTE5NTI4NTA3OTcsLTE1NTk2NjM3ODksMTcwMjIwNDExMSwy
