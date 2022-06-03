@@ -373,7 +373,7 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 - Pro minimalizaci $r*J^*(I)\ge J^A(I)$
 
 ### Knapsack (0/1 Knapsack)
-#### 2-Aproximation algo
+#### 2-Aproximation algorithm
 - Alespoň $\frac {1}{r}$ optima (kde $r$=2) 
 - $O(n)$
 - Algoritmus:
@@ -390,9 +390,7 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 - tabulky: https://youtu.be/71B1FMVVX_o?t=7252
 - lze zmenšit počet sloupců (zrychlit algo) nalezením dělitele $t$ ve tvaru $\bar{c_j} = \lfloor \frac{c_j}{t} \rfloor$ (pokud se nejedná o společného dělitele snižujeme přesnost řešení)
 
-
 ## TSP
-
 - Cesta v grafu přes všechny vrcholy grafu - Hamiltonovská cesta
 - Spojení posledního a prvního vrcholu - Hamiltonovská kružnice
 - Reálné problémy TSP: Capacitated Vehicle routing Problem, Time Windows, Pick-up and Delivery.
@@ -743,11 +741,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxMjU3MjMzNSwyMTI4ODc2NjAxLC0xNT
-Q3Mzk2ODk4LC00OTI0MzYwNjUsLTM5OTc4NDMxNiwxNzk4Mjg1
-NjQ0LC0xNTQyNTY5MDgxLDU5MDY3Njg5NywxOTUzOTk5MDMwLC
-0xMzAzMTc5MzIxLDk0MTE3NDI2MiwtMTQzNDk0NzczMywtMjE1
-Nzk1MTYzLC0xODM1MzY2MzM4LC0xNzY3NDk1OTUzLC00NzQ3Mz
-QwOTYsLTEyMDY4ODc0NTksMjA3NTY5ODgwLC02OTA3Mjg5NjUs
-LTE5NTI4NTA3OTddfQ==
+eyJoaXN0b3J5IjpbNDM3NDY3ODM1LDIxMjg4NzY2MDEsLTE1ND
+czOTY4OTgsLTQ5MjQzNjA2NSwtMzk5Nzg0MzE2LDE3OTgyODU2
+NDQsLTE1NDI1NjkwODEsNTkwNjc2ODk3LDE5NTM5OTkwMzAsLT
+EzMDMxNzkzMjEsOTQxMTc0MjYyLC0xNDM0OTQ3NzMzLC0yMTU3
+OTUxNjMsLTE4MzUzNjYzMzgsLTE3Njc0OTU5NTMsLTQ3NDczND
+A5NiwtMTIwNjg4NzQ1OSwyMDc1Njk4ODAsLTY5MDcyODk2NSwt
+MTk1Mjg1MDc5N119
 -->
