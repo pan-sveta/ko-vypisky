@@ -61,7 +61,8 @@ Maintaner: [Filip Štěpánek](https://github.com/pan-sveta)
 - $m$ - počet hrans
 
 **Troúhelníková nerovnost**
-- $l$ je suma cen v dané cestě
+- $l$ je suma cen v nejkratší cestě 
+- $c$ je suma cen v celé c
 - Platí, že $l(i,j) \leq l(i,k) + l(k,j)$
 ![Triangle inequality](https://github.com/pan-sveta/ko-vypisky/blob/main/images/triangle_inequality.png?raw=true)
 
@@ -716,11 +717,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzExODQ4MDE4LDk0MTE3NDI2MiwtMTQzND
-k0NzczMywtMjE1Nzk1MTYzLC0xODM1MzY2MzM4LC0xNzY3NDk1
-OTUzLC00NzQ3MzQwOTYsLTEyMDY4ODc0NTksMjA3NTY5ODgwLC
-02OTA3Mjg5NjUsLTE5NTI4NTA3OTcsLTE1NTk2NjM3ODksMTcw
-MjIwNDExMSwyNTQxNDI0OTUsOTc0NTU3MTUyLDI1ODU0ODQ5Ni
-wtMTMzNDQxMDcyMCw4MDU5MzY3MjMsLTEwMTc1NjUyMjQsMTU4
-NDg1MzQyNl19
+eyJoaXN0b3J5IjpbLTE3NjIzNzMyMzQsOTQxMTc0MjYyLC0xND
+M0OTQ3NzMzLC0yMTU3OTUxNjMsLTE4MzUzNjYzMzgsLTE3Njc0
+OTU5NTMsLTQ3NDczNDA5NiwtMTIwNjg4NzQ1OSwyMDc1Njk4OD
+AsLTY5MDcyODk2NSwtMTk1Mjg1MDc5NywtMTU1OTY2Mzc4OSwx
+NzAyMjA0MTExLDI1NDE0MjQ5NSw5NzQ1NTcxNTIsMjU4NTQ4ND
+k2LC0xMzM0NDEwNzIwLDgwNTkzNjcyMywtMTAxNzU2NTIyNCwx
+NTg0ODUzNDI2XX0=
 -->
