@@ -439,6 +439,7 @@ Stejné jako knapsack, ale předměty nemusíme vkládat celé. Řeší bin pack
 - Má vlastnost, že platí trojůhelníková nerovnost (cena cesty $|\overrightarrow{AB}| \le$ ceně cesty $|\overrightarrow{AC}|+|\overrightarrow{CB}|$)
 - Nadále silně NP-hard
 - Existují aproximační algoritmy
+- Nemetrickou instanci můžeme pevést na metrickou přičtením největší 
 
 **Nearest Neighbor** 
 1. vybereme první vrchol a přeindexujeme na $v_{[1]}$
@@ -711,7 +712,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTgyOTUwMzEwLC0xNDM0OTQ3NzMzLC0yMT
+eyJoaXN0b3J5IjpbNzYzNjg3MDEwLC0xNDM0OTQ3NzMzLC0yMT
 U3OTUxNjMsLTE4MzUzNjYzMzgsLTE3Njc0OTU5NTMsLTQ3NDcz
 NDA5NiwtMTIwNjg4NzQ1OSwyMDc1Njk4ODAsLTY5MDcyODk2NS
 wtMTk1Mjg1MDc5NywtMTU1OTY2Mzc4OSwxNzAyMjA0MTExLDI1
