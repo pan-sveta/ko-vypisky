@@ -618,7 +618,8 @@ Dáváme **všechny** tásky zdrojům v čase.
 	- Podmínky:
 		- První úloha v rozvrhu musí začínat na svém release timu
 		- Všechny úlohy běží bez "idlu"
-		- $r_1 \le r_i $
+		- $r_1 \le r_i \forall i=2...k$
+	- 
 - příhlad https://youtu.be/idc516WZZ1I?t=5131
 
 #### Branch and Bound with LP-bounding
@@ -785,11 +786,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjA2OTk1NDYsODY5NTkwODM3LDY4ND
-Q0MjYxNSwtMTIyMzIyNzQ4MywtNDU2NDU4MzYyLC0yODcxMzY2
-NjQsLTk5MzM0NDk0LC0xNTczMTI5NTg1LDE5MjMzNzAzMzUsMT
-I3MTg1MjMxOSw2NjgzMjQ0NDUsMzQ0NjIyNzA4LC03MzU3Mjgw
-NTQsLTEyNDE3NzY0ODIsLTE2MTg4NjkxMzQsMjEyODg3NjYwMS
-wtMTU0NzM5Njg5OCwtNDkyNDM2MDY1LC0zOTk3ODQzMTYsMTc5
-ODI4NTY0NF19
+eyJoaXN0b3J5IjpbMTE1Mzg2NzU0OCw4Njk1OTA4MzcsNjg0ND
+QyNjE1LC0xMjIzMjI3NDgzLC00NTY0NTgzNjIsLTI4NzEzNjY2
+NCwtOTkzMzQ0OTQsLTE1NzMxMjk1ODUsMTkyMzM3MDMzNSwxMj
+cxODUyMzE5LDY2ODMyNDQ0NSwzNDQ2MjI3MDgsLTczNTcyODA1
+NCwtMTI0MTc3NjQ4MiwtMTYxODg2OTEzNCwyMTI4ODc2NjAxLC
+0xNTQ3Mzk2ODk4LC00OTI0MzYwNjUsLTM5OTc4NDMxNiwxNzk4
+Mjg1NjQ0XX0=
 -->
