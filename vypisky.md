@@ -355,7 +355,6 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 - Maximalizujeme cenu věcí v batohu 
 
 **Fractional Knapsack problem**
-
 Stejné jako knapsack, ale předměty nemusíme vkládat celé. Řeší bin packing, contaner loading, 1-D, 2-D, 3-D cutting problem.
 
 - $O(n\log n)$ jen znovu seřadím
@@ -735,11 +734,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MjQzNjA2NSwtMzk5Nzg0MzE2LDE3OT
-gyODU2NDQsLTE1NDI1NjkwODEsNTkwNjc2ODk3LDE5NTM5OTkw
-MzAsLTEzMDMxNzkzMjEsOTQxMTc0MjYyLC0xNDM0OTQ3NzMzLC
-0yMTU3OTUxNjMsLTE4MzUzNjYzMzgsLTE3Njc0OTU5NTMsLTQ3
-NDczNDA5NiwtMTIwNjg4NzQ1OSwyMDc1Njk4ODAsLTY5MDcyOD
-k2NSwtMTk1Mjg1MDc5NywtMTU1OTY2Mzc4OSwxNzAyMjA0MTEx
-LDI1NDE0MjQ5NV19
+eyJoaXN0b3J5IjpbMTExMzYxMjQyOSwtNDkyNDM2MDY1LC0zOT
+k3ODQzMTYsMTc5ODI4NTY0NCwtMTU0MjU2OTA4MSw1OTA2NzY4
+OTcsMTk1Mzk5OTAzMCwtMTMwMzE3OTMyMSw5NDExNzQyNjIsLT
+E0MzQ5NDc3MzMsLTIxNTc5NTE2MywtMTgzNTM2NjMzOCwtMTc2
+NzQ5NTk1MywtNDc0NzM0MDk2LC0xMjA2ODg3NDU5LDIwNzU2OT
+g4MCwtNjkwNzI4OTY1LC0xOTUyODUwNzk3LC0xNTU5NjYzNzg5
+LDE3MDIyMDQxMTFdfQ==
 -->
