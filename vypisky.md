@@ -284,7 +284,7 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 	 - Postup:
 		 1. Nastavíme **b(v)**=0 pro všechny vrcholy
 		 2. Nastavíme **l(e)**=1 a **u(e)**=∞ pro všechny hrany
-		 3. Vyřešíme max flow
+		 3. Vyřešíme min flow
 	- Existuje pošťákova cesta, která využívá každou hranu přesně jednou (tj.  Eulerian walk) iif pokud má každý vrchol stejný indegree a outdegree (tj. Eulerian digraph).
 
 ### Cycle Canceling Algorithm (řeší Minimum cost flow)
@@ -709,11 +709,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MDE0MTI4NywtMjE1Nzk1MTYzLC0xOD
-M1MzY2MzM4LC0xNzY3NDk1OTUzLC00NzQ3MzQwOTYsLTEyMDY4
-ODc0NTksMjA3NTY5ODgwLC02OTA3Mjg5NjUsLTE5NTI4NTA3OT
-csLTE1NTk2NjM3ODksMTcwMjIwNDExMSwyNTQxNDI0OTUsOTc0
-NTU3MTUyLDI1ODU0ODQ5NiwtMTMzNDQxMDcyMCw4MDU5MzY3Mj
-MsLTEwMTc1NjUyMjQsMTU4NDg1MzQyNiwzNDg4NDgyOTcsLTc5
-NDAxNDIzMl19
+eyJoaXN0b3J5IjpbLTE0MzQ5NDc3MzMsLTIxNTc5NTE2MywtMT
+gzNTM2NjMzOCwtMTc2NzQ5NTk1MywtNDc0NzM0MDk2LC0xMjA2
+ODg3NDU5LDIwNzU2OTg4MCwtNjkwNzI4OTY1LC0xOTUyODUwNz
+k3LC0xNTU5NjYzNzg5LDE3MDIyMDQxMTEsMjU0MTQyNDk1LDk3
+NDU1NzE1MiwyNTg1NDg0OTYsLTEzMzQ0MTA3MjAsODA1OTM2Nz
+IzLC0xMDE3NTY1MjI0LDE1ODQ4NTM0MjYsMzQ4ODQ4Mjk3LC03
+OTQwMTQyMzJdfQ==
 -->
