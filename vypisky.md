@@ -396,7 +396,6 @@ Stejné jako knapsack, ale předměty nemusíme vkládat celé. Řeší bin pack
 	- Optimalizační problém - NP-Hard
 		- Počet hamiltonovských kružnic = $\frac{(n-1)!}{2}$
 		- Ale nevíme proč je to tak těžký (jakože to neví ani Hanzálek), MSTs je ještě víc
-	- Neexistuje n-aproximační algoritmus pro **obecné** TSP
 
 ### NP-Hard problémy
 - NP-Hard problémy 
@@ -420,11 +419,12 @@ Stejné jako knapsack, ale předměty nemusíme vkládat celé. Řeší bin pack
 	- $G$ má hamiltonovskou kružnici iif optimální TSP řešení je rovno $n$
 ![TSP is NP-Hard](https://github.com/pan-sveta/ko-vypisky/blob/main/images/tsp_is_hard.png?raw=true)
 
-### Důkaz, že neexistuje r-aproximační algoritmus
+### Obecný r-aproximační algoritmus
+- Neexistuje n-aproximační algoritmus pro **obecné** TSP
 - Důkaz sporem
 - Uvažujme, že existuje r-aproximační algoritmus $\mathcal{A}$ s $r \ge 1$
 - Ukážeme, že s tímto $\mathcal{A}$ jsme schopni řešit existenci hamiltonovské kružnice
-- To by znamenalo, že P=MP
+- To by znamenalo, že P=NP
 
 **Metric TSP** - Má vlastnost, že platí trojůhelníková nerovnost (cesta $|\overrightarrow{AB}| \le$ cestě $|\overrightarrow{ACB}|$)
 
@@ -699,11 +699,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU4NjY2NTIsLTQ3NDczNDA5NiwtMTIwNj
-g4NzQ1OSwyMDc1Njk4ODAsLTY5MDcyODk2NSwtMTk1Mjg1MDc5
-NywtMTU1OTY2Mzc4OSwxNzAyMjA0MTExLDI1NDE0MjQ5NSw5Nz
-Q1NTcxNTIsMjU4NTQ4NDk2LC0xMzM0NDEwNzIwLDgwNTkzNjcy
-MywtMTAxNzU2NTIyNCwxNTg0ODUzNDI2LDM0ODg0ODI5NywtNz
-k0MDE0MjMyLDkwNDIxMDQ0OCwxNDQ3MzA2NzU0LDk4Njc5NDU2
-MF19
+eyJoaXN0b3J5IjpbLTE3Njc0OTU5NTMsLTQ3NDczNDA5NiwtMT
+IwNjg4NzQ1OSwyMDc1Njk4ODAsLTY5MDcyODk2NSwtMTk1Mjg1
+MDc5NywtMTU1OTY2Mzc4OSwxNzAyMjA0MTExLDI1NDE0MjQ5NS
+w5NzQ1NTcxNTIsMjU4NTQ4NDk2LC0xMzM0NDEwNzIwLDgwNTkz
+NjcyMywtMTAxNzU2NTIyNCwxNTg0ODUzNDI2LDM0ODg0ODI5Ny
+wtNzk0MDE0MjMyLDkwNDIxMDQ0OCwxNDQ3MzA2NzU0LDk4Njc5
+NDU2MF19
 -->
