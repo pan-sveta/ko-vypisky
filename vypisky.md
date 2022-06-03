@@ -581,6 +581,8 @@ Dáváme **všechny** tásky zdrojům v čase.
 	- Ptáme se, jestli jsme schopni rozdělit přesně 3 přeměty do každého koše tak, že se přesně vejdou
 - 
 
+![is NP-Hard](https://github.com/pan-sveta/ko-vypisky/blob/main/images/3_partition_proof.png?raw=true)
+
 - Nejmenší doba čekání
 	- $1||\sum{C_j}$ - easy (seřazené dle $p_j$)
 	- $1||\sum{w_j C_j}$ - easy (seřazené dle $\frac{p_j}{w_j}$)
@@ -776,7 +778,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MTcwNDc3MywtMjg3MTM2NjY0LC05OT
+eyJoaXN0b3J5IjpbLTIyMTc2MTM1OSwtMjg3MTM2NjY0LC05OT
 MzNDQ5NCwtMTU3MzEyOTU4NSwxOTIzMzcwMzM1LDEyNzE4NTIz
 MTksNjY4MzI0NDQ1LDM0NDYyMjcwOCwtNzM1NzI4MDU0LC0xMj
 QxNzc2NDgyLC0xNjE4ODY5MTM0LDIxMjg4NzY2MDEsLTE1NDcz
