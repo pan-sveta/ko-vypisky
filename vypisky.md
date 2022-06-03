@@ -472,7 +472,7 @@ Stejné jako knapsack, ale předměty nemusíme vkládat celé. Řeší bin pack
 - Důkaz faktoru $r=2$:
 	1. Protozože v grafu platí troúhelníková nerovnost, vynechané hrany nemůžou prodloužit cestu, $c(E(L)) \ge c(E(H))$ ($H$ může používat zkratky, které nejsou v $L$)
 	2. Když smažeme jednu hranu v kružnici, vytvoříme strom. Porto platí nerovnost $OPT(K_n,c) \ge c(E(T))$ (cena kružnice $\ge$ cena MST)
-	3. 
+	3. Platí $2c(E(T))=c(E(L))$ protože tvoříme $L$ zdvojením hran v $T$
 
 ### Christofides Algorithm (metric TSP)
 
@@ -726,11 +726,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMjQwMzgyNCwxOTUzOTk5MDMwLC0xMz
-AzMTc5MzIxLDk0MTE3NDI2MiwtMTQzNDk0NzczMywtMjE1Nzk1
-MTYzLC0xODM1MzY2MzM4LC0xNzY3NDk1OTUzLC00NzQ3MzQwOT
-YsLTEyMDY4ODc0NTksMjA3NTY5ODgwLC02OTA3Mjg5NjUsLTE5
-NTI4NTA3OTcsLTE1NTk2NjM3ODksMTcwMjIwNDExMSwyNTQxND
-I0OTUsOTc0NTU3MTUyLDI1ODU0ODQ5NiwtMTMzNDQxMDcyMCw4
-MDU5MzY3MjNdfQ==
+eyJoaXN0b3J5IjpbOTExMTgzNDMwLDE5NTM5OTkwMzAsLTEzMD
+MxNzkzMjEsOTQxMTc0MjYyLC0xNDM0OTQ3NzMzLC0yMTU3OTUx
+NjMsLTE4MzUzNjYzMzgsLTE3Njc0OTU5NTMsLTQ3NDczNDA5Ni
+wtMTIwNjg4NzQ1OSwyMDc1Njk4ODAsLTY5MDcyODk2NSwtMTk1
+Mjg1MDc5NywtMTU1OTY2Mzc4OSwxNzAyMjA0MTExLDI1NDE0Mj
+Q5NSw5NzQ1NTcxNTIsMjU4NTQ4NDk2LC0xMzM0NDEwNzIwLDgw
+NTkzNjcyM119
 -->
