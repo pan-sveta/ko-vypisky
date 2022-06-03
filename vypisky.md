@@ -469,7 +469,7 @@ Stejné jako knapsack, ale předměty nemusíme vkládat celé. Řeší bin pack
 			- EuT = ABCBADAEA
 			- TSP = ABCDEA
 - Důkaz faktoru $r=2$:
-	- Protozože v grafu existu
+	- Protozože v grafu platí troúhelníková nerovnost, vynechané hrany nemůžou prodloužit cestu, $c(E(L)) \ge c(E(H))
 
 ### Christofides Algorithm (metric TSP)
 
@@ -723,11 +723,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTQ4OTYyMTYsLTEzMDMxNzkzMjEsOT
-QxMTc0MjYyLC0xNDM0OTQ3NzMzLC0yMTU3OTUxNjMsLTE4MzUz
-NjYzMzgsLTE3Njc0OTU5NTMsLTQ3NDczNDA5NiwtMTIwNjg4Nz
-Q1OSwyMDc1Njk4ODAsLTY5MDcyODk2NSwtMTk1Mjg1MDc5Nywt
-MTU1OTY2Mzc4OSwxNzAyMjA0MTExLDI1NDE0MjQ5NSw5NzQ1NT
-cxNTIsMjU4NTQ4NDk2LC0xMzM0NDEwNzIwLDgwNTkzNjcyMywt
-MTAxNzU2NTIyNF19
+eyJoaXN0b3J5IjpbMTY0ODQ5NDkwMCwtMTMwMzE3OTMyMSw5ND
+ExNzQyNjIsLTE0MzQ5NDc3MzMsLTIxNTc5NTE2MywtMTgzNTM2
+NjMzOCwtMTc2NzQ5NTk1MywtNDc0NzM0MDk2LC0xMjA2ODg3ND
+U5LDIwNzU2OTg4MCwtNjkwNzI4OTY1LC0xOTUyODUwNzk3LC0x
+NTU5NjYzNzg5LDE3MDIyMDQxMTEsMjU0MTQyNDk1LDk3NDU1Nz
+E1MiwyNTg1NDg0OTYsLTEzMzQ0MTA3MjAsODA1OTM2NzIzLC0x
+MDE3NTY1MjI0XX0=
 -->
