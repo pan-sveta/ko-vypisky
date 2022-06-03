@@ -574,8 +574,8 @@ Dáváme **všechny** tásky zdrojům v čase.
 	- $1|r_j,\tilde{d_j}|C_{max}$ - NP-hard (krome $p_j$=1 $\to$ easy)
 
 #### Důjaz že je silně NP-Hard
-- Proč je $1|r_j,\tilde{d_j}|C_{max}$  NP-Hard
-
+- Redukce z 3-partion problému
+- 
 
 - Nejmenší doba čekání
 	- $1||\sum{C_j}$ - easy (seřazené dle $p_j$)
@@ -772,7 +772,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4OTUyNjg5MSwtOTkzMzQ0OTQsLTE1Nz
+eyJoaXN0b3J5IjpbLTI4NzEzNjY2NCwtOTkzMzQ0OTQsLTE1Nz
 MxMjk1ODUsMTkyMzM3MDMzNSwxMjcxODUyMzE5LDY2ODMyNDQ0
 NSwzNDQ2MjI3MDgsLTczNTcyODA1NCwtMTI0MTc3NjQ4MiwtMT
 YxODg2OTEzNCwyMTI4ODc2NjAxLC0xNTQ3Mzk2ODk4LC00OTI0
