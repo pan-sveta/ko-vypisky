@@ -498,10 +498,10 @@ Stejné jako knapsack, ale předměty nemusíme vkládat celé. Řeší bin pack
 
 **Tour improvement Heuristic - local seach k-OPT**
 
-1. máme nějakou Hemiltonovskou kružnici
-2. smažeme $k$ hran
-3. propojíme oddělené tahy novými $k$ hranami tak aby opět vznikla Hemiltonovská kružnice
-4. zkontrolujeme zlepšení (nastavitelné kritérium), pokud nezlepšuje => změnu zahodíme
+1. Máme nějakou Hemiltonovskou kružnici
+2. Smažeme $k$ hran
+3. Propojíme oddělené tahy novými $k$ hranami tak aby opět vznikla Hemiltonovská kružnice
+4. Zkontrolujeme zlepšení (nastavitelné kritérium), pokud nezlepšuje => změnu zahodíme
 
 ## Scheduling
 
@@ -736,7 +736,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2OTk3NjQ0NCwxNzk4Mjg1NjQ0LC0xNT
+eyJoaXN0b3J5IjpbLTM5OTc4NDMxNiwxNzk4Mjg1NjQ0LC0xNT
 QyNTY5MDgxLDU5MDY3Njg5NywxOTUzOTk5MDMwLC0xMzAzMTc5
 MzIxLDk0MTE3NDI2MiwtMTQzNDk0NzczMywtMjE1Nzk1MTYzLC
 0xODM1MzY2MzM4LC0xNzY3NDk1OTUzLC00NzQ3MzQwOTYsLTEy
