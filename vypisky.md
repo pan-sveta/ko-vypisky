@@ -614,7 +614,11 @@ Dáváme **všechny** tásky zdrojům v čase.
 		- Jestliže jsem našel node, který dokončil všechny využité tasky před $r_i$ všech zbylích tasků, jsem v optimální větvi $\to$ stačí projít pouze childy tohoto nodu
 		- Jestliže jsem našel řešení a test optimality říká true $\to$ skončím
 		- Pokud moje rozpracované řešení má horší hodnotu než již nalezené řešení $\to$ nezanořuji se dál
-- BRTP - 
+- BRTP
+	- Podmínky:
+		- První úloha v rozvrhu musí začínat na svém release timu
+		- Všechny úlohy běží bez "idlu"
+		- $r_1 \le r_i $
 - příhlad https://youtu.be/idc516WZZ1I?t=5131
 
 #### Branch and Bound with LP-bounding
@@ -781,11 +785,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY5NTkwODM3LDY4NDQ0MjYxNSwtMTIyMz
-IyNzQ4MywtNDU2NDU4MzYyLC0yODcxMzY2NjQsLTk5MzM0NDk0
-LC0xNTczMTI5NTg1LDE5MjMzNzAzMzUsMTI3MTg1MjMxOSw2Nj
-gzMjQ0NDUsMzQ0NjIyNzA4LC03MzU3MjgwNTQsLTEyNDE3NzY0
-ODIsLTE2MTg4NjkxMzQsMjEyODg3NjYwMSwtMTU0NzM5Njg5OC
-wtNDkyNDM2MDY1LC0zOTk3ODQzMTYsMTc5ODI4NTY0NCwtMTU0
-MjU2OTA4MV19
+eyJoaXN0b3J5IjpbLTIwMjA2OTk1NDYsODY5NTkwODM3LDY4ND
+Q0MjYxNSwtMTIyMzIyNzQ4MywtNDU2NDU4MzYyLC0yODcxMzY2
+NjQsLTk5MzM0NDk0LC0xNTczMTI5NTg1LDE5MjMzNzAzMzUsMT
+I3MTg1MjMxOSw2NjgzMjQ0NDUsMzQ0NjIyNzA4LC03MzU3Mjgw
+NTQsLTEyNDE3NzY0ODIsLTE2MTg4NjkxMzQsMjEyODg3NjYwMS
+wtMTU0NzM5Njg5OCwtNDkyNDM2MDY1LC0zOTk3ODQzMTYsMTc5
+ODI4NTY0NF19
 -->
