@@ -487,7 +487,10 @@ Stejné jako knapsack, ale předměty nemusíme vkládat celé. Řeší bin pack
 	4. Najdeme Eulerovský tah $L$ v upraveném MST
 	5. z Eulerovského tahu odebereme vrcholy co jsme už navštívili, ale ponecháme poslední a tím získáme hamiltnovskou kružnici $H$
 - Příkald (pravá část tabule): https://youtu.be/p9qiafTnd6Q?t=4615
-- 
+- Důkaz faktoru $r=\frac{3}{2}$:
+	1. Protozože v grafu platí troúhelníková nerovnost, vynechané hrany nemůžou prodloužit cestu, $c(E(L)) \ge c(E(H))$ ($H$ může používat zkratky, které nejsou v $L$)
+	2. Když smažeme jednu hranu v kružnici, vytvoříme strom. Proto platí nerovnost $OPT(K_n,c) \ge c(E(T))$ (cena kružnice $\ge$ cena MST)
+	3. 
 
 **Tour improvement Heuristic - local seach k-OPT**
 
@@ -729,11 +732,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ4ODU0MjYyNSwtMTU0MjU2OTA4MSw1OT
-A2NzY4OTcsMTk1Mzk5OTAzMCwtMTMwMzE3OTMyMSw5NDExNzQy
-NjIsLTE0MzQ5NDc3MzMsLTIxNTc5NTE2MywtMTgzNTM2NjMzOC
-wtMTc2NzQ5NTk1MywtNDc0NzM0MDk2LC0xMjA2ODg3NDU5LDIw
-NzU2OTg4MCwtNjkwNzI4OTY1LC0xOTUyODUwNzk3LC0xNTU5Nj
-YzNzg5LDE3MDIyMDQxMTEsMjU0MTQyNDk1LDk3NDU1NzE1Miwy
-NTg1NDg0OTZdfQ==
+eyJoaXN0b3J5IjpbMjE2MDk1ODUzLC0xNTQyNTY5MDgxLDU5MD
+Y3Njg5NywxOTUzOTk5MDMwLC0xMzAzMTc5MzIxLDk0MTE3NDI2
+MiwtMTQzNDk0NzczMywtMjE1Nzk1MTYzLC0xODM1MzY2MzM4LC
+0xNzY3NDk1OTUzLC00NzQ3MzQwOTYsLTEyMDY4ODc0NTksMjA3
+NTY5ODgwLC02OTA3Mjg5NjUsLTE5NTI4NTA3OTcsLTE1NTk2Nj
+M3ODksMTcwMjIwNDExMSwyNTQxNDI0OTUsOTc0NTU3MTUyLDI1
+ODU0ODQ5Nl19
 -->
