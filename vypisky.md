@@ -371,7 +371,7 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 - Výsledek algoritmu $A$ je maxilmálně $\frac{1}{r}$ hodnoty optima algoritmu $J$
 - Pro maximalizaci $J^A(I)\ge \frac{1}{r}*J^*(I)$
 - Pro minimalizaci $r*J^*(I)\ge J^A(I)$
-- Frekvence "worst case scenaria" 
+- Frekvence "worst case scenaria" není sledována
 
 ### Knapsack (0/1 Knapsack)
 #### 2-Aproximation algorithm
@@ -747,7 +747,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NjYwNjEyMywtMTI0MTc3NjQ4MiwtMT
+eyJoaXN0b3J5IjpbLTczNTcyODA1NCwtMTI0MTc3NjQ4MiwtMT
 YxODg2OTEzNCwyMTI4ODc2NjAxLC0xNTQ3Mzk2ODk4LC00OTI0
 MzYwNjUsLTM5OTc4NDMxNiwxNzk4Mjg1NjQ0LC0xNTQyNTY5MD
 gxLDU5MDY3Njg5NywxOTUzOTk5MDMwLC0xMzAzMTc5MzIxLDk0
