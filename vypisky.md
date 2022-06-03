@@ -620,6 +620,7 @@ Dáváme **všechny** tásky zdrojům v čase.
 		- Všechny úlohy běží bez "idlu"
 		- $r_1 \le r_i \forall i=2...k$
 	- Jestliže platí, pak je rozvrh optimální
+	- BRTP není nezbytnou podmínkou optimality!! (tzn. rovrh může být optimální, ačkoli BRTP neplatí)
 	- Důkaz (divný):
 		- Poslední úloha nemůže být dokončena dříve
 		- Pořadí předcházejích úloh není důležité
@@ -791,7 +792,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjcwMjU1NTg4LDg2OTU5MDgzNyw2ODQ0ND
+eyJoaXN0b3J5IjpbMjA0MTYyMzY4LDg2OTU5MDgzNyw2ODQ0ND
 I2MTUsLTEyMjMyMjc0ODMsLTQ1NjQ1ODM2MiwtMjg3MTM2NjY0
 LC05OTMzNDQ5NCwtMTU3MzEyOTU4NSwxOTIzMzcwMzM1LDEyNz
 E4NTIzMTksNjY4MzI0NDQ1LDM0NDYyMjcwOCwtNzM1NzI4MDU0
