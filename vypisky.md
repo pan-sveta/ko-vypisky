@@ -431,6 +431,8 @@ Stejné jako knapsack, ale předměty nemusíme vkládat celé. Řeší bin pack
 		- $1$ pro vrcholy z hamiltonovské kružnice
 		- $2 + (r-1)*n$ pro vrcholy mimo hamiltonovskou kružnici
 	- Vyřešíme pomocí $\mathcal{A}$ 
+		- Pokud je optimum v intervalu $<n;r*n>$, pak Hamiltonovská kružnice existuje
+		- Pokud je větší, G nemá hamiltonovský cyklus
 
 **Metric TSP** - Má vlastnost, že platí trojůhelníková nerovnost (cesta $|\overrightarrow{AB}| \le$ cestě $|\overrightarrow{ACB}|$)
 
@@ -705,11 +707,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyMTYzMzI3MSwtMTc2NzQ5NTk1MywtND
-c0NzM0MDk2LC0xMjA2ODg3NDU5LDIwNzU2OTg4MCwtNjkwNzI4
-OTY1LC0xOTUyODUwNzk3LC0xNTU5NjYzNzg5LDE3MDIyMDQxMT
-EsMjU0MTQyNDk1LDk3NDU1NzE1MiwyNTg1NDg0OTYsLTEzMzQ0
-MTA3MjAsODA1OTM2NzIzLC0xMDE3NTY1MjI0LDE1ODQ4NTM0Mj
-YsMzQ4ODQ4Mjk3LC03OTQwMTQyMzIsOTA0MjEwNDQ4LDE0NDcz
-MDY3NTRdfQ==
+eyJoaXN0b3J5IjpbMzc3NDg4ODc1LC0xNzY3NDk1OTUzLC00Nz
+Q3MzQwOTYsLTEyMDY4ODc0NTksMjA3NTY5ODgwLC02OTA3Mjg5
+NjUsLTE5NTI4NTA3OTcsLTE1NTk2NjM3ODksMTcwMjIwNDExMS
+wyNTQxNDI0OTUsOTc0NTU3MTUyLDI1ODU0ODQ5NiwtMTMzNDQx
+MDcyMCw4MDU5MzY3MjMsLTEwMTc1NjUyMjQsMTU4NDg1MzQyNi
+wzNDg4NDgyOTcsLTc5NDAxNDIzMiw5MDQyMTA0NDgsMTQ0NzMw
+Njc1NF19
 -->
