@@ -481,12 +481,13 @@ Stejné jako knapsack, ale předměty nemusíme vkládat celé. Řeší bin pack
 - $\frac{3}{2}$-aproximační algo
 - $O(n^3)$
 - Algoritmus:
-	1. Najdeme MST
-	2. Najdeme množinu $W$ = vrcholům s lichým stupněm (bude jich sudý počet)
-	3. v množině $W$ najdemme Minimum weight matching a tyto hrany přidáme do MST
-	4. najdeme Eulerovský tah v upraveném MST
-	5. z Eulerovského tahu odebereme vrcholy co jsme už navštívili, ale ponecháme poslední
-- příkald (pravá část tabule): https://youtu.be/p9qiafTnd6Q?t=4615
+	1. Najdeme MST $T$
+	2. Najdeme množinu $W$ = vrcholům s lichým stupněm z $T$ (bude jich sudý počet)
+	3. V množině $W$ najdemme Minimum weight matching $M$ a tyto hrany přidáme do $T$
+	4. Najdeme Eulerovský tah $L$ v upraveném MST
+	5. z Eulerovského tahu odebereme vrcholy co jsme už navštívili, ale ponecháme poslední a tím získáme hamiltnovskou kružnici $H$
+- Příkald (pravá část tabule): https://youtu.be/p9qiafTnd6Q?t=4615
+- 
 
 **Tour improvement Heuristic - local seach k-OPT**
 
@@ -728,7 +729,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4MzIyMDQ2OSwtMTU0MjU2OTA4MSw1OT
+eyJoaXN0b3J5IjpbMTQ4ODU0MjYyNSwtMTU0MjU2OTA4MSw1OT
 A2NzY4OTcsMTk1Mzk5OTAzMCwtMTMwMzE3OTMyMSw5NDExNzQy
 NjIsLTE0MzQ5NDc3MzMsLTIxNTc5NTE2MywtMTgzNTM2NjMzOC
 wtMTc2NzQ5NTk1MywtNDc0NzM0MDk2LC0xMjA2ODg3NDU5LDIw
