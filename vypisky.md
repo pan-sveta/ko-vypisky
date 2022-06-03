@@ -428,8 +428,8 @@ Stejné jako knapsack, ale předměty nemusíme vkládat celé. Řeší bin pack
 - Postup:
 	- Mějme neorientovaný graf $G$, ve kterém chceme najít hamiltonovskou kružnici
 	- Vytvoříme TSP instanci $K_n$ takovou, že vrcholy jsou totožné a hrany ohodnotíme:
-		- $1$ pro vrcholy z hamiltonovské kružnice
-		- $2 + (r-1)*n$ pro vrcholy mimo hamiltonovskou kružnici
+		- $1$ pro hrany $\in G$
+		- $2 + (r-1)*n$ pro hrany $\not\in G$
 	- Vyřešíme pomocí $\mathcal{A}$ 
 		- Pokud je optimum v intervalu $<n, r*n>$, pak Hamiltonovská kružnice existuje
 		- Pokud je větší, G nemá hamiltonovský cyklus
@@ -707,11 +707,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzUzNjYzMzgsLTE3Njc0OTU5NTMsLT
-Q3NDczNDA5NiwtMTIwNjg4NzQ1OSwyMDc1Njk4ODAsLTY5MDcy
-ODk2NSwtMTk1Mjg1MDc5NywtMTU1OTY2Mzc4OSwxNzAyMjA0MT
-ExLDI1NDE0MjQ5NSw5NzQ1NTcxNTIsMjU4NTQ4NDk2LC0xMzM0
-NDEwNzIwLDgwNTkzNjcyMywtMTAxNzU2NTIyNCwxNTg0ODUzND
-I2LDM0ODg0ODI5NywtNzk0MDE0MjMyLDkwNDIxMDQ0OCwxNDQ3
-MzA2NzU0XX0=
+eyJoaXN0b3J5IjpbLTczNDg0NTc0NCwtMTgzNTM2NjMzOCwtMT
+c2NzQ5NTk1MywtNDc0NzM0MDk2LC0xMjA2ODg3NDU5LDIwNzU2
+OTg4MCwtNjkwNzI4OTY1LC0xOTUyODUwNzk3LC0xNTU5NjYzNz
+g5LDE3MDIyMDQxMTEsMjU0MTQyNDk1LDk3NDU1NzE1MiwyNTg1
+NDg0OTYsLTEzMzQ0MTA3MjAsODA1OTM2NzIzLC0xMDE3NTY1Mj
+I0LDE1ODQ4NTM0MjYsMzQ4ODQ4Mjk3LC03OTQwMTQyMzIsOTA0
+MjEwNDQ4XX0=
 -->
