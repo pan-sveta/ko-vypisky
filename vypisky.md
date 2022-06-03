@@ -369,7 +369,8 @@ Stejné jako knapsack, ale předměty nemusíme vkládat celé. Řeší bin pack
 
 
 **Knapsack** (0/1 Knapsack)
-
+- NP-Hard, ale ne moc (existují kvalitní aproximační algoritmy)
+-  
 - **2-Aproximation algo**
 	- alespoň $\frac {1}{r}$ optima (kde $r$=2) 
 	- $O(n)$
@@ -736,11 +737,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5OTc4NDMxNiwxNzk4Mjg1NjQ0LC0xNT
-QyNTY5MDgxLDU5MDY3Njg5NywxOTUzOTk5MDMwLC0xMzAzMTc5
-MzIxLDk0MTE3NDI2MiwtMTQzNDk0NzczMywtMjE1Nzk1MTYzLC
-0xODM1MzY2MzM4LC0xNzY3NDk1OTUzLC00NzQ3MzQwOTYsLTEy
-MDY4ODc0NTksMjA3NTY5ODgwLC02OTA3Mjg5NjUsLTE5NTI4NT
-A3OTcsLTE1NTk2NjM3ODksMTcwMjIwNDExMSwyNTQxNDI0OTUs
-OTc0NTU3MTUyXX0=
+eyJoaXN0b3J5IjpbLTE0MjQyNjc2ODEsLTM5OTc4NDMxNiwxNz
+k4Mjg1NjQ0LC0xNTQyNTY5MDgxLDU5MDY3Njg5NywxOTUzOTk5
+MDMwLC0xMzAzMTc5MzIxLDk0MTE3NDI2MiwtMTQzNDk0NzczMy
+wtMjE1Nzk1MTYzLC0xODM1MzY2MzM4LC0xNzY3NDk1OTUzLC00
+NzQ3MzQwOTYsLTEyMDY4ODc0NTksMjA3NTY5ODgwLC02OTA3Mj
+g5NjUsLTE5NTI4NTA3OTcsLTE1NTk2NjM3ODksMTcwMjIwNDEx
+MSwyNTQxNDI0OTVdfQ==
 -->
