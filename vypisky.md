@@ -435,7 +435,7 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 	- Neumíme na ně najít pseudopolynomiální algoritmy (e.g. dynamické programování)
 	- Nepomůže nám omezit parametry vstupu polynomem - stále zůstává NP-Hard
 
-### Důkaz, že TSP je NP-Hard
+### Důkaz, že TSP je silně NP-Hard
 - Mějme:
 	-  $L = TSP$
 	- $L_p = TSP\ s\ resktricí\ c(e) \in {1,2}$ (t.j. omezení na váhy hran 1 a 2)
@@ -793,11 +793,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MzMyNTk2NCwtNjUzMzI1OTY0LC0xMD
-k1MjgzMDU0LDIwNDE2MjM2OCw4Njk1OTA4MzcsNjg0NDQyNjE1
-LC0xMjIzMjI3NDgzLC00NTY0NTgzNjIsLTI4NzEzNjY2NCwtOT
-kzMzQ0OTQsLTE1NzMxMjk1ODUsMTkyMzM3MDMzNSwxMjcxODUy
-MzE5LDY2ODMyNDQ0NSwzNDQ2MjI3MDgsLTczNTcyODA1NCwtMT
-I0MTc3NjQ4MiwtMTYxODg2OTEzNCwyMTI4ODc2NjAxLC0xNTQ3
-Mzk2ODk4XX0=
+eyJoaXN0b3J5IjpbLTE2MzM1NzExMTMsLTY1MzMyNTk2NCwtNj
+UzMzI1OTY0LC0xMDk1MjgzMDU0LDIwNDE2MjM2OCw4Njk1OTA4
+MzcsNjg0NDQyNjE1LC0xMjIzMjI3NDgzLC00NTY0NTgzNjIsLT
+I4NzEzNjY2NCwtOTkzMzQ0OTQsLTE1NzMxMjk1ODUsMTkyMzM3
+MDMzNSwxMjcxODUyMzE5LDY2ODMyNDQ0NSwzNDQ2MjI3MDgsLT
+czNTcyODA1NCwtMTI0MTc3NjQ4MiwtMTYxODg2OTEzNCwyMTI4
+ODc2NjAxXX0=
 -->
