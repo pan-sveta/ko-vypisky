@@ -124,11 +124,12 @@ Maintaner: [Filip Štěpánek](https://github.com/pan-sveta)
 	- Jinými slovy, mám nejkratší cestu $(s,v)$ a přidávám vrchol $w$, protože má ze všech možných cest z $v$ nejmenší cenu. Proto vzniklá cesta $(s,w)$ je opět nejkratší protože neexistují hrany se zápornou váhou.
 	- https://youtu.be/LCTwYILbmEY?t=1658
 	- Raději přijládám slide z přednášky
+![Djikstraproof](https://github.com/pan-sveta/ko-vypisky/blob/main/images/djiktra_proof.png?raw=true)
 
 ### A*
 - Když hledáme jen cestu z bodu $s$ do bodu $t$ můžeme ji zrychlit tak, že ukončíme vyhledávání, když dorazíme do bodu $t$
 - Navíc můžeme přidat další informace (informed search), "jakým směrem" se bod $t$ nachází
-	![Djikstraproof](https://github.com/pan-sveta/ko-vypisky/blob/main/images/djiktra_proof.png?raw=true)
+	
 
 ### Bellman-Ford Algorithm
 
@@ -792,11 +793,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTUyODMwNTQsMjA0MTYyMzY4LDg2OT
-U5MDgzNyw2ODQ0NDI2MTUsLTEyMjMyMjc0ODMsLTQ1NjQ1ODM2
-MiwtMjg3MTM2NjY0LC05OTMzNDQ5NCwtMTU3MzEyOTU4NSwxOT
-IzMzcwMzM1LDEyNzE4NTIzMTksNjY4MzI0NDQ1LDM0NDYyMjcw
-OCwtNzM1NzI4MDU0LC0xMjQxNzc2NDgyLC0xNjE4ODY5MTM0LD
-IxMjg4NzY2MDEsLTE1NDczOTY4OTgsLTQ5MjQzNjA2NSwtMzk5
-Nzg0MzE2XX0=
+eyJoaXN0b3J5IjpbLTY1MzMyNTk2NCwtMTA5NTI4MzA1NCwyMD
+QxNjIzNjgsODY5NTkwODM3LDY4NDQ0MjYxNSwtMTIyMzIyNzQ4
+MywtNDU2NDU4MzYyLC0yODcxMzY2NjQsLTk5MzM0NDk0LC0xNT
+czMTI5NTg1LDE5MjMzNzAzMzUsMTI3MTg1MjMxOSw2NjgzMjQ0
+NDUsMzQ0NjIyNzA4LC03MzU3MjgwNTQsLTEyNDE3NzY0ODIsLT
+E2MTg4NjkxMzQsMjEyODg3NjYwMSwtMTU0NzM5Njg5OCwtNDky
+NDM2MDY1XX0=
 -->
