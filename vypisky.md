@@ -462,6 +462,7 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 	- Vyřešíme pomocí $\mathcal{A}$ 
 		- Pokud je optimum v intervalu $<n, r*n>$, pak Hamiltonovská kružnice existuje
 		- Pokud je větší, G nemá hamiltonovský cyklus
+	- To by znamenalo, že jsme schopni řešit EHC v polynomiálním čase algortimem $\mathcal{A}$
 ![Genereal approximation proof](https://github.com/pan-sveta/ko-vypisky/blob/main/images/tsp_general_approx_proof.png?raw=true)
 
 **Metric TSP**
@@ -793,11 +794,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzM1NzExMTMsLTY1MzMyNTk2NCwtNj
-UzMzI1OTY0LC0xMDk1MjgzMDU0LDIwNDE2MjM2OCw4Njk1OTA4
-MzcsNjg0NDQyNjE1LC0xMjIzMjI3NDgzLC00NTY0NTgzNjIsLT
-I4NzEzNjY2NCwtOTkzMzQ0OTQsLTE1NzMxMjk1ODUsMTkyMzM3
-MDMzNSwxMjcxODUyMzE5LDY2ODMyNDQ0NSwzNDQ2MjI3MDgsLT
-czNTcyODA1NCwtMTI0MTc3NjQ4MiwtMTYxODg2OTEzNCwyMTI4
-ODc2NjAxXX0=
+eyJoaXN0b3J5IjpbLTYyMTg0NDU0NSwtMTYzMzU3MTExMywtNj
+UzMzI1OTY0LC02NTMzMjU5NjQsLTEwOTUyODMwNTQsMjA0MTYy
+MzY4LDg2OTU5MDgzNyw2ODQ0NDI2MTUsLTEyMjMyMjc0ODMsLT
+Q1NjQ1ODM2MiwtMjg3MTM2NjY0LC05OTMzNDQ5NCwtMTU3MzEy
+OTU4NSwxOTIzMzcwMzM1LDEyNzE4NTIzMTksNjY4MzI0NDQ1LD
+M0NDYyMjcwOCwtNzM1NzI4MDU0LC0xMjQxNzc2NDgyLC0xNjE4
+ODY5MTM0XX0=
 -->
