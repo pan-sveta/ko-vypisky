@@ -87,7 +87,7 @@ Maintaner: [Filip Štěpánek](https://github.com/pan-sveta)
 **Bellmanův princip optimality**
 
 - Jestliže máme nekratší cestu z $a$ do $b$ přes $k$ pak cesta z $a$ do $k$ je také nejkratší stejně tak z $k$ do $b$
-
+- Belmanova rovnice je trojůhelníková nerovnost s cenami cestami $c$ místo vzdáleností $l$
 - Jinými slovy, nejkratší cesta se skládá ze segmentů nejkratších cest
 ![Bellman](https://github.com/pan-sveta/ko-vypisky/blob/main/images/bellman.png?raw=true)
 - Důkaz sporem:
@@ -793,7 +793,7 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjExNjc4MjE5MiwtNjUzMzI1OTY0LC0xMD
+eyJoaXN0b3J5IjpbLTY1MzMyNTk2NCwtNjUzMzI1OTY0LC0xMD
 k1MjgzMDU0LDIwNDE2MjM2OCw4Njk1OTA4MzcsNjg0NDQyNjE1
 LC0xMjIzMjI3NDgzLC00NTY0NTgzNjIsLTI4NzEzNjY2NCwtOT
 kzMzQ0OTQsLTE1NzMxMjk1ODUsMTkyMzM3MDMzNSwxMjcxODUy
