@@ -456,7 +456,7 @@ https://rtime.ciirc.cvut.cz/~hanzalek/KO/Flows_e.pdf
 - To by znamenalo, že $P=NP$
 - Postup:
 	- Mějme neorientovaný graf $G$, ve kterém chceme najít hamiltonovskou kružnici
-	- Vytvoříme TSP instanci $K_n$ takovou, že vrcholy jsou totožné a hrany ohodnotíme:
+	- Vytvoříme TSP instanci $K_n$ (kompletní graf) takovou, že vrcholy jsou totožné a hrany ohodnotíme:
 		- $1$ pro hrany $\in G$
 		- $2 + (r-1)*n$ pro hrany $\not\in G$
 	- Vyřešíme pomocí $\mathcal{A}$ 
@@ -794,11 +794,11 @@ Máme-li úlohu $T_i$ a úlohu $T_j$ kde z $T_i$ do $T_j$ existuje hrana s hodno
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMTg0NDU0NSwtMTYzMzU3MTExMywtNj
-UzMzI1OTY0LC02NTMzMjU5NjQsLTEwOTUyODMwNTQsMjA0MTYy
-MzY4LDg2OTU5MDgzNyw2ODQ0NDI2MTUsLTEyMjMyMjc0ODMsLT
-Q1NjQ1ODM2MiwtMjg3MTM2NjY0LC05OTMzNDQ5NCwtMTU3MzEy
-OTU4NSwxOTIzMzcwMzM1LDEyNzE4NTIzMTksNjY4MzI0NDQ1LD
-M0NDYyMjcwOCwtNzM1NzI4MDU0LC0xMjQxNzc2NDgyLC0xNjE4
-ODY5MTM0XX0=
+eyJoaXN0b3J5IjpbODEwNzQ2ODEzLC02MjE4NDQ1NDUsLTE2Mz
+M1NzExMTMsLTY1MzMyNTk2NCwtNjUzMzI1OTY0LC0xMDk1Mjgz
+MDU0LDIwNDE2MjM2OCw4Njk1OTA4MzcsNjg0NDQyNjE1LC0xMj
+IzMjI3NDgzLC00NTY0NTgzNjIsLTI4NzEzNjY2NCwtOTkzMzQ0
+OTQsLTE1NzMxMjk1ODUsMTkyMzM3MDMzNSwxMjcxODUyMzE5LD
+Y2ODMyNDQ0NSwzNDQ2MjI3MDgsLTczNTcyODA1NCwtMTI0MTc3
+NjQ4Ml19
 -->
